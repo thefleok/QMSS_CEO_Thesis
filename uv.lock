@@ -1,0 +1,23 @@
+version = 1
+revision = 3
+requires-python = ">=3.13"
+
+[[package]]
+name = "pd"
+version = "0.0.4"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/06/4b/8fffdc88c8f2d9e9b1727b99f1c6da7a10b9726f227fdb71270e7adc057c/pd-0.0.4.tar.gz", hash = "sha256:46f21dd5854ee7eb4397daa43191662f787ccf4cfe78e2472564bf9ce7e7614b", size = 5601, upload-time = "2021-10-22T05:01:56.226Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/59/51/44e05bdb37666f2c003e4ee20f5032119b5b353b4148b56d14c2c0ee826b/pd-0.0.4-py3-none-any.whl", hash = "sha256:1658b04e2889abf7bb4590f6126ed618bdae474f5f9111872a446dbecd0543ef", size = 6505, upload-time = "2021-10-22T05:01:54.692Z" },
+]
+
+[[package]]
+name = "qmss-ceo-thesis"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "pd" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pd", specifier = ">=0.0.4" }]
