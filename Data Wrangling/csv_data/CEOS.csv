@@ -1,0 +1,469 @@
+companyid,datestartrole,directorid,directorname,companyname,rolename,dateendrole,datestartroleflag,dateendroleflag,seniority
+29816,2024-01-01,1864086,Sassine Ghazi,SYNOPSYS INC,President/CEO,9000-01-01,10,40,Executive Director
+16949,2024-06-05,1931869,Doctor Mark Gitin,IPG PHOTONICS CORP,CEO,9000-01-01,10,40,Executive Director
+26104,2023-12-11,340014,John Giamatteo,BLACKBERRY LTD (Research In Motion Ltd prior to 07/2013),CEO/Division President,9000-01-01,10,40,Executive Director
+27025,2020-08-17,83652,Jure Sola,SANMINA CORP (Sanmina-SCI Corp prior to 11/2012),Chairman/CEO,9000-01-01,10,40,Executive Director
+27219,2022-12-01,485800,Rob Davis,MERCK & CO INC (Schering-Plough Corp prior to 11/2009),Chairman/President/CEO,9000-01-01,10,40,Executive Director
+27411,2025-10-25,547579,Doctor Dave Mosley,SEAGATE TECHNOLOGY HOLDINGS PLC (Seagate Technology PLC prior to 05/2021),Chair/CEO,9000-01-01,10,40,Executive Director
+27977,2022-01-02,2032686,Matt Johnson,SILICON LABORATORIES INC,President/CEO,9000-01-01,10,40,Executive Director
+29774,2025-07-18,1096288,Vincent Pilette,GEN DIGITAL INC (NortonLifeLock Inc prior to 11/2022),Chairman/President/CEO,9000-01-01,10,40,Executive Director
+29924,2011-01-01,333171,Strauss Zelnick,TAKE TWO INTERACTIVE SOFTWARE INC,Chairman (Executive)/CEO,9000-01-01,10,40,Executive Director
+30123,2024-02-01,2008711,Kim Kelderman,BIO-TECHNE CORP (Techne Corp prior to 11/2014),President/CEO,9000-01-01,10,40,Executive Director
+31454,2025-09-02,1345036,Doctor Edwin Roks,TTM TECHNOLOGIES INC,President/CEO,9000-01-01,10,40,Executive Director
+32166,2016-06-26,330136,Doctor Martine Rothblatt,UNITED THERAPEUTICS CORP,Chairman/CEO,9000-01-01,10,40,Executive Director
+32537,2020-04-01,1890670,Doctor Reshma Kewalramani,VERTEX PHARMACEUTICALS INC,President/CEO,9000-01-01,10,40,Executive Director
+33382,2025-02-24,1621922,Irving Tan,WESTERN DIGITAL CORP,CEO,9000-01-01,10,40,Executive Director
+69444,2023-01-31,375926,Marc Benioff,SALESFORCE INC (Salesforce.com Inc prior to 04/2022),Chairman/CEO,9000-01-01,10,40,Executive Director
+105052,2024-09-23,2347499,Catherine Owen Adams,ACADIA PHARMACEUTICALS INC,CEO,9000-01-01,10,40,Executive Director
+117536,2022-01-01,657842,Doctor Yvonne Greenstreet,ALNYLAM PHARMACEUTICALS INC,CEO,9000-01-01,10,40,Executive Director
+440155,2022-11-14,1026,Chris Viehbacher,BIOGEN INC (Biogen Idec Inc prior to 03/2015),President/CEO,9000-01-01,10,40,Executive Director
+462108,2025-05-21,2204699,Rahul Patel,SYNAPTICS INC,President/CEO,9000-01-01,10,40,Executive Director
+488272,2025-09-02,3082984,James Xiao,ULTRA CLEAN HOLDINGS INC,CEO,9000-01-01,10,40,Executive Director
+488479,2025-08-11,1301965,Renee Gala,JAZZ PHARMACEUTICALS PLC,President/CEO,9000-01-01,10,40,Executive Director
+550958,2024-02-21,206108,Joe Papa Jr,EMERGENT BIOSOLUTIONS INC,President/CEO,9000-01-01,10,40,Executive Director
+580845,2010-01-01,447596,Michael Hsing,MONOLITHIC POWER SYSTEMS INC,Chairman/President/CEO,9000-01-01,30,40,Executive Director
+600759,2017-05-01,1094011,Ron Lombardi,PRESTIGE CONSUMER HEALTHCARE INC (Prestige Brands Holdings (PBH) Inc prior to 08/2018),Chairman/President/CEO,9000-01-01,20,40,Executive Director
+25954,2023-06-09,201093,Doctor Len Schleifer,REGENERON PHARMACEUTICALS INC,Co-Chair/President/CEO,9000-01-01,10,40,Executive Director
+25529,2021-06-30,1284093,Cristiano Amon,QUALCOMM INC,President/CEO,9000-01-01,10,40,Executive Director
+24637,2024-01-01,549027,Todd Kelsey,PLEXUS CORP,President/CEO,9000-01-01,30,40,Executive Director
+17238,2024-09-03,540451,Mike Dastoor,JABIL INC (Jabil Circuit Inc prior to 06/2017),CEO,9000-01-01,10,40,Executive Director
+17478,2023-01-01,879247,Joaquin Duato,JOHNSON & JOHNSON,Chairman/CEO,9000-01-01,20,40,Executive Director
+18888,2017-06-01,1068880,Dave Ricks,ELI LILLY & CO,Chair/CEO,9000-01-01,10,40,Executive Director
+19750,2025-07-15,761557,Matt Murphy,MARVELL TECHNOLOGY INC (Marvell Technology Group Ltd prior to 04/2021),Chairman/CEO,9000-01-01,10,40,Executive Director
+20566,2025-07-02,61502,Steve Sanghi,MICROCHIP TECHNOLOGY INC,Chair/President/CEO,9000-01-01,10,40,Executive Director
+20589,2025-01-16,205405,Sanjay Mehrotra,MICRON TECHNOLOGY INC,Chairman/President/CEO,9000-01-01,10,40,Executive Director
+20601,2021-06-16,499383,Satya Nadella,MICROSOFT CORP,Chairman/CEO,9000-01-01,10,40,Executive Director
+21710,2025-02-04,275263,Jim Kelly,NCR VOYIX CORP (NCR Corp prior to 10/2023),President/CEO,9000-01-01,10,40,Executive Director
+24296,2020-01-01,1361005,Doctor Albert Bourla,PFIZER INC,Chairman/CEO,9000-01-01,10,40,Executive Director
+21903,2020-07-01,1448606,George Kurian,NETAPP INC (Network Appliance Inc prior to 03/2008),CEO,9000-01-01,10,40,Executive Director
+21929,2024-10-11,1313292,Doctor Kyle Gano,NEUROCRINE BIOSCIENCES INC,President/CEO,9000-01-01,10,40,Executive Director
+22589,2025-06-20,2107029,John Jacobs,NOVAVAX INC,President/CEO,9000-01-01,10,40,Executive Director
+22806,1993-04-01,83377,Jensen Huang,NVIDIA CORP,President/CEO,9000-01-01,20,40,Executive Director
+23134,2020-12-07,1269387,Hassane El-Khoury,ON SEMICONDUCTOR CORP,President/CEO,9000-01-01,10,40,Executive Director
+23141,2025-06-11,2250110,Jared Kelly,ONCOLYTICS BIOTECH INC,CEO,9000-01-01,10,40,Executive Director
+23295,2025-09-22,1788371,Mike Sicilia,ORACLE CORP,CEO,9000-01-01,10,40,Executive Director
+23295,2025-09-22,2132665,Clay Magouyrk,ORACLE CORP,CEO,9000-01-01,10,40,Executive Director
+23786,2024-10-01,544533,Neil Barua,PTC INC (Parametric Technology Corp prior to 01/2013),President/CEO,9000-01-01,10,40,Executive Director
+24040,2005-01-03,340655,Alan Trefler,PEGASYSTEMS INC,Chairman/CEO,9000-01-01,10,40,Executive Director
+24205,2023-06-30,1710096,Patrick Lockwood-Taylor,PERRIGO COMPANY PLC (Perrigo Co prior to 12/2013),President/CEO,9000-01-01,10,40,Executive Director
+817439,2009-08-06,102722,Hock Tan,BROADCOM INC (Broadcom Ltd prior to 04/2018),President/CEO,9000-01-01,10,40,Executive Director
+852951,2014-01-06,1127175,Doctor Helen Torley,HALOZYME THERAPEUTICS INC,President/CEO,9000-01-01,10,40,Executive Director
+897123,2016-07-01,488928,Mark Widmar,FIRST SOLAR INC,CEO,9000-01-01,10,40,Executive Director
+3384931,2024-06-01,1996885,Daniel Dines,UIPATH INC,Chairman/CEO,9000-01-01,10,40,Executive Director
+2825901,2023-07-01,2277545,Giordano Albertazzi,VERTIV HOLDINGS CO (GS Acquisition Holdings Corp prior to 02/2020),CEO,9000-01-01,10,40,Executive Director
+2918725,2018-09-20,593280,Jeff Simmons,ELANCO ANIMAL HEALTH INC,President/CEO,9000-01-01,10,40,Executive Director
+2924705,2022-03-09,1599924,Ash Kulkarni,ELASTIC NV,CEO,9000-01-01,10,40,Executive Director
+2959246,2018-12-07,507530,Stéphane Bancel,MODERNA INC,CEO,9000-01-01,10,40,Executive Director
+3059049,2021-01-20,2118690,Andrew Dudum,HIMS & HERS HEALTH INC (Oaktree Acquisition Corp prior to 01/2021),Chairman/CEO,9000-01-01,10,40,Executive Director
+3081537,2024-05-15,1758691,Matt Bromberg,UNITY SOFTWARE INC (UNITY TECHNOLOGIES),President/CEO,9000-01-01,10,40,Executive Director
+3165150,2024-12-31,2177363,Travis Dalton,CLARITEV CORP (MultiPlan Corp prior to 02/2025),Executive Chairman/President/CEO,9000-01-01,10,40,Executive Director
+3198908,2022-05-09,2310470,Doctor Huang Ying,LEGEND BIOTECH CORP,CEO,9000-01-01,10,40,Executive Director
+3201625,2020-06-16,1093467,Pablo Legorreta Creel,ROYALTY PHARMA PLC,Chairman/CEO,9000-01-01,10,40,Executive Director
+3291073,2025-02-23,2400789,Mike Doogue,ALLEGRO MICROSYSTEMS INC,President/CEO,9000-01-01,10,40,Executive Director
+3299324,2023-04-01,540927,Scott Smith,VIATRIS INC (Upjohn Inc prior to 11/2020),CEO,9000-01-01,10,40,Executive Director
+2519758,2016-09-07,32603,Mike Dell,DELL TECHNOLOGIES INC,Chairman/CEO,9000-01-01,10,40,Executive Director
+3463500,2025-10-17,1402205,Mark Ayranto,SILVERCO MINING LTD (Quetzal Copper Corp prior to 11/2025),President/CEO,9000-01-01,10,40,Executive Director
+3469267,2025-04-28,1398426,Tim Breen,GLOBALFOUNDRIES INC,CEO,9000-01-01,10,40,Executive Director
+3597877,2023-03-17,1396615,Paul Sparkes,VORTEX ENERGY CORP,CEO,9000-01-01,10,40,Executive Director
+3659640,2025-08-04,1908442,Anshul Thakral,FORTREA HOLDINGS INC,President/CEO,9000-01-01,10,40,Executive Director
+3684000,2023-09-14,1618087,Rene Haas,ARM HOLDINGS PLC,CEO,9000-01-01,10,40,Executive Director
+3929783,2025-02-24,1621914,David Goeckeler,SANDISK CORP,Chairman/CEO,9000-01-01,10,40,Executive Director
+3973318,2025-06-05,1201064,Jeremy Allaire,CIRCLE INTERNET GROUP INC,Chairman/CEO,9000-01-01,10,40,Executive Director
+4004264,2025-07-31,1860271,Dylan Field,FIGMA INC,Chair/President/CEO,9000-01-01,10,40,Executive Director
+2725802,2017-11-09,1488593,Doctor Cedric Francois,APELLIS PHARMACEUTICALS INC,President/CEO,9000-01-01,10,40,Executive Director
+2504679,2021-08-01,982110,Doctor August Troendle,MEDPACE HOLDINGS INC,Chairman/CEO,9000-01-01,10,40,Executive Director
+947629,2025-12-24,735088,Doctor Shawn Qu,CANADIAN SOLAR INC,Chairman/CEO,9000-01-01,10,40,Executive Director
+1810090,2017-09-03,1197971,Badri Kothandaraman,ENPHASE ENERGY INC,President/CEO,9000-01-01,10,40,Executive Director
+1560214,2019-08-03,762401,Chirag Patel,AMNEAL PHARMACEUTICALS INC (Impax Laboratories Inc prior to 05/2018),President/Co-CEO,9000-01-01,10,40,Executive Director
+1560214,2019-08-03,1981116,Chintu Patel,AMNEAL PHARMACEUTICALS INC (Impax Laboratories Inc prior to 05/2018),Co-CEO,9000-01-01,10,40,Executive Director
+1562505,2021-02-10,2413290,Paddy Nicol,OROGEN ROYALTIES INC (Evrim Resources Corp prior to 08/2020),President/CEO,9000-01-01,10,40,Executive Director
+1606380,2013-11-11,1055310,Ken Xie,FORTINET INC,Chairman/CEO,9000-01-01,10,40,Executive Director
+1635432,2010-03-24,1058303,Doctor Kishore Seendripu,MAXLINEAR INC,Chairman/President/CEO,9000-01-01,10,40,Executive Director
+1656513,2025-10-28,2470210,Rafael Sotomayor,NXP SEMICONDUCTORS NV,President/CEO,9000-01-01,10,40,Executive Director
+1692432,2009-07-01,1376569,George Paleologou,PREMIUM BRANDS HOLDINGS CORP (Premium Brands Income Fund prior to 07/2009),President/CEO,9000-01-01,20,40,Executive Director
+1792728,2019-08-03,1706999,Mike Rosenbaum,GUIDEWIRE SOFTWARE INC,CEO,9000-01-01,10,40,Executive Director
+1830138,2022-10-25,206474,Bill McDermott,SERVICENOW INC,Chairman/CEO,9000-01-01,10,40,Executive Director
+1916059,2022-04-13,1114611,Mike Spreadborough,NOVO RESOURCES CORP (Galliard Resources Corp prior to 06/2011),Co-Chairman (Executive)/Acting CEO,9000-01-01,10,40,Executive Director
+1921326,2025-07-01,1799113,Rob Michael,ABBVIE INC,Chairman/CEO,9000-01-01,10,40,Executive Director
+1929138,2020-01-01,1074205,Kristin Peck,ZOETIS INC,CEO,9000-01-01,10,40,Executive Director
+1951118,2016-10-03,33049,Ari Bousbib,IQVIA HOLDINGS INC (Quintiles IMS Holdings Inc prior to 11/2017),Chairman/President/CEO,9000-01-01,10,40,Executive Director
+1959651,2023-03-22,2299828,Doctor Matthew Klein,PTC THERAPEUTICS INC,President/CEO,9000-01-01,10,40,Executive Director
+2159823,2009-10-23,731568,Barry Allan,CI FIRST ASSET INVESTMENT GRADE BOND ETF (First Asset Investment Grade Bond ETF prior to 04/2019),President/CEO/Chief Investment Officer,9000-01-01,10,40,Executive Director
+2204149,2015-01-02,181113,Bob Bruggeworth,QORVO INC,President/CEO,9000-01-01,10,40,Executive Director
+2231001,2024-12-04,1123639,Shuki Nir,SOLAREDGE TECHNOLOGIES INC,CEO,9000-01-01,10,40,Executive Director
+2292952,2020-10-01,1093063,Seth Blackley,EVOLENT HEALTH INC,CEO,9000-01-01,10,40,Executive Director
+2358912,2018-02-01,1192124,Antonio Neri,HEWLETT PACKARD ENTERPRISE CO,President/CEO,9000-01-01,10,40,Executive Director
+17053,2020-01-01,1198909,Doctor Brett Monia,IONIS PHARMACEUTICALS INC (Isis Pharmaceuticals Inc prior to 12/2015),CEO,9000-01-01,20,40,Executive Director
+4041540,2025-11-01,1616987,Jon Kemp,QNITY ELECTRONICS INC,CEO,9000-01-01,10,40,Executive Director
+4427,2022-05-10,1712387,Tom Appio,BAUSCH HEALTH COMPANIES INC (Valeant Pharmaceuticals International Inc prior to 07/2018),CEO,9000-01-01,10,40,Executive Director
+1391,2011-09-16,104962,Richard Pops,ALKERMES PLC (Alkermes Inc prior to 09/2011),Chairman/CEO,9000-01-01,10,40,Executive Director
+5480,2021-12-15,550037,Doctor Anirudh Devgan,CADENCE DESIGN SYSTEMS INC,President/CEO,9000-01-01,10,40,Executive Director
+1573,2025-02-17,486930,Phil Brace,SKYWORKS SOLUTIONS INC (Alpha Industries prior to 6/2002),President/CEO,9000-01-01,10,40,Executive Director
+2068,2013-01-01,534543,Bob Bradway,AMGEN INC,Chairman/President/CEO,9000-01-01,10,40,Executive Director
+16239,2025-03-18,182411,Lip-Bu Tan,INTEL CORP,CEO,9000-01-01,10,40,Executive Director
+10364,2021-08-12,1207036,Andrew Wilson,ELECTRONIC ARTS INC,Chairman/CEO,9000-01-01,10,40,Executive Director
+16049,2007-02-14,376561,Howard Robin,NEKTAR THERAPEUTICS (Inhale Therapeutic Systems prior to 01/2003),President/CEO,9000-01-01,10,40,Executive Director
+4354,2023-12-01,2113430,Alex Hardy,BIOMARIN PHARMACEUTICAL INC,President/CEO,9000-01-01,10,40,Executive Director
+9322,2025-05-13,1962819,Gary Yu,DIODES INC,President/CEO,9000-01-01,10,40,Executive Director
+6175,2015-08-01,1084894,Rob Mionis,CELESTICA INC,President/CEO,9000-01-01,10,40,Executive Director
+864,2021-03-01,647302,Steve Kelley,ADVANCED ENERGY INDUSTRIES INC,President/CEO,9000-01-01,10,40,Executive Director
+6495,2018-08-02,142122,Jim Foster,CHARLES RIVER LABORATORIES INTERNATIONAL INC,Chairman/President/CEO,9000-01-01,10,40,Executive Director
+11375,2010-07-15,272802,Doctor Mike Morrissey,EXELIXIS INC,President/CEO,9000-01-01,10,40,Executive Director
+881,2022-02-14,542142,Doctor Lisa Su,ADVANCED MICRO DEVICES INC (AMD),Chair/President/CEO,9000-01-01,10,40,Executive Director
+3218,2025-07-16,46796,Doug Ingram,SAREPTA THERAPEUTICS INC (AVI BioPharma Inc prior to 07/2012),CEO,9000-01-01,10,40,Executive Director
+2145,2022-03-09,35469,Vincent Roche,ANALOG DEVICES INC,Chair/President/CEO,9000-01-01,10,40,Executive Director
+12102,2019-02-11,892665,Revathi Advaithi,FLEX LTD (Flextronics International Ltd prior to 09/2016),CEO,9000-01-01,10,40,Executive Director
+8220,2025-05-01,1052584,Robert Feurle,WOLFSPEED INC (Cree Inc prior to 10/2021),CEO,9000-01-01,10,40,Executive Director
+6905,2021-01-01,2025770,John Forsyth,CIRRUS LOGIC INC,President/CEO,9000-01-01,10,40,Executive Director
+13273,2019-03-01,1015485,Daniel O'Day,GILEAD SCIENCES INC,Chairman/CEO,9000-01-01,10,40,Executive Director
+5118,2024-04-01,1093830,Doctor Chris Boerner,BRISTOL-MYERS SQUIBB CO,Chairman/CEO,9000-01-01,10,40,Executive Director
+3382543,2021-04-15,1275602,Adam Foroughi,APPLOVIN CORP,Chairman/CEO,2026-04-07,10,10,Executive Director
+4002,2025-09-02,535295,Jeff Benck,BENCHMARK ELECTRONICS INC,CEO,2026-03-31,10,10,Executive Director
+15783,2025-06-26,895019,Bill Meury,INCYTE CORP (Incyte Genomics prior to 03/2003),President/CEO,2026-03-25,10,10,Executive Director
+11340,2014-03-21,513708,Kevin Conroy,EXACT SCIENCES CORP (De-listed 03/2026),Chairman/President/CEO,2026-03-23,10,10,Executive Director
+3411706,2021-06-24,1808923,Edward Kreps,CONFLUENT INC (De-listed 03/2026),Chairman/CEO,2026-03-17,10,10,Executive Director
+3092905,2023-04-03,1948850,Doctor Marianne De Backer,VIR BIOTECHNOLOGY INC,CEO,2026-03-04,10,10,Executive Director
+2200546,2025-05-08,1760716,Joe Ciaffoni,INDIVIOR PHARMACEUTICALS INC (Indivior PLC prior to 01/2026),CEO,2026-02-03,10,10,Executive Director
+2660935,2020-09-30,540099,Mark Adams,PENGUIN SOLUTIONS INC (SMART Global Holdings Inc prior to 10/2024),President/CEO,2026-02-01,10,10,Executive Director
+16626,2019-01-01,556870,Sasan Goodarzi,INTUIT INC,CEO,2026-01-22,10,10,Executive Director
+30509,2023-04-01,1853290,Haviv Ilan,TEXAS INSTRUMENTS INC,President/CEO,2026-01-01,10,10,Executive Director
+2079,2020-06-17,1365884,Giel Rutten,AMKOR TECHNOLOGY INC,President/CEO,2025-12-31,10,10,Executive Director
+947629,2020-09-29,735088,Doctor Shawn Qu,CANADIAN SOLAR INC,Chairman/President/CEO,2025-12-24,10,10,Executive Director
+3626382,2023-03-20,2708363,Peter Hogendoorn,SAGE POTASH CORP,Chairman (Executive)/CEO,2025-11-05,10,10,Executive Director
+1656513,2025-04-28,1096978,Kurt Sievers,NXP SEMICONDUCTORS NV,CEO,2025-10-28,10,10,Executive Director
+3394496,2021-05-14,2489439,Kevin Ali,ORGANON & CO,CEO,2025-10-26,10,10,Executive Director
+27411,2017-10-01,547579,Doctor Dave Mosley,SEAGATE TECHNOLOGY HOLDINGS PLC (Seagate Technology PLC prior to 05/2021),CEO,2025-10-25,10,10,Executive Director
+3463500,2024-03-12,2818371,Matt Badiali,SILVERCO MINING LTD (Quetzal Copper Corp prior to 11/2025),CEO,2025-10-17,10,10,Executive Director
+23295,2019-10-18,33503,Safra Catz,ORACLE CORP,CEO,2025-09-22,10,10,Executive Director
+31454,2014-01-01,321651,Tom Edman,TTM TECHNOLOGIES INC,President/CEO,2025-09-02,10,10,Executive Director
+488272,2025-03-04,480400,Clarence Granger,ULTRA CLEAN HOLDINGS INC,Chairman/Interim CEO,2025-09-02,10,10,Executive Director
+4002,2019-03-18,535295,Jeff Benck,BENCHMARK ELECTRONICS INC,President/CEO,2025-09-02,10,10,Executive Director
+488479,2009-04-03,183256,Bruce Cozadd,JAZZ PHARMACEUTICALS PLC,Chairperson/CEO,2025-08-11,10,10,Executive Director
+3659640,2025-05-13,201622,Peter Neupert,FORTREA HOLDINGS INC,Chair/Interim CEO,2025-08-04,10,10,Executive Director
+2125688,2020-12-15,345845,Professor Barry Greene,SAGE THERAPEUTICS INC (De-listed 07/2025),President/CEO,2025-07-31,10,10,Executive Director
+29774,2024-06-13,1096288,Vincent Pilette,GEN DIGITAL INC (NortonLifeLock Inc prior to 11/2022),President/CEO,2025-07-17,10,10,Executive Director
+2257,2017-01-01,545851,Doctor Ajei Gopal,ANSYS INC (De-listed 07/2025),President/CEO,2025-07-17,10,10,Executive Director
+3218,2017-06-26,46796,Doug Ingram,SAREPTA THERAPEUTICS INC (AVI BioPharma Inc prior to 07/2012),President/CEO,2025-07-16,10,10,Executive Director
+19750,2023-06-16,761557,Matt Murphy,MARVELL TECHNOLOGY INC (Marvell Technology Group Ltd prior to 04/2021),Chairman/President/CEO,2025-07-15,10,10,Executive Director
+20566,2024-11-18,61502,Steve Sanghi,MICROCHIP TECHNOLOGY INC,Chair/Interim President/CEO,2025-07-02,10,10,Executive Director
+1921326,2024-07-01,1799113,Rob Michael,ABBVIE INC,CEO,2025-07-01,10,10,Executive Director
+15783,2023-06-05,1249099,Hervé Hoppenot,INCYTE CORP (Incyte Genomics prior to 03/2003),Chairman/CEO,2025-06-26,10,10,Executive Director
+22589,2023-11-20,2107029,John Jacobs,NOVAVAX INC,Co-President/CEO,2025-06-20,10,10,Executive Director
+23141,2024-06-24,601215,Wayne Pisano,ONCOLYTICS BIOTECH INC,Chair/Interim CEO,2025-06-11,10,10,Executive Director
+9322,2024-01-02,34717,Doctor Keh-Shew Lu,DIODES INC,Chairman/CEO,2025-05-13,10,10,Executive Director
+3659640,2023-06-30,1010281,Tom Pike,FORTREA HOLDINGS INC,Chairman/President/CEO,2025-05-13,10,10,Executive Director
+2200546,2020-06-29,1491972,Mark Crossley,INDIVIOR PLC,CEO,2025-05-08,10,10,Executive Director
+1656513,2020-05-27,1096978,Kurt Sievers,NXP SEMICONDUCTORS NV,President/CEO,2025-04-28,10,10,Executive Director
+3469267,2021-10-28,453077,Doctor Tom Caulfield,GLOBALFOUNDRIES INC,President/CEO,2025-04-28,10,10,Executive Director
+1649258,2013-10-01,508234,Antonio Pietri,ASPEN TECHNOLOGY INC (De-listed 03/2025),President/CEO,2025-03-12,10,10,Executive Director
+488272,2017-10-02,321685,Jim Scholhamer,ULTRA CLEAN HOLDINGS INC,CEO,2025-03-04,10,10,Executive Director
+33382,2020-03-09,1621914,David Goeckeler,WESTERN DIGITAL CORP,CEO,2025-02-24,10,10,Executive Director
+3291073,2022-06-13,1754265,Vineet Nargolwala,ALLEGRO MICROSYSTEMS INC,President/CEO,2025-02-23,10,10,Executive Director
+23141,2017-01-19,790419,Doctor Matt Coffey,ONCOLYTICS BIOTECH INC,President/CEO,2025-02-07,10,10,Executive Director
+21710,2023-10-16,2295328,David Wilkinson,NCR VOYIX CORP (NCR Corp prior to 10/2023),CEO,2025-02-04,10,10,Executive Director
+1573,2021-05-13,327486,Liam Griffin,SKYWORKS SOLUTIONS INC (Alpha Industries prior to 6/2002),Chairman/President/CEO,2025-02-04,10,10,Executive Director
+462108,2019-08-19,1302499,Mike Hurlston,SYNAPTICS INC,President/CEO,2025-02-03,10,10,Executive Director
+20589,2017-05-08,205405,Sanjay Mehrotra,MICRON TECHNOLOGY INC,President/CEO,2025-01-16,10,10,Executive Director
+3165150,2024-03-01,2177363,Travis Dalton,CLARITEV CORP (MultiPlan Corp prior to 02/2025),President/CEO,2024-12-31,10,10,Executive Director
+24637,2022-01-26,549027,Todd Kelsey,PLEXUS CORP,CEO,2024-12-28,10,25,Executive Director
+2129696,2022-07-01,1779146,Alessandro Maselli,CATALENT INC (De-listed 12/2024),President/CEO,2024-12-18,10,10,Executive Director
+16239,2021-02-15,486395,Doctor Pat Gelsinger,INTEL CORP,CEO,2024-12-01,10,10,Executive Director
+8220,2017-09-27,34852,Gregg Lowe,WOLFSPEED INC (Cree Inc prior to 10/2021),President/CEO,2024-11-18,10,10,Executive Director
+20566,2021-03-01,61667,Ganesh Moorthy,MICROCHIP TECHNOLOGY INC,President/CEO,2024-11-18,10,10,Executive Director
+3449260,2024-06-17,1122129,Mike Sutcliff,THOUGHTWORKS HOLDING INC (De-listed 11/2024),President/CEO,2024-11-13,10,10,Executive Director
+21929,2017-11-20,206587,Doctor Kevin Gorman,NEUROCRINE BIOSCIENCES INC,President/CEO,2024-10-11,10,10,Executive Director
+23786,2024-02-14,544533,Neil Barua,PTC INC (Parametric Technology Corp prior to 01/2013),CEO,2024-10-01,10,10,Executive Director
+105052,2023-06-01,339859,Steve Davis,ACADIA PHARMACEUTICALS INC,President/CEO,2024-09-23,20,10,Executive Director
+2231001,2020-02-19,1449249,Zvi Lando,SOLAREDGE TECHNOLOGIES INC,CEO,2024-08-26,10,10,Executive Director
+27081,2022-01-13,647592,Lino Saputo Jr,SAPUTO INC,Chairman/President/CEO,2024-08-09,10,10,Executive Director
+1921326,2013-01-02,33494,Rick Gonzalez,ABBVIE INC,Chairman/CEO,2024-07-01,10,10,Executive Director
+3449260,2021-09-15,1975125,Guo Xiao,THOUGHTWORKS HOLDING INC (De-listed 11/2024),President/CEO,2024-06-17,10,10,Executive Director
+29774,2019-12-19,1096288,Vincent Pilette,GEN DIGITAL INC (NortonLifeLock Inc prior to 11/2022),CEO,2024-06-13,10,10,Executive Director
+16949,2021-05-04,552052,Doctor Eugene Scherbakov,IPG PHOTONICS CORP,CEO,2024-06-05,10,10,Executive Director
+3384931,2024-02-01,1112822,Rob Enslin,UIPATH INC,CEO,2024-06-01,10,10,Executive Director
+17238,2023-05-01,1996477,Kenny Wilson,JABIL INC (Jabil Circuit Inc prior to 06/2017),CEO,2024-05-18,10,10,Executive Director
+3081537,2023-10-09,333755,Jim Whitehurst,UNITY SOFTWARE INC (UNITY TECHNOLOGIES),President/Interim CEO,2024-05-15,10,10,Executive Director
+5118,2023-11-01,1093830,Doctor Chris Boerner,BRISTOL-MYERS SQUIBB CO,CEO,2024-04-01,10,10,Executive Director
+1813585,2022-04-11,1252966,Gary Steele,SPLUNK INC (De-listed 03/2024),President/CEO,2024-03-18,10,10,Executive Director
+3463500,2021-10-15,2545410,Roger Milad,SILVERCO MINING LTD (Quetzal Copper Corp prior to 11/2025),CEO/CFO,2024-03-12,10,10,Executive Director
+3165150,2022-01-31,1310255,Dale White,MULTIPLAN CORP (Churchill Capital Corp III prior to 10/2020),President/CEO,2024-03-01,10,10,Executive Director
+23786,2023-07-27,203273,Jim Heppelmann,PTC INC (Parametric Technology Corp prior to 01/2013),Chairman/CEO,2024-02-14,10,10,Executive Director
+23786,2023-07-27,544533,Neil Barua,PTC INC (Parametric Technology Corp prior to 01/2013),CEO-Elect,2024-02-14,10,10,Executive Director
+30123,2014-04-01,1134582,Chuck Kummeth,BIO-TECHNE CORP (Techne Corp prior to 11/2014),President/CEO,2024-02-01,10,10,Executive Director
+3384931,2022-05-16,1996885,Daniel Dines,UIPATH INC,Chair/Co-CEO,2024-01-31,10,10,Executive Director
+9322,2020-05-18,34717,Doctor Keh-Shew Lu,DIODES INC,Chairman/President/CEO,2024-01-02,10,10,Executive Director
+29816,2022-04-30,64702,Doctor Aart De Geus,SYNOPSYS INC,Chairman/CEO,2024-01-01,10,10,Executive Director
+27435,2022-11-09,657839,David Epstein,SEAGEN INC (Seattle Genetics Inc prior to 10/2020) (De-listed 12/2023),CEO,2023-12-14,10,10,Executive Director
+26104,2023-11-04,516742,Dick Lynch,BLACKBERRY LTD (Research In Motion Ltd prior to 07/2013),Chair/Interim CEO,2023-12-11,10,10,Executive Director
+4354,2015-06-09,183266,Jean-Jacques Bienaimé,BIOMARIN PHARMACEUTICAL INC,Chairman/President/CEO,2023-11-30,10,10,Executive Director
+22589,2023-01-23,2107029,John Jacobs,NOVAVAX INC,President/CEO,2023-11-20,10,10,Executive Director
+26104,2013-11-04,141731,John Chen,BLACKBERRY LTD (Research In Motion Ltd prior to 07/2013),Chairman (Executive)/CEO,2023-11-04,10,10,Executive Director
+5118,2017-05-02,857412,Doctor Giovanni Caforio,BRISTOL-MYERS SQUIBB CO,Chairman/CEO,2023-11-01,10,10,Executive Director
+21710,2021-08-16,536199,Mike Hayford,NCR VOYIX CORP (NCR Corp prior to 10/2023),CEO,2023-10-16,10,10,Executive Director
+725,2017-06-26,69696,Bobby Kotick,ACTIVISION BLIZZARD INC (De-listed 10/2023),CEO,2023-10-13,10,10,Executive Director
+21606,2020-02-01,889340,Eric Starkloff,NATIONAL INSTRUMENTS CORP (De-listed 10/2023),President/CEO,2023-10-11,10,10,Executive Director
+3081537,2020-09-18,47756,John Riccitiello,UNITY SOFTWARE INC (UNITY TECHNOLOGIES),Chairman (Executive)/President/CEO,2023-10-09,10,10,Executive Director
+2164733,2022-04-29,1960636,Michelle Keefe,SYNEOS HEALTH INC (INC Research Holdings Inc prior to 01/2018) (De-listed 09/2023),CEO,2023-09-28,10,10,Executive Director
+23786,2023-02-20,203273,Jim Heppelmann,PTC INC (Parametric Technology Corp prior to 01/2013),CEO,2023-07-27,10,10,Executive Director
+2825901,2023-01-01,2277545,Giordano Albertazzi,VERTIV HOLDINGS CO (GS Acquisition Holdings Corp prior to 02/2020),CEO/Regional President,2023-07-01,10,10,Executive Director
+24205,2018-10-08,56076,Murray Kessler,PERRIGO COMPANY PLC (Perrigo Co prior to 12/2013),President/CEO,2023-06-30,10,10,Executive Director
+105052,2018-11-19,339859,Steve Davis,ACADIA PHARMACEUTICALS INC,CEO,2023-06-28,10,15,Executive Director
+550958,2019-04-01,510070,Bob Kramer Sr,EMERGENT BIOSOLUTIONS INC,President/CEO,2023-06-24,10,10,Executive Director
+19750,2016-07-11,761557,Matt Murphy,MARVELL TECHNOLOGY INC (Marvell Technology Group Ltd prior to 04/2021),President/CEO,2023-06-16,10,10,Executive Director
+25954,1994-01-02,201093,Doctor Len Schleifer,REGENERON PHARMACEUTICALS INC,President/CEO,2023-06-09,30,10,Executive Director
+15783,2015-05-22,1249099,Hervé Hoppenot,INCYTE CORP (Incyte Genomics prior to 03/2003),Chairman/President/CEO,2023-06-05,10,10,Executive Director
+17238,2021-11-01,63117,Mark Mondello,JABIL INC (Jabil Circuit Inc prior to 06/2017),Chairman/CEO,2023-04-30,10,10,Executive Director
+3092905,2019-10-11,272786,Doctor George Scangos,VIR BIOTECHNOLOGY INC,President/CEO,2023-04-03,10,10,Executive Director
+30509,2018-07-17,13520,Rich Templeton,TEXAS INSTRUMENTS INC,Chairman/President/CEO,2023-04-01,10,10,Executive Director
+3299324,2020-11-17,2033434,Michael Goettler,VIATRIS INC (Upjohn Inc prior to 11/2020),CEO,2023-04-01,10,10,Executive Director
+1959651,2013-06-20,1258069,Doctor Stu Peltz,PTC THERAPEUTICS INC,CEO,2023-03-22,10,10,Executive Director
+3597877,2022-12-28,2680998,Doctor Kirk Hollohan,VORTEX ENERGY CORP,CEO,2023-03-17,10,10,Executive Director
+23786,2010-10-01,203273,Jim Heppelmann,PTC INC (Parametric Technology Corp prior to 01/2013),President/CEO,2023-02-20,10,10,Executive Director
+2762605,2022-08-01,1468813,Alan Masarek,AVAYA HOLDINGS CORP (De-listed 02/2023),President/CEO,2023-02-15,10,10,Executive Director
+69444,2021-11-30,1108033,Bret Taylor,SALESFORCE INC (Salesforce.com Inc prior to 04/2022),Vice Chairman/Co-CEO,2023-01-31,10,10,Executive Director
+69444,2021-11-30,375926,Marc Benioff,SALESFORCE INC (Salesforce.com Inc prior to 04/2022),Chairman/Co-CEO,2023-01-31,10,10,Executive Director
+17478,2022-01-03,879247,Joaquin Duato,JOHNSON & JOHNSON,CEO,2023-01-28,10,15,Executive Director
+22589,2018-03-14,507661,Stan Erck,NOVAVAX INC,President/CEO,2023-01-23,10,10,Executive Director
+2825901,2020-02-07,497854,Rob Johnson,VERTIV HOLDINGS CO (GS Acquisition Holdings Corp prior to 02/2020),CEO,2022-12-31,10,10,Executive Director
+27219,2021-07-01,485800,Rob Davis,MERCK & CO INC (Schering-Plough Corp prior to 11/2009),President/CEO,2022-12-01,10,10,Executive Director
+3408893,2021-06-17,2422313,Jesse Kaplan,GREY WOLF ANIMAL HEALTH CORP (Magen Ventures I Inc prior to 23/2022),CEO/CFO/Corporate Secretary,2022-11-15,10,10,Executive Director
+440155,2017-01-06,1694109,Michel Vounatsos,BIOGEN INC (Biogen Idec Inc prior to 03/2015),CEO,2022-11-14,10,10,Executive Director
+1830138,2019-11-18,206474,Bill McDermott,SERVICENOW INC,President/CEO,2022-10-25,10,10,Executive Director
+3049380,2019-06-27,1315152,Neil de Crescenzo IV,CHANGE HEALTHCARE INC (De-listed 10/2022),President/CEO,2022-10-03,10,10,Executive Director
+6959,2021-10-01,52347,Bob Calderoni,CITRIX SYSTEMS INC (De-listed 09/2022),Chairman/Interim President/Interim CEO,2022-09-30,10,10,Executive Director
+2762605,2018-01-17,443474,Jim Chirico Jr,AVAYA HOLDINGS CORP (De-listed 02/2023),President/CEO,2022-08-01,10,10,Executive Director
+2129696,2019-02-13,1047323,John Chiminski,CATALENT INC (De-listed 12/2024),Chairman/CEO,2022-07-01,10,10,Executive Director
+3291073,2020-10-29,2262605,Ravi Vig,ALLEGRO MICROSYSTEMS INC,President/CEO,2022-06-13,10,10,Executive Director
+1743287,2016-03-07,495149,Frank Gibeau,ZYNGA INC (De-listed 05/2022),CEO,2022-05-23,10,10,Executive Director
+3384931,2021-04-21,1996885,Daniel Dines,UIPATH INC,Chair/CEO,2022-05-16,10,10,Executive Director
+27435,2009-01-01,347211,Doctor Clay Siegall,SEAGEN INC (Seattle Genetics Inc prior to 10/2020) (De-listed 12/2023),Chairman/President/CEO,2022-05-15,30,10,Executive Director
+4427,2016-05-02,206108,Joe Papa Jr,BAUSCH HEALTH COMPANIES INC (Valeant Pharmaceuticals International Inc prior to 07/2018),Chairman/CEO,2022-05-10,10,10,Executive Director
+3198908,2021-12-30,2310470,Doctor Huang Ying,LEGEND BIOTECH CORP,CEO/CFO,2022-05-09,10,10,Executive Director
+29816,2012-05-21,64702,Doctor Aart De Geus,SYNOPSYS INC,Chairman/Co-CEO,2022-04-30,10,10,Executive Director
+2164733,2016-10-01,1480344,Alistair Macdonald,SYNEOS HEALTH INC (INC Research Holdings Inc prior to 01/2018) (De-listed 09/2023),CEO,2022-04-29,10,10,Executive Director
+1916059,2021-08-05,732483,Doctor Quinton Hennigh,NOVO RESOURCES CORP (Galliard Resources Corp prior to 06/2011),Co-Chairman/Acting CEO,2022-04-13,10,10,Executive Director
+1916059,2017-10-20,1264832,Rob Humphryson,NOVO RESOURCES CORP (Galliard Resources Corp prior to 06/2011),CEO,2022-04-13,10,10,Executive Director
+29816,2021-11-01,64712,Doctor Chi-Foon Chan,SYNOPSYS INC,Co-CEO,2022-04-12,10,10,Executive Director
+1813585,2021-11-13,271741,Graham Smith,SPLUNK INC (De-listed 03/2024),Chair/Interim CEO,2022-04-11,10,10,Executive Director
+2145,2013-05-06,35469,Vincent Roche,ANALOG DEVICES INC,President/CEO,2022-03-09,10,10,Executive Director
+27190,2018-04-23,745229,Mark Benjamin,NUANCE COMMUNICATIONS INC (Scansoft Inc prior to 10/2005) (De-listed 03/2022),CEO,2022-03-04,10,10,Executive Director
+3286846,2020-10-22,833256,Peter Leav,MCAFEE CORP (De-listed 03/2022),President/CEO,2022-03-01,10,10,Executive Director
+881,2014-10-08,542142,Doctor Lisa Su,ADVANCED MICRO DEVICES INC (AMD),President/CEO,2022-02-14,10,10,Executive Director
+33857,2018-01-29,339239,Victor Peng,XILINX INC (De-listed 02/2022),President/CEO,2022-02-14,10,10,Executive Director
+3165150,2021-08-03,1310248,Mark Tabak,CLARITEV CORP (MultiPlan Corp prior to 02/2025),Chairman/CEO,2022-01-31,10,10,Executive Director
+24637,2016-09-30,549027,Todd Kelsey,PLEXUS CORP,President/CEO,2022-01-26,10,10,Executive Director
+27081,2017-08-01,647592,Lino Saputo Jr,SAPUTO INC,Chairman/CEO,2022-01-13,10,10,Executive Director
+2924705,2018-10-05,1477017,Shay Banon,ELASTIC NV,Chairman/CEO,2022-01-11,10,10,Executive Director
+17478,2012-12-28,747756,Alex Gorsky,JOHNSON & JOHNSON,Chairman/CEO,2022-01-03,10,10,Executive Director
+117536,2021-10-28,657842,Doctor Yvonne Greenstreet,ALNYLAM PHARMACEUTICALS INC,President/CEO,2022-01-01,10,10,Executive Director
+27977,2021-04-22,536593,George Tuttle,SILICON LABORATORIES INC,CEO,2022-01-01,10,10,Executive Director
+117536,2007-12-12,204563,Doctor John Maraganore,ALNYLAM PHARMACEUTICALS INC,CEO,2021-12-31,10,10,Executive Director
+3408893,2021-06-17,2669292,Doctor Ian Sandler,GREY WOLF ANIMAL HEALTH CORP (Magen Ventures I Inc prior to 23/2022),CEO,2021-12-31,10,10,Executive Director
+5480,2017-11-16,182411,Lip-Bu Tan,CADENCE DESIGN SYSTEMS INC,CEO,2021-12-15,10,10,Executive Director
+3158781,2020-02-06,1075579,David Simmons,PPD INC (De-listed 12/2021),Chairman/CEO,2021-12-08,10,10,Executive Director
+69444,2020-02-25,375926,Marc Benioff,SALESFORCE INC (Salesforce.com Inc prior to 04/2022),Chairman/CEO,2021-11-30,10,10,Executive Director
+1813585,2015-11-19,339339,Doug Merritt,SPLUNK INC (De-listed 03/2024),President/CEO,2021-11-13,10,10,Executive Director
+29816,2012-05-21,64712,Doctor Chi-Foon Chan,SYNOPSYS INC,President/Co-CEO,2021-11-01,10,10,Executive Director
+17238,2013-03-01,63117,Mark Mondello,JABIL INC (Jabil Circuit Inc prior to 06/2017),CEO,2021-11-01,10,10,Executive Director
+6959,2017-07-10,205153,David Henshall,CITRIX SYSTEMS INC (De-listed 09/2022),President/CEO,2021-10-01,10,10,Executive Director
+1813890,2018-07-09,1252966,Gary Steele,PROOFPOINT INC (De-listed 08/2021),Chairman/CEO,2021-08-31,10,10,Executive Director
+19863,2007-01-01,36387,Tunc Doluca,MAXIM INTEGRATED PRODUCTS INC (De-listed 08/2021),President/CEO,2021-08-26,10,10,Executive Director
+21710,2018-04-30,536199,Mike Hayford,NCR VOYIX CORP (NCR Corp prior to 10/2023),President/CEO,2021-08-16,10,10,Executive Director
+10364,2013-09-17,1207036,Andrew Wilson,ELECTRONIC ARTS INC,CEO,2021-08-12,10,10,Executive Director
+3165150,2020-10-08,1310248,Mark Tabak,CLARITEV CORP (MultiPlan Corp prior to 02/2025),Chairman/President/CEO,2021-08-03,10,10,Executive Director
+2504679,2016-08-11,982110,Doctor August Troendle,MEDPACE HOLDINGS INC,Chairman/President/CEO,2021-08-01,10,10,Executive Director
+1355,2017-03-27,1077323,Doctor Ludwig Hantson,ALEXION PHARMACEUTICALS INC (De-listed 07/2021),CEO,2021-07-21,10,10,Executive Director
+2166779,2014-11-13,334096,Colin Shannon,PRA HEALTH SCIENCES INC (De-listed 07/2021),Chairman/President/CEO,2021-07-01,10,10,Executive Director
+25529,2014-03-04,640531,Steve Mollenkopf,QUALCOMM INC,CEO,2021-06-30,10,10,Executive Director
+27219,2021-04-01,31551,Ken Frazier,MERCK & CO INC (Schering-Plough Corp prior to 11/2009),Chairman/CEO,2021-06-30,10,10,Executive Director
+20601,2014-02-04,499383,Satya Nadella,MICROSOFT CORP,CEO,2021-06-16,10,10,Executive Director
+1573,2016-05-11,327486,Liam Griffin,SKYWORKS SOLUTIONS INC (Alpha Industries prior to 6/2002),President/CEO,2021-05-13,10,10,Executive Director
+16949,1998-01-02,552050,Doctor Valentin Gapontsev,IPG PHOTONICS CORP,Chairman/CEO,2021-05-04,30,10,Executive Director
+27977,2016-02-16,536593,George Tuttle,SILICON LABORATORIES INC,President/CEO,2021-04-22,10,10,Executive Director
+27219,2011-12-01,31551,Ken Frazier,MERCK & CO INC (Schering-Plough Corp prior to 11/2009),Chairman/President/CEO,2021-04-01,10,10,Executive Director
+20566,2016-02-03,61502,Steve Sanghi,MICROCHIP TECHNOLOGY INC,Chairman/CEO,2021-03-01,10,10,Executive Director
+864,2020-10-29,544257,Yuval Wasserman,ADVANCED ENERGY INDUSTRIES INC,President/CEO,2021-03-01,10,10,Executive Director
+16239,2019-01-30,48076,Bob Swan,INTEL CORP,CEO,2021-02-15,10,10,Executive Director
+3059049,2019-07-18,1523588,Patrick McCaney,HIMS & HERS HEALTH INC (Oaktree Acquisition Corp prior to 01/2021),CEO,2021-01-20,10,10,Executive Director
+6905,2020-01-27,498587,Doctor Jason Rhode,CIRRUS LOGIC INC,CEO,2021-01-01,10,10,Executive Director
+2125688,2014-07-18,514584,Doctor Jeff Jonas,SAGE THERAPEUTICS INC (De-listed 07/2025),President/CEO,2020-12-15,10,10,Executive Director
+23134,2002-11-19,200418,Keith Jackson,ON SEMICONDUCTOR CORP,President/CEO,2020-12-07,10,10,Executive Director
+864,2020-05-20,544257,Yuval Wasserman,ADVANCED ENERGY INDUSTRIES INC,CEO,2020-10-29,10,10,Executive Director
+3165150,2020-02-14,376149,Michael Klein,CLARITEV CORP (MultiPlan Corp prior to 02/2025),Chairman/President/CEO,2020-10-08,10,10,Executive Director
+2292952,2015-06-05,202679,Frank Williams,EVOLENT HEALTH INC,Chairman/CEO,2020-10-01,10,10,Executive Director
+947629,2020-05-24,735088,Doctor Shawn Qu,CANADIAN SOLAR INC,Chairman/CEO,2020-09-29,10,10,Executive Director
+3198908,2020-08-01,1679156,Doctor Frank Zhang,LEGEND BIOTECH CORP,Chairman/CEO,2020-09-21,10,10,Executive Director
+2660935,2018-06-01,70477,Ajay Shah,PENGUIN SOLUTIONS INC (SMART Global Holdings Inc prior to 10/2024),Chairman/President/CEO,2020-08-31,20,10,Executive Director
+1562505,2011-01-25,2413290,Paddy Nicol,OROGEN ROYALTIES INC (Evrim Resources Corp prior to 08/2020),President/CEO,2020-08-18,10,10,Executive Director
+27025,2019-12-09,807018,Hartmut Liebel,SANMINA CORP (Sanmina-SCI Corp prior to 11/2012),CEO,2020-08-17,10,10,Executive Director
+3198908,2020-06-05,2179602,Doctor Yuan Xu,LEGEND BIOTECH CORP,CEO,2020-08-02,10,10,Executive Director
+21903,2016-05-20,1448606,George Kurian,NETAPP INC (Network Appliance Inc prior to 03/2008),President/CEO,2020-07-01,10,10,Executive Director
+2200546,2014-12-23,1491889,Shaun Thaxter,INDIVIOR PLC,CEO,2020-06-27,10,10,Executive Director
+2079,2013-05-08,647302,Steve Kelley,AMKOR TECHNOLOGY INC,President/CEO,2020-06-17,10,10,Executive Director
+1228,2019-01-24,1265100,Doug Boothe,AKORN INC (De-listed 06/2020),President/CEO,2020-06-01,10,10,Executive Director
+1656513,2018-09-09,82157,Rick Clemmer,NXP SEMICONDUCTORS NV,CEO,2020-05-27,10,10,Executive Director
+947629,2006-11-09,735088,Doctor Shawn Qu,CANADIAN SOLAR INC,Chairman/President/CEO,2020-05-24,10,10,Executive Director
+864,2014-10-01,544257,Yuval Wasserman,ADVANCED ENERGY INDUSTRIES INC,President/CEO,2020-05-20,10,10,Executive Director
+9322,2005-06-01,34717,Doctor Keh-Shew Lu,DIODES INC,President/CEO,2020-05-18,10,10,Executive Director
+8542,2016-08-10,1269387,Hassane El-Khoury,CYPRESS SEMICONDUCTOR CORP (De-listed 04/2020),President/CEO,2020-04-17,10,10,Executive Director
+32537,2012-05-22,33491,Professor Doctor Jeff Leiden,VERTEX PHARMACEUTICALS INC,Chairman/President/CEO,2020-03-31,10,10,Executive Director
+33382,2015-10-18,325964,Steve Milligan,WESTERN DIGITAL CORP,CEO,2020-03-09,10,10,Executive Director
+69444,2018-08-07,375926,Marc Benioff,SALESFORCE INC (Salesforce.com Inc prior to 04/2022),Chairman/Co-CEO,2020-02-25,10,10,Executive Director
+69444,2018-08-07,33569,Keith Block,SALESFORCE INC (Salesforce.com Inc prior to 04/2022),Co-CEO,2020-02-25,10,10,Executive Director
+2825901,2018-06-12,36856,Dave Cote,VERTIV HOLDINGS CO (GS Acquisition Holdings Corp prior to 02/2020),Chairman/President/CEO/Secretary,2020-02-07,10,10,Executive Director
+21606,2018-10-23,205003,Alex Davern,NATIONAL INSTRUMENTS CORP (De-listed 10/2023),CEO,2020-01-31,10,10,Executive Director
+17053,1999-02-01,320726,Doctor Stanley Crooke,IONIS PHARMACEUTICALS INC (Isis Pharmaceuticals Inc prior to 12/2015),Chairman/President/CEO,2020-01-28,20,15,Executive Director
+6905,2007-05-17,498587,Doctor Jason Rhode,CIRRUS LOGIC INC,President/CEO,2020-01-27,10,10,Executive Director
+24296,2019-01-01,1361005,Doctor Albert Bourla,PFIZER INC,CEO,2020-01-01,10,10,Executive Director
+1929138,2013-02-01,1075570,Juan Alaix,ZOETIS INC,CEO,2019-12-31,10,10,Executive Director
+6177,2018-02-05,1203855,Mark Alles,CELGENE CORP (De-listed 11/2019),Chairman/CEO,2019-11-20,10,10,Executive Director
+1830138,2017-04-03,103257,John Donahoe II,SERVICENOW INC,President/CEO,2019-11-18,10,10,Executive Director
+29774,2019-05-09,59002,Rick Hill,GEN DIGITAL INC (NortonLifeLock Inc prior to 11/2022),Interim President/Interim CEO,2019-11-08,10,10,Executive Director
+23295,2014-09-17,86007,Mark Hurd,ORACLE CORP,Co-CEO,2019-10-18,10,10,Executive Director
+23295,2014-09-17,33503,Safra Catz,ORACLE CORP,Co-CEO,2019-10-18,10,10,Executive Director
+27025,2018-10-01,456223,Michael Clarke,SANMINA CORP (Sanmina-SCI Corp prior to 11/2012),CEO,2019-09-30,10,10,Executive Director
+2231001,2019-08-14,1398251,Guy Sella,SOLAREDGE TECHNOLOGIES INC,Co-Chairman/CEO,2019-08-25,10,10,Executive Director
+2231001,2015-03-26,1398251,Guy Sella,SOLAREDGE TECHNOLOGIES INC,Chairman/CEO,2019-08-14,10,10,Executive Director
+1792728,2012-01-25,1192485,Marcus Ryu,GUIDEWIRE SOFTWARE INC,President/CEO,2019-08-03,10,10,Executive Director
+1560214,2018-05-04,1054826,Robert Stewart,AMNEAL PHARMACEUTICALS INC (Impax Laboratories Inc prior to 05/2018),President/CEO,2019-08-02,10,10,Executive Director
+1953153,2016-09-16,1768029,Adam Selipsky,TABLEAU SOFTWARE INC (De-listed 08/2019),President/CEO,2019-08-01,10,10,Executive Director
+25895,2008-01-01,333755,Jim Whitehurst,RED HAT INC (De-listed 07/2019),President/CEO,2019-07-09,10,10,Executive Director
+29774,2018-11-29,1068227,Greg Clark,GEN DIGITAL INC (NortonLifeLock Inc prior to 11/2022),President/CEO/Principal Executive Officer,2019-05-09,10,10,Executive Director
+550958,2018-03-26,510212,Dan Abdun-Nabi,EMERGENT BIOSOLUTIONS INC,CEO,2019-03-31,10,10,Executive Director
+4002,2016-09-16,106062,Paul Tufano,BENCHMARK ELECTRONICS INC,President/CEO,2019-03-18,10,10,Executive Director
+462108,2011-09-28,330400,Rick Bergman,SYNAPTICS INC,President/CEO,2019-03-14,10,10,Executive Director
+2129696,2016-10-25,1047323,John Chiminski,CATALENT INC (De-listed 12/2024),Chairman/President/CEO,2019-02-13,10,10,Executive Director
+1706477,2017-09-18,8391,Roger Lynch,PANDORA MEDIA INC (De-listed 02/2019),President/CEO,2019-02-01,10,10,Executive Director
+24296,2011-12-12,485621,Ian Read,PFIZER INC,Chairman/CEO,2019-01-01,10,10,Executive Director
+13273,2016-03-10,48201,Doctor John Milligan,GILEAD SCIENCES INC,President/CEO,2018-12-31,10,10,Executive Director
+16626,2016-01-21,444827,Brad Smith,INTUIT INC,Chairman/President/CEO,2018-12-31,10,10,Executive Director
+12102,2006-01-01,377031,Mike McNamara,FLEX LTD (Flextronics International Ltd prior to 09/2016),CEO,2018-12-31,10,10,Executive Director
+29774,2016-08-01,1068227,Greg Clark,GEN DIGITAL INC (NortonLifeLock Inc prior to 11/2022),CEO,2018-11-29,10,10,Executive Director
+105052,2015-09-01,339859,Steve Davis,ACADIA PHARMACEUTICALS INC,President/CEO,2018-11-19,10,10,Executive Director
+21606,2017-01-25,205003,Alex Davern,NATIONAL INSTRUMENTS CORP (De-listed 10/2023),President/CEO,2018-10-23,10,10,Executive Director
+24205,2018-01-15,650660,Uwe Röhrhoff,PERRIGO COMPANY PLC (Perrigo Co prior to 12/2013),President/CEO,2018-10-08,10,10,Executive Director
+1656513,2010-08-06,82157,Rick Clemmer,NXP SEMICONDUCTORS NV,President/CEO,2018-09-09,10,10,Executive Director
+27025,2017-10-02,204362,Bob Eulau,SANMINA CORP (Sanmina-SCI Corp prior to 11/2012),CEO,2018-08-31,10,10,Executive Director
+69444,2001-11-01,375926,Marc Benioff,SALESFORCE INC (Salesforce.com Inc prior to 04/2022),Chairman/CEO,2018-08-07,20,10,Executive Director
+6495,2018-02-13,142122,Jim Foster,CHARLES RIVER LABORATORIES INTERNATIONAL INC,Chairman/CEO,2018-08-02,10,10,Executive Director
+30509,2018-06-01,1089168,Brian Crutcher,TEXAS INSTRUMENTS INC,President/CEO,2018-07-17,10,10,Executive Director
+1813890,2017-01-01,1252966,Gary Steele,PROOFPOINT INC (De-listed 08/2021),CEO,2018-07-09,30,10,Executive Director
+2660935,2018-03-14,70477,Ajay Shah,PENGUIN SOLUTIONS INC (SMART Global Holdings Inc prior to 10/2024),Chairman/Co-CEO,2018-06-28,10,15,Executive Director
+2660935,2018-03-14,552034,Iain MacKenzie,PENGUIN SOLUTIONS INC (SMART Global Holdings Inc prior to 10/2024),President/Co-CEO,2018-06-28,10,15,Executive Director
+16239,2013-05-16,764621,Brian Krzanich,INTEL CORP,CEO,2018-06-20,10,10,Executive Director
+30509,2008-04-17,13520,Rich Templeton,TEXAS INSTRUMENTS INC,Chairman/President/CEO,2018-06-01,10,10,Executive Director
+20600,2013-11-12,201550,Jimmy Peterson,MICROSEMI CORP (De-listed 05/2018),Chairman/CEO,2018-05-29,10,10,Executive Director
+1569335,2017-03-06,375436,Joe Conway,PRIMERO MINING CORP (Mala Noche Resources Corp prior to 08/2010) (De-listed 05/2018),Interim President/CEO,2018-05-10,10,10,Executive Director
+1560214,2017-03-27,61782,Paul Bisaro,AMNEAL PHARMACEUTICALS INC (Impax Laboratories Inc prior to 05/2018),President/CEO,2018-05-04,10,10,Executive Director
+21710,2016-10-01,201483,Bill Nuti,NCR VOYIX CORP (NCR Corp prior to 10/2023),Chairman/CEO,2018-04-30,20,10,Executive Director
+550958,2012-04-01,510212,Dan Abdun-Nabi,EMERGENT BIOSOLUTIONS INC,President/CEO,2018-03-26,10,10,Executive Director
+22589,2017-11-10,507661,Stan Erck,NOVAVAX INC,President/CEO/Interim CFO,2018-03-14,10,10,Executive Director
+2660935,2017-05-24,552034,Iain MacKenzie,PENGUIN SOLUTIONS INC (SMART Global Holdings Inc prior to 10/2024),President/CEO,2018-03-14,10,10,Executive Director
+2607844,2017-02-01,1123231,John Cox,BIOVERATIV INC (De-listed 03/2018),CEO,2018-03-08,10,10,Executive Director
+27190,2000-08-21,275794,Paul Ricci,NUANCE COMMUNICATIONS INC (Scansoft Inc prior to 10/2005) (De-listed 03/2022),Chairman/CEO,2018-02-28,10,10,Executive Director
+6495,2000-06-01,142122,Jim Foster,CHARLES RIVER LABORATORIES INTERNATIONAL INC,Chairman/President/CEO,2018-02-13,20,10,Executive Director
+6177,2016-03-01,1203855,Mark Alles,CELGENE CORP (De-listed 11/2019),CEO,2018-02-05,10,10,Executive Director
+2358912,2017-06-20,34345,Meg Whitman,HEWLETT PACKARD ENTERPRISE CO,CEO,2018-02-01,10,10,Executive Director
+34156,2017-04-09,496482,Doctor Larry Dillaha,REPROS THERAPEUTICS INC (Zonagen prior to 05/2006) (De-listed 01/2018),President/CEO,2018-01-31,10,10,Executive Director
+33857,2008-02-14,350055,Moshe Gavrielov,XILINX INC (De-listed 02/2022),President/CEO,2018-01-29,10,10,Executive Director
+24205,2016-06-13,270780,John Hendrickson,PERRIGO COMPANY PLC (Perrigo Co prior to 12/2013),CEO,2018-01-15,10,10,Executive Director
+1813890,2012-04-20,1252966,Gary Steele,PROOFPOINT INC (De-listed 08/2021),President/CEO,2017-12-28,10,25,Executive Director
+484488,2013-08-01,486806,Randal Nardone,FORTRESS INVESTMENT GROUP LLC (De-listed 12/2017),Principal/CEO,2017-12-27,10,10,Executive Director
+21929,2017-10-19,206587,Doctor Kevin Gorman,NEUROCRINE BIOSCIENCES INC,CEO/Interim CFO,2017-11-20,10,10,Executive Director
+5480,2009-01-08,182411,Lip-Bu Tan,CADENCE DESIGN SYSTEMS INC,President/CEO,2017-11-16,10,10,Executive Director
+22589,2011-04-19,507661,Stan Erck,NOVAVAX INC,President/CEO,2017-11-10,10,10,Executive Director
+21929,2017-01-09,206587,Doctor Kevin Gorman,NEUROCRINE BIOSCIENCES INC,CEO,2017-10-19,10,10,Executive Director
+27025,2002-12-06,83652,Jure Sola,SANMINA CORP (Sanmina-SCI Corp prior to 11/2012),Chairman/CEO,2017-10-02,10,10,Executive Director
+27411,2013-10-23,49516,Dato' Steve Luczo,SEAGATE TECHNOLOGY HOLDINGS PLC (Seagate Technology PLC prior to 05/2021),Chairman/CEO,2017-10-01,10,10,Executive Director
+23799,2012-07-01,324013,Josef Von Rickenbach,PAREXEL INTERNATIONAL CORP (De-listed 09/2017),Chairman/CEO,2017-09-29,10,10,Executive Director
+8220,2005-04-27,90127,Chuck Swoboda,WOLFSPEED INC (Cree Inc prior to 10/2021),Chairman/President/CEO,2017-09-27,10,10,Executive Director
+1810090,2012-03-30,1202489,Paul Nahi,ENPHASE ENERGY INC,President/CEO,2017-08-08,10,10,Executive Director
+27081,2012-04-01,647592,Lino Saputo Jr,SAPUTO INC,Vice Chairman/CEO,2017-08-01,10,10,Executive Director
+488272,2015-01-19,321685,Jim Scholhamer,ULTRA CLEAN HOLDINGS INC,CEO,2017-07-31,10,10,Executive Director
+6959,2016-01-25,272180,Kirill Tatarinov,CITRIX SYSTEMS INC (De-listed 09/2022),President/CEO,2017-07-07,10,10,Executive Director
+1706477,2016-03-25,1123881,Tim Westergren,PANDORA MEDIA INC (De-listed 02/2019),CEO,2017-06-27,10,10,Executive Director
+725,2008-07-09,69696,Bobby Kotick,ACTIVISION BLIZZARD INC (De-listed 10/2023),President/CEO,2017-06-26,10,10,Executive Director
+3218,2017-04-03,1118666,Doctor Ed Kaye,SAREPTA THERAPEUTICS INC (AVI BioPharma Inc prior to 07/2012),President/CEO,2017-06-26,10,10,Executive Director
+2358912,2015-11-02,34345,Meg Whitman,HEWLETT PACKARD ENTERPRISE CO,President/CEO,2017-06-20,10,10,Executive Director
+1916059,2011-04-07,732483,Doctor Quinton Hennigh,NOVO RESOURCES CORP (Galliard Resources Corp prior to 06/2011),President/CEO,2017-06-05,10,10,Executive Director
+18888,2017-01-01,1068880,Dave Ricks,ELI LILLY & CO,President/CEO,2017-06-01,10,10,Executive Director
+600759,2016-09-12,1094011,Ron Lombardi,PRESTIGE CONSUMER HEALTHCARE INC (Prestige Brands Holdings (PBH) Inc prior to 08/2018),President/CEO,2017-05-28,10,15,Executive Director
+20589,2012-02-04,56477,D Durcan,MICRON TECHNOLOGY INC,CEO,2017-05-08,10,10,Executive Director
+5118,2016-12-01,857412,Doctor Giovanni Caforio,BRISTOL-MYERS SQUIBB CO,Chairman Elect/CEO,2017-05-02,20,10,Executive Director
+3218,2016-09-20,1118666,Doctor Ed Kaye,SAREPTA THERAPEUTICS INC (AVI BioPharma Inc prior to 07/2012),President/CEO/Chief Medical Officer,2017-04-03,10,10,Executive Director
+1830138,2016-10-25,843302,Frank Slootman,SERVICENOW INC,Chairman/President/CEO,2017-04-03,10,10,Executive Director
+1355,2016-12-11,332327,Dave Brennan,ALEXION PHARMACEUTICALS INC (De-listed 07/2021),Interim CEO,2017-03-27,10,10,Executive Director
+1560214,2016-12-19,205267,J Buchi,AMNEAL PHARMACEUTICALS INC (Impax Laboratories Inc prior to 05/2018),Interim President/Interim CEO,2017-03-27,10,10,Executive Director
+18926,2005-09-02,45781,Lothar Maier,LINEAR TECHNOLOGY CORP (De-listed 03/2017),CEO,2017-03-10,10,10,Executive Director
+1569335,2016-01-31,879360,Ernie Mast,PRIMERO MINING CORP (Mala Noche Resources Corp prior to 08/2010) (De-listed 05/2018),President/CEO,2017-03-06,10,10,Executive Director
+34156,2009-11-16,376225,Joseph Podolski,REPROS THERAPEUTICS INC (Zonagen prior to 05/2006) (De-listed 01/2018),President/CEO,2017-02-01,10,10,Executive Director
+23141,2016-11-02,790419,Doctor Matt Coffey,ONCOLYTICS BIOTECH INC,Interim President/CEO,2017-01-19,10,10,Executive Director
+21929,2008-01-10,206587,Doctor Kevin Gorman,NEUROCRINE BIOSCIENCES INC,President/CEO,2017-01-09,10,10,Executive Director
+440155,2010-07-15,272786,Doctor George Scangos,BIOGEN INC (Biogen Idec Inc prior to 03/2015),CEO,2017-01-06,10,10,Executive Director
+21606,1976-01-02,92037,Doctor Jim Truchard,NATIONAL INSTRUMENTS CORP (De-listed 10/2023),Chairman/President/CEO,2017-01-01,30,10,Executive Director
+2257,2016-08-29,202425,Jim Cashman III,ANSYS INC (De-listed 07/2025),CEO,2017-01-01,10,10,Executive Director
+18888,2009-01-01,33316,Doctor John Lechleiter,ELI LILLY & CO,Chairman/President/CEO,2016-12-31,10,10,Executive Director
+5118,2015-05-05,857412,Doctor Giovanni Caforio,BRISTOL-MYERS SQUIBB CO,CEO,2016-12-28,10,15,Executive Director
+1560214,2014-05-14,320460,Fred Wilkinson,AMNEAL PHARMACEUTICALS INC (Impax Laboratories Inc prior to 05/2018),President/CEO,2016-12-19,10,10,Executive Director
+1355,2015-04-01,541897,David Hallal,ALEXION PHARMACEUTICALS INC (De-listed 07/2021),CEO,2016-12-11,10,10,Executive Director
+23141,1999-11-08,790414,Doctor Brad Thompson,ONCOLYTICS BIOTECH INC,Chairman/President/CEO,2016-11-02,10,10,Executive Director
+21710,2007-10-01,201483,Bill Nuti,NCR VOYIX CORP (NCR Corp prior to 10/2023),Chairman/President/CEO,2016-10-28,10,15,Executive Director
+1830138,2012-06-29,843302,Frank Slootman,SERVICENOW INC,President/CEO,2016-10-25,10,10,Executive Director
+2129696,2014-07-31,1047323,John Chiminski,CATALENT INC (De-listed 12/2024),President/CEO,2016-10-25,10,10,Executive Director
+1951118,2013-05-09,1010281,Tom Pike,IQVIA HOLDINGS INC (Quintiles IMS Holdings Inc prior to 11/2017),CEO,2016-10-03,10,10,Executive Director
+2164733,2014-11-07,1109557,Jamie Macdonald,SYNEOS HEALTH INC (INC Research Holdings Inc prior to 01/2018) (De-listed 09/2023),CEO,2016-10-01,10,10,Executive Director
+24637,2013-02-13,200556,Dean Foate,PLEXUS CORP,Chairman/President/CEO,2016-09-29,10,10,Executive Director
+11505,2014-11-17,333387,Doctor Mark Thompson,FAIRCHILD SEMICONDUCTOR INTERNATIONAL INC (De-listed 09/2016),Chairman/President/CEO,2016-09-19,10,10,Executive Director
+4002,2012-01-01,205183,Gayla Delly,BENCHMARK ELECTRONICS INC,President/CEO,2016-09-16,10,10,Executive Director
+1953153,2013-05-17,1315513,Christian Chabot,TABLEAU SOFTWARE INC (De-listed 08/2019),Chairman/President/CEO,2016-09-16,10,10,Executive Director
+600759,2016-08-05,1094011,Ron Lombardi,PRESTIGE CONSUMER HEALTHCARE INC (Prestige Brands Holdings (PBH) Inc prior to 08/2018),President/CEO/Interim CFO,2016-09-12,10,10,Executive Director
+2257,2000-02-08,202425,Jim Cashman III,ANSYS INC (De-listed 07/2025),President/CEO,2016-08-29,10,10,Executive Director
+1656815,2009-11-03,1318835,Mark Saxon,TASMAN METALS LTD (De-listed 08/2016),President/CEO,2016-08-25,10,10,Executive Director
+600759,2015-11-10,1094011,Ron Lombardi,PRESTIGE CONSUMER HEALTHCARE INC (Prestige Brands Holdings (PBH) Inc prior to 08/2018),President/CEO,2016-08-05,10,10,Executive Director
+29774,2016-04-28,49801,Mike Brown,GEN DIGITAL INC (NortonLifeLock Inc prior to 11/2022),CEO,2016-08-01,10,10,Executive Director
+897123,2012-07-30,332806,Jim Hughes,FIRST SOLAR INC,CEO,2016-06-30,10,10,Executive Director
+32166,2015-01-01,330136,Doctor Martine Rothblatt,UNITED THERAPEUTICS CORP,Chairman/Co-CEO,2016-06-26,10,10,Executive Director
+32166,2015-01-01,330139,Doctor Roger Jeffs,UNITED THERAPEUTICS CORP,President/Co-CEO,2016-06-21,10,10,Executive Director
+2301441,2015-07-01,1077323,Doctor Ludwig Hantson,BAXALTA INC (De-listed 06/2016),President/CEO,2016-06-03,10,10,Executive Director
+21903,2015-06-01,1448606,George Kurian,NETAPP INC (Network Appliance Inc prior to 03/2008),CEO,2016-05-20,10,10,Executive Director
+26992,2011-01-01,205405,Sanjay Mehrotra,SANDISK CORP (De-listed 05/2016),President/CEO,2016-05-12,10,10,Executive Director
+1573,2014-05-06,327474,Dave Aldrich,SKYWORKS SOLUTIONS INC (Alpha Industries prior to 6/2002),Chairman/CEO,2016-05-11,10,10,Executive Director
+4427,2016-02-28,499843,Mike Pearson,BAUSCH HEALTH COMPANIES INC (Valeant Pharmaceuticals International Inc prior to 07/2018),CEO,2016-05-02,10,10,Executive Director
+29774,2014-09-24,49801,Mike Brown,GEN DIGITAL INC (NortonLifeLock Inc prior to 11/2022),President/CEO,2016-04-28,10,10,Executive Director
+8542,1982-01-02,180412,Doctor TJ Rodgers,CYPRESS SEMICONDUCTOR CORP (De-listed 04/2020),President/CEO,2016-04-28,30,10,Executive Director
+24205,2015-10-22,206108,Joe Papa Jr,PERRIGO COMPANY PLC (Perrigo Co prior to 12/2013),Chairman/CEO,2016-04-24,10,10,Executive Director
+2960,2006-08-07,183402,Steve Laub,ATMEL CORP (De-listed 04/2016),President/CEO,2016-04-04,10,10,Executive Director
+19750,2013-07-14,327057,Doctor Sehat Sutardja,MARVELL TECHNOLOGY INC (Marvell Technology Group Ltd prior to 04/2021),Chairman/CEO,2016-04-01,10,10,Executive Director
+1706477,2013-09-11,201626,Brian McAndrews,PANDORA MEDIA INC (De-listed 02/2019),Chairman/President/CEO,2016-03-25,10,10,Executive Director
+13273,2008-05-07,47456,Doctor John Martin,GILEAD SCIENCES INC,Chairman/CEO,2016-03-10,10,10,Executive Director
+1743287,2015-04-08,1192633,Mark Pincus,ZYNGA INC (De-listed 05/2022),Chairman/CEO,2016-03-07,10,10,Executive Director
+956561,2007-05-10,598932,Tony Aquila,SOLERA HOLDINGS INC (De-listed 03/2016),Chairman/President/CEO,2016-03-03,10,10,Executive Director
+6177,2014-08-01,84112,Bob Hugin,CELGENE CORP (De-listed 11/2019),Chairman/CEO,2016-03-01,10,10,Executive Director
+4427,2016-01-06,1083477,Howard Schiller,BAUSCH HEALTH COMPANIES INC (Valeant Pharmaceuticals International Inc prior to 07/2018),Interim CEO,2016-02-28,10,10,Executive Director
+27977,2013-06-30,536593,George Tuttle,SILICON LABORATORIES INC,CEO,2016-02-16,10,10,Executive Director
+20566,1993-10-01,61502,Steve Sanghi,MICROCHIP TECHNOLOGY INC,Chairman/President/CEO,2016-02-03,20,10,Executive Director
+1569335,2014-05-08,375436,Joe Conway,PRIMERO MINING CORP (Mala Noche Resources Corp prior to 08/2010) (De-listed 05/2018),CEO,2016-01-31,10,10,Executive Director
+23124,2012-12-01,182058,Shaw Hong,OMNIVISION TECHNOLOGIES INC (De-listed 01/2016),Chairman/CEO,2016-01-28,10,10,Executive Director
+6959,2015-10-20,52347,Bob Calderoni,CITRIX SYSTEMS INC (De-listed 09/2022),Chairman/Interim President/CEO,2016-01-25,10,10,Executive Director
+16626,2008-01-01,444827,Brad Smith,INTUIT INC,President/CEO,2016-01-21,10,10,Executive Director
+4427,2011-03-22,499843,Mike Pearson,BAUSCH HEALTH COMPANIES INC (Valeant Pharmaceuticals International Inc prior to 07/2018),Chairman/CEO,2016-01-06,10,10,Executive Director
+1813585,2012-04-19,329839,Godfrey Sullivan,SPLUNK INC (De-listed 03/2024),Chairman/President/CEO,2015-11-19,10,10,Executive Director
+600759,2015-06-01,1094011,Ron Lombardi,PRESTIGE CONSUMER HEALTHCARE INC (Prestige Brands Holdings (PBH) Inc prior to 08/2018),President/CEO/CFO,2015-11-10,10,10,Executive Director
+24205,2007-10-31,206108,Joe Papa Jr,PERRIGO COMPANY PLC (Perrigo Co prior to 12/2013),Chairman/President/CEO,2015-10-22,10,10,Executive Director
+6959,2001-06-01,81732,Mark Templeton,CITRIX SYSTEMS INC (De-listed 09/2022),President/CEO,2015-10-20,20,10,Executive Director
+33382,2013-01-02,325964,Steve Milligan,WESTERN DIGITAL CORP,President/CEO,2015-10-18,10,10,Executive Director
+6175,2007-08-08,346826,Craig Muhlhauser,CELESTICA INC,President/CEO,2015-08-01,10,10,Executive Director
+4354,2005-05-16,183266,Jean-Jacques Bienaimé,BIOMARIN PHARMACEUTICAL INC,CEO,2015-06-09,10,10,Executive Director
+21903,2014-04-04,204874,Tom Georgens,NETAPP INC (Network Appliance Inc prior to 03/2008),Chairman/CEO,2015-06-01,10,10,Executive Director
+600759,2009-09-03,1015194,Matt Mannelly,PRESTIGE CONSUMER HEALTHCARE INC (Prestige Brands Holdings (PBH) Inc prior to 08/2018),President/CEO,2015-06-01,10,10,Executive Director
+15783,2014-01-13,1249099,Hervé Hoppenot,INCYTE CORP (Incyte Genomics prior to 03/2003),President/CEO,2015-05-22,10,10,Executive Director
+5118,2015-01-20,857412,Doctor Giovanni Caforio,BRISTOL-MYERS SQUIBB CO,CEO Designate/COO,2015-05-05,10,10,Executive Director
+5118,2015-01-20,41606,Lamberto Andreotti,BRISTOL-MYERS SQUIBB CO,Chairman Elect/CEO,2015-05-05,10,10,Executive Director
+1743287,2013-07-08,47716,Don Mattrick,ZYNGA INC (De-listed 05/2022),CEO,2015-04-08,10,10,Executive Director
+1355,2014-10-09,181370,Doctor Lenny Bell,ALEXION PHARMACEUTICALS INC (De-listed 07/2021),Chairman/CEO,2015-03-31,10,10,Executive Director
+3218,2011-01-01,1083252,Chris Garabedian,SAREPTA THERAPEUTICS INC (AVI BioPharma Inc prior to 07/2012),President/CEO,2015-03-31,10,10,Executive Director
+1426,2013-07-01,16689,Doctor David Pyott,ALLERGAN INC (De-listed 03/2015),Chairman/CEO,2015-03-17,10,10,Executive Director
+105052,2009-01-01,345810,Professor Doctor Uli Hacksell,ACADIA PHARMACEUTICALS INC,President/CEO,2015-03-11,30,10,Executive Director
+5118,2010-05-04,41606,Lamberto Andreotti,BRISTOL-MYERS SQUIBB CO,CEO,2015-01-20,10,10,Executive Director
+488272,2006-10-26,480400,Clarence Granger,ULTRA CLEAN HOLDINGS INC,Chairman/CEO,2015-01-19,10,10,Executive Director
+32166,1996-06-01,330136,Doctor Martine Rothblatt,UNITED THERAPEUTICS CORP,Chairman/CEO,2015-01-01,20,10,Executive Director

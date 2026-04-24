@@ -1,0 +1,732 @@
+directorid,directorname,companyname,awarddate,qualification,fulltextdescription,primarykeyid,companyid,awarddateflag
+1026,Chris Viehbacher,Canadian Institute of Chartered Accountants (CICA),9999-12-31,Chartered Accountant,,486739,56019,80
+1026,Chris Viehbacher,Queen's University,9999-12-31,Degree,,486738,63329,80
+1026,Chris Viehbacher,American Institute of Certified Public Accountants (AICPA),9999-12-31,Certified Public Accountant,,1153612,54373,80
+8391,Roger Lynch,Tuck School of Business Dartmouth,1995-12-28,MBA (Distinction),,7731,632975,25
+8391,Roger Lynch,University of Southern California (USC),1985-12-28,BSc (Hons),,7730,62673,25
+13520,Rich Templeton,Union College,1980-12-31,BS,,19903,62108,25
+16689,Doctor David Pyott,London Business School,2006-12-28,Fellow,,3971079,61171,25
+16689,Doctor David Pyott,University of Edinburgh,1974-12-28,MA,,92227,60610,25
+16689,Doctor David Pyott,London Business School,1980-12-28,MBA,,92232,61171,25
+16689,Doctor David Pyott,Universiteit van Amsterdam (University of Amsterdam),1976-12-28,Diploma,,92222,62148,25
+31551,Ken Frazier,Pennsylvania State University (Penn State University),1975-12-31,BA,,20264,61582,25
+31551,Ken Frazier,Harvard Law School Harvard University,1978-12-31,JD,,20263,63035,25
+32603,Mike Dell,University of Texas at Austin (UT Austin),1984-12-31,Attended,,17988,62742,25
+33049,Ari Bousbib,École Special des Travaux Publics du Batiment et de l'Industrie (ESTP),1985-12-31,MS,,17992,63376,25
+33049,Ari Bousbib,Columbia Business School Columbia University,1987-12-31,MBA,,17993,63118,25
+33316,Doctor John Lechleiter,Franklin College,9999-12-31,Doctorate (Hons),,2427052,661622,80
+33316,Doctor John Lechleiter,Marian University,9999-12-31,Doctorate (Hons),,2427045,1491204,80
+33316,Doctor John Lechleiter,University of Indianapolis,9999-12-31,Doctorate (Hons),,2427047,92732,80
+33316,Doctor John Lechleiter,National University of Ireland,9999-12-31,Doctorate (Hons),,2427049,63241,80
+33316,Doctor John Lechleiter,Indiana University,9999-12-31,Doctorate (Hons),,2427051,60920,80
+33316,Doctor John Lechleiter,Harvard University,1980-12-31,PhD,,120693,63830,25
+33316,Doctor John Lechleiter,Xavier University Ohio,1975-12-31,BS (cum laude),,120678,73904,25
+33316,Doctor John Lechleiter,Harvard University,1976-12-31,MS,,120679,63830,25
+33316,Doctor John Lechleiter,Purdue University,9999-12-31,Doctorate (Hons),,2427053,61638,80
+33491,Professor Doctor Jeff Leiden,University of Chicago,1981-12-31,PhD,,19046,42092,25
+33491,Professor Doctor Jeff Leiden,University of Chicago,1977-12-31,BS,,19045,42092,25
+33491,Professor Doctor Jeff Leiden,Harvard University,9999-12-31,MA (Hons),,657884,63830,80
+33491,Professor Doctor Jeff Leiden,University of Chicago,1979-12-31,MD,,19047,42092,25
+33503,Safra Catz,Carey Law School University of Pennsylvania (Formerly known as University of Pennsylvania Law School),1986-12-28,JD,,1312308,74077,25
+33503,Safra Catz,Wharton School (The) University of Pennsylvania,1983-12-31,BS,,549873,64966,25
+33569,Keith Block,Carnegie Mellon University,1984-12-31,MS,,549895,41519,25
+33569,Keith Block,Carnegie Mellon University,9999-12-31,BS,,549894,41519,80
+34345,Meg Whitman,Harvard Business School Harvard University,1979-12-31,MBA,,19736,63013,25
+34345,Meg Whitman,Princeton University,1977-12-31,BA (Hons),,19735,61632,25
+34345,Meg Whitman,Cold Spring Harbor High School,9999-12-31,Attended,,940438,1342725,80
+34717,Doctor Keh-Shew Lu,Texas Tech University (TTU),1973-12-31,MS,,20225,62046,25
+34717,Doctor Keh-Shew Lu,Texas Tech University (TTU),1977-12-31,PhD,,20226,62046,25
+34717,Doctor Keh-Shew Lu,National Cheng Kung University (NCKU),1969-12-31,BS,,20224,61373,25
+34852,Gregg Lowe,Stanford Graduate School of Business,1997-12-28,Stanford Executive Program,,490085,67360,25
+34852,Gregg Lowe,Rose-Hulman Institute of Technology (RHIT),1984-12-31,BS,,490084,61714,25
+35469,Vincent Roche,University of Limerick,1981-12-31,BSEE,,476329,62415,25
+36387,Tunc Doluca,Iowa State University,1979-12-28,BSEE,,1181678,1246304,25
+36387,Tunc Doluca,University of California,1981-12-28,MSEE,,1181679,63186,25
+36856,Dave Cote,Graziadio Business School Pepperdine University,2001-12-28,JD (Hons),,1178623,3341502,25
+36856,Dave Cote,University of New Hampshire,1976-12-31,BBA,,22362,62520,25
+41606,Lamberto Andreotti,Università degli Studi di Roma La Sapienza (La Sapienza University of Rome),9999-12-31,BS,,580825,62703,80
+41606,Lamberto Andreotti,Massachusetts Institute of Technology (MIT),9999-12-31,MS,,480588,40436,80
+45781,Lothar Maier,University of California Berkeley,1978-12-31,BS,,32402,62215,25
+46796,Doug Ingram,Arizona State University,1985-12-31,BS,,431492,60074,25
+46796,Doug Ingram,University of Arizona (UOA),1988-12-31,JD (summa Cum Laude),,356919,62155,25
+47456,Doctor John Martin,Purdue University,1973-12-31,BS (Hons),,315860,61638,25
+47456,Doctor John Martin,University of Chicago,1978-12-31,PhD,,34787,42092,25
+47456,Doctor John Martin,Golden Gate University,1984-12-28,MBA,,315859,60763,25
+47716,Don Mattrick,Simon Fraser University,1984-12-28,Graduated,,2322911,61839,25
+47756,John Riccitiello,Haas School of Business University of California Berkeley,1981-12-31,BS,,39912,757832,25
+48076,Bob Swan,State University of New York Buffalo (SUNYB) (University at Buffalo) (Formerly known as University of Buffalo),1983-12-28,BS,,32196,83168,25
+48076,Bob Swan,Binghamton University,2022-12-28,Doctor of Humane Letters,,4387967,61944,25
+48076,Bob Swan,Binghamton University,1985-12-28,MBA,,32201,61944,25
+48201,Doctor John Milligan,University of California San Francisco (UCSF),1990-12-28,Postdoctoral Fellow,,571168,62221,25
+48201,Doctor John Milligan,Ohio Wesleyan University,1983-12-28,BA,,1280928,61525,25
+48201,Doctor John Milligan,University of Illinois Urbana-Champaign (UIUC),1988-12-28,PhD,,34907,77782,25
+49516,Dato' Steve Luczo,Stanford Graduate School of Business,1984-12-31,MBA,,40791,67360,25
+49516,Dato' Steve Luczo,Stanford University,1979-12-31,AB,,40796,61935,25
+49801,Mike Brown,Stanford Graduate School of Business,1984-12-28,MBA,,34216,67360,25
+49801,Mike Brown,Harvard Business School Harvard University,1980-12-28,BA,,34211,63013,25
+52347,Bob Calderoni,Fordham University,1981-12-31,BS,,75996,60696,25
+52347,Bob Calderoni,American Institute of Certified Public Accountants (AICPA),9999-12-31,Certified Public Accountant,,140005,54373,80
+56076,Murray Kessler,Leonard N Stern School of Business New York University,9999-12-31,MBA,,491772,42226,80
+56076,Murray Kessler,Villanova University,1981-12-28,BS,,491771,62858,25
+56477,D Durcan,Rice University,1983-12-31,MSc,,47067,61692,25
+56477,D Durcan,Rice University,1982-12-31,BSc,,47062,61692,25
+59002,Rick Hill,University of Illinois Chicago (UIC),1974-12-31,BS,,70717,62367,25
+59002,Rick Hill,Syracuse University,1983-12-28,MBA,,70722,61983,25
+61502,Steve Sanghi,University of Massachusetts,1978-12-31,MS,,267,63512,25
+61502,Steve Sanghi,University of Punjab India,1975-12-31,BS,,307,633332,25
+61667,Ganesh Moorthy,University of Washington,1981-12-31,BS,,48267,62785,25
+61667,Ganesh Moorthy,National University Sacramento,1987-12-31,MBA,,187,104822,25
+61667,Ganesh Moorthy,University of Mumbai (University of Bombay prior to 09/1996),1979-12-31,BS,,197,76151,25
+61782,Paul Bisaro,University of Michigan,1983-12-28,Bachelor's Degree,,533963,63187,25
+61782,Paul Bisaro,Catholic University of America Columbus School of Law,1989-12-28,JD,,533964,79142,25
+63117,Mark Mondello,University of Southern California (USC),1985-12-31,BS,,70147,62673,25
+64702,Doctor Aart De Geus,Southern Methodist University (SMU),1985-12-31,PhD,,52092,61882,25
+64702,Doctor Aart De Geus,École Polytechnique Fédérale de Lausanne (EPFL) (Federal Polytechnic University of Lausanne),1978-12-31,MSEE,,52082,602911,25
+64712,Doctor Chi-Foon Chan,Case Western Reserve University (CWRU),1975-12-31,PhD,,52167,60290,25
+64712,Doctor Chi-Foon Chan,Case Western Reserve University (CWRU),1972-12-31,MS,,52162,60290,25
+64712,Doctor Chi-Foon Chan,State University of New Jersey Rutgers (Rutgers University),1970-12-31,BSEE,,471952,100431,25
+69696,Bobby Kotick,University of Michigan,9999-12-31,Studied,,2741686,63187,80
+70477,Ajay Shah,Stanford University,1982-12-31,MS,,70397,61935,25
+70477,Ajay Shah,Maharaja Sayajirao University of Baroda (The),1981-12-31,BS,,71612,124797,25
+81732,Mark Templeton,Darden School of Business University of Virginia (Formerly known as Colgate Darden School of Business University of Virginia),1978-12-31,MBA,,497974,53191,25
+81732,Mark Templeton,Nova Southeastern University,9999-12-31,Doctorate (Hons),,4307231,79815,80
+81732,Mark Templeton,North Carolina State University (NCSU) (NC State University),1975-12-31,BA,,497973,61450,25
+82157,Rick Clemmer,Texas Tech University (TTU),1973-12-28,BBA,,541241,62046,25
+82157,Rick Clemmer,Southern Methodist University (SMU),9999-12-31,MBA,,541242,61882,80
+83377,Jensen Huang,Stanford University,1992-12-28,MSEE,,70922,61935,25
+83377,Jensen Huang,Oregon State University,1984-12-31,BSEE,,70917,61547,25
+83652,Jure Sola,San Jose State University,1972-12-31,BS,,555257,61780,25
+84112,Bob Hugin,Princeton University,1976-12-31,BA,,72052,61632,25
+84112,Bob Hugin,Darden School of Business University of Virginia (Formerly known as Colgate Darden School of Business University of Virginia),1985-12-31,MBA,,72057,53191,25
+86007,Mark Hurd,Baylor University,1979-12-31,BBA,,330013,60138,25
+90127,Chuck Swoboda,Marquette University College of Engineering,1989-12-28,Bachelor's Degree,,2374475,2544607,25
+92037,Doctor Jim Truchard,University of Texas at Austin (UT Austin),1965-12-31,BS,,92147,62742,25
+92037,Doctor Jim Truchard,University of Texas at Austin (UT Austin),1968-12-31,PhD,,92157,62742,25
+92037,Doctor Jim Truchard,University of Texas at Austin (UT Austin),1966-12-31,MS,,92152,62742,25
+102722,Hock Tan,Massachusetts Institute of Technology (MIT),9999-12-31,BSME,,656394,40436,80
+102722,Hock Tan,Massachusetts Institute of Technology (MIT),1973-12-31,MSME,,92492,40436,25
+102722,Hock Tan,Harvard Business School Harvard University,1976-12-31,MBA,,92487,63013,25
+103257,John Donahoe II,Stanford Graduate School of Business,1986-12-31,MBA,,91422,67360,25
+103257,John Donahoe II,Dartmouth College,1982-12-31,AB (magna cum laude),,91417,60488,25
+104962,Richard Pops,Stanford University,1983-12-31,BA,,120474,61935,25
+106062,Paul Tufano,Columbia University,9999-12-31,MBA,,120011,60434,80
+106062,Paul Tufano,St John's University (SJU),1975-12-28,BS,,120010,61913,25
+141731,John Chen,California Institute of Technology (CALTECH),1979-12-31,MSEE,,121582,60243,25
+141731,John Chen,Brown University,1978-12-31,BSEE (magna cum laude),,121581,60224,25
+142122,Jim Foster,School of Law Boston University,1976-12-28,JD,,121678,833517,25
+142122,Jim Foster,Lake Forest College,1972-12-31,BA,,121676,77954,25
+142122,Jim Foster,Massachusetts Institute of Technology (MIT) Sloan School of Management,1985-12-31,MS,,121677,63283,25
+180412,Doctor TJ Rodgers,Stanford University,1975-12-31,PhD,,184165,61935,25
+180412,Doctor TJ Rodgers,Dartmouth College,1970-12-31,AB,,184163,60488,25
+180412,Doctor TJ Rodgers,Stanford University,1973-12-31,MS,,184164,61935,25
+181113,Bob Bruggeworth,Wilkes University,1983-12-31,BS,,160871,101787,25
+181370,Doctor Lenny Bell,Brown University,1979-12-31,AB,,161249,60224,25
+181370,Doctor Lenny Bell,Yale School of Medicine (Yale-New Haven Medical Center),1984-12-31,MD,,161250,79150,25
+182058,Shaw Hong,Shanghai Jiao Tong University (SJTU),1958-12-31,BS,,161659,640349,25
+182058,Shaw Hong,Oregon State University,1959-12-31,MS,,161660,61547,25
+182411,Lip-Bu Tan,Nanyang Technological University,1978-12-28,BS,,162111,131087,25
+182411,Lip-Bu Tan,University of San Francisco (USF),1983-12-28,MBA,,162279,62648,25
+182411,Lip-Bu Tan,Massachusetts Institute of Technology (MIT),1981-12-28,MS,,162112,40436,25
+183256,Bruce Cozadd,Yale University,1985-12-31,BA,Molecular Biochemistry,163054,62981,25
+183256,Bruce Cozadd,Stanford Graduate School of Business,1991-12-28,MBA,,163055,67360,25
+183266,Jean-Jacques Bienaimé,ESCP Business School,1974-12-31,BS,,163168,3200149,25
+183266,Jean-Jacques Bienaimé,Wharton School (The) University of Pennsylvania,9999-12-31,MBA,,163167,64966,80
+183402,Steve Laub,University of California Los Angeles (UCLA),1980-12-31,BA (summa cum laude),,280507,62218,25
+183402,Steve Laub,Harvard Law School Harvard University,1983-12-28,JD,,280508,63035,25
+200418,Keith Jackson,Southern Methodist University (SMU),1979-12-28,BS,,184069,61882,25
+200418,Keith Jackson,Southern Methodist University (SMU),1982-12-28,MS,,184070,61882,25
+200556,Dean Foate,Milwaukee School of Engineering (MSOE),9999-12-31,MS,,184718,102037,80
+200556,Dean Foate,University of Wisconsin,1982-12-28,BS,,350228,63062,25
+201093,Doctor Len Schleifer,American Board of Psychiatry and Neurology Inc (ABPN),9999-12-31,Certified,,181332,261577,80
+201093,Doctor Len Schleifer,University of Virginia,9999-12-31,PhD,,181331,62777,80
+201093,Doctor Len Schleifer,Cornell University  New York,1973-12-28,Graduated,,524874,60457,25
+201093,Doctor Len Schleifer,University of Virginia,9999-12-31,MD,,181330,62777,80
+201483,Bill Nuti,Long Island University,1986-12-31,BS,,293858,61173,25
+201622,Peter Neupert,Colorado College,1978-12-28,BA,,181931,82981,25
+201622,Peter Neupert,Tuck School of Business Dartmouth,1980-12-28,MBA,,181930,632975,25
+201626,Brian McAndrews,Harvard University,1980-12-31,AB (Hons),,181958,63830,25
+201626,Brian McAndrews,Stanford Graduate School of Business,1984-12-28,MBA,,181957,67360,25
+202425,Jim Cashman III,University of Cincinnati,1981-12-28,MBA,,184344,62243,25
+202425,Jim Cashman III,University of Cincinnati,1978-12-28,MS,,184343,62243,25
+202425,Jim Cashman III,University of Cincinnati,1976-12-28,BS,,184342,62243,25
+202679,Frank Williams,University of California Berkeley,1988-12-31,BA,,183077,62215,25
+202679,Frank Williams,Harvard Business School Harvard University,1995-12-28,MBA,,183078,63013,25
+204362,Bob Eulau,Pomona College,1983-12-28,BA,,185071,61610,25
+204362,Bob Eulau,University of Chicago,1985-12-28,MBA,,185072,42092,25
+204362,Bob Eulau,American Institute of Certified Public Accountants (AICPA),9999-12-31,Certified Public Accountant,,500217,54373,80
+204563,Doctor John Maraganore,University of Chicago,9999-12-31,PhD,,185213,42092,80
+204563,Doctor John Maraganore,University of Chicago,9999-12-31,MS,,507979,42092,80
+204563,Doctor John Maraganore,University of Chicago,9999-12-31,BA,,2039025,42092,80
+204874,Tom Georgens,Rensselaer Polytechnic Institute (RPI),1981-12-31,BS,,431075,61687,25
+204874,Tom Georgens,Babson College,9999-12-31,MBA,,431060,60120,80
+204874,Tom Georgens,Rensselaer Polytechnic Institute (RPI),9999-12-31,MEng,,431074,61687,80
+205003,Alex Davern,University College Dublin (UCD),9999-12-31,Post Graduate Diploma,,185411,62256,80
+205003,Alex Davern,University College Dublin (UCD),1987-12-28,BCom,,185410,62256,25
+205153,David Henshall,Santa Clara University (SCU),9999-12-31,MBA,,318879,61782,80
+205153,David Henshall,University of Arizona (UOA),1989-12-31,BS,,318880,62155,25
+205183,Gayla Delly,American Institute of Certified Public Accountants (AICPA),9999-12-31,Certified Public Accountant,,185460,54373,80
+205183,Gayla Delly,Samford University,1978-12-31,BS,,185459,81957,25
+205267,J Buchi,Kellogg School of Management Northwestern University,1982-12-31,MBA,,321771,77878,25
+205267,J Buchi,Cornell University  New York,1977-12-31,BA,,321773,60457,25
+205267,J Buchi,American Institute of Certified Public Accountants (AICPA),9999-12-31,Certified Public Accountant,,321772,54373,80
+205405,Sanjay Mehrotra,University of California Berkeley,1978-12-28,BS,,185632,62215,25
+205405,Sanjay Mehrotra,Birla Institute of Technology & Science (BITS) India,9999-12-31,Graduated,,3363311,468626,80
+205405,Sanjay Mehrotra,Stanford Graduate School of Business,9999-12-31,Executive Program,,4306628,67360,80
+205405,Sanjay Mehrotra,University of California Berkeley,1980-12-28,MS,,185633,62215,25
+206108,Joe Papa Jr,School of Pharmacy University of Connecticut,2012-12-28,Doctor of Science,,3450799,1381450,25
+206108,Joe Papa Jr,Kellogg School of Management Northwestern University,1983-12-31,MBA,,185922,77878,25
+206108,Joe Papa Jr,University of Connecticut (UCONN),1980-12-31,BS,,185923,62265,25
+206474,Bill McDermott,Dowling College,1983-12-28,BS,,186262,81506,25
+206474,Bill McDermott,Wharton School (The) University of Pennsylvania,9999-12-31,Executive Development Program,,186264,64966,80
+206474,Bill McDermott,Kellogg School of Management Northwestern University,1997-12-28,MBA,,186261,77878,25
+206587,Doctor Kevin Gorman,Rockefeller University,9999-12-31,Training Program,,525226,61708,80
+206587,Doctor Kevin Gorman,University of California Los Angeles (UCLA),1991-12-28,MBA,,186046,62218,25
+206587,Doctor Kevin Gorman,University of California Los Angeles (UCLA),9999-12-31,PhD,,186045,62218,80
+270780,John Hendrickson,Hope College,1983-12-28,BS,,673804,81249,25
+270780,John Hendrickson,University of Notre Dame,1994-12-28,MBA,,673806,62544,25
+270780,John Hendrickson,University of Michigan,1985-12-28,BSE,,673805,63187,25
+271741,Graham Smith,Institute of Chartered Accountants in England and Wales (ICAEW),1986-12-28,Chartered Accountant,,1242275,36362,25
+271741,Graham Smith,University of Bristol (Formerly known as University College Bristol),1981-12-31,BSc (cum laude),,251979,64921,25
+272786,Doctor George Scangos,Cornell University  New York,1970-12-28,BA,,253345,60457,25
+272786,Doctor George Scangos,University of Massachusetts,1977-12-28,PhD,,253346,63512,25
+272802,Doctor Mike Morrissey,Harvard University,9999-12-31,PhD,,253397,63830,80
+272802,Doctor Mike Morrissey,University of Wisconsin,1983-12-31,BS (Hons),,253398,63062,25
+275263,Jim Kelly,University of Massachusetts Amherst (UMA),9999-12-31,Graduated,,576023,62456,80
+275263,Jim Kelly,American Institute of Certified Public Accountants (AICPA),9999-12-31,Certified Public Accountant,,576024,54373,80
+275794,Paul Ricci,Stanford University,1978-12-31,BA,,257766,61935,25
+275794,Paul Ricci,Stanford University,1979-12-31,MA,,257767,61935,25
+320726,Doctor Stanley Crooke,Baylor College of Medicine,1974-12-31,MD,,256795,82819,25
+320726,Doctor Stanley Crooke,Butler University,1969-12-31,BS,,290791,79061,25
+320726,Doctor Stanley Crooke,Baylor College of Medicine,1971-12-31,PhD,,256796,82819,25
+321651,Tom Edman,Wharton School (The) University of Pennsylvania,1993-12-28,MBA,,290034,64966,25
+321651,Tom Edman,Yale University,1984-12-28,BA,,290032,62981,25
+321685,Jim Scholhamer,University of Michigan,1986-12-31,BSE,,257896,63187,25
+324013,Josef Von Rickenbach,Lucerne University of Applied Sciences and Arts,1976-12-31,BA,,291985,1674038,25
+324013,Josef Von Rickenbach,Harvard University,1981-12-28,MBA,,291981,63830,25
+325964,Steve Milligan,Ohio State University (OSU),1985-12-31,BS,,293926,61523,25
+325964,Steve Milligan,American Institute of Certified Public Accountants (AICPA),9999-12-31,Certified Public Accountant,,293927,54373,80
+327057,Doctor Sehat Sutardja,Iowa State University,9999-12-31,BS,,570402,1246304,80
+327057,Doctor Sehat Sutardja,University of California Berkeley,1983-12-31,MS,,295991,62215,25
+327057,Doctor Sehat Sutardja,Unknown Organisation,9999-12-31,Certified,,3262544,0,80
+327057,Doctor Sehat Sutardja,University of California Berkeley,1988-12-31,PhD,,295992,62215,25
+327474,Dave Aldrich,Providence College,1979-12-31,BS,,482454,61633,25
+327474,Dave Aldrich,University of Rhode Island (URI),1981-12-31,MBA,,482456,62631,25
+327486,Liam Griffin,University of Massachusetts Amherst (UMA),1989-12-28,BS,,482558,62456,25
+327486,Liam Griffin,Questrom School of Business Boston University,1994-12-28,MBA,,482559,2244192,25
+329839,Godfrey Sullivan,Stanford University,9999-12-31,Executive Program,,310930,61935,80
+329839,Godfrey Sullivan,Wharton School (The) University of Pennsylvania,9999-12-31,Executive Program,,310931,64966,80
+329839,Godfrey Sullivan,Baylor University,1976-12-28,BBA,,310929,60138,25
+330136,Doctor Martine Rothblatt,University of California Los Angeles (UCLA),1981-12-28,MBA,,317869,62218,25
+330136,Doctor Martine Rothblatt,Royal London School of Medicine and Dentistry,2001-12-28,PhD,,677484,502020,25
+330136,Doctor Martine Rothblatt,University of California,1977-12-28,BA,,317366,63186,25
+330136,Doctor Martine Rothblatt,UCLA School of Law,1981-12-28,JD,,317367,640561,25
+330139,Doctor Roger Jeffs,School of Medicine University of North Carolina Chapel Hill,1991-12-28,PhD,,311529,1195730,25
+330139,Doctor Roger Jeffs,Duke University,1984-12-28,BA,,1586933,60547,25
+330400,Rick Bergman,University of Colorado,1991-12-28,MBA,,312064,63056,25
+330400,Rick Bergman,University of Michigan,1986-12-28,BS,,312063,63187,25
+332327,Dave Brennan,Gettysburg College,1975-12-28,BA,,330092,78283,25
+332806,Jim Hughes,School of Law University of Texas Austin,1988-05-28,JD,,314505,533430,15
+332806,Jim Hughes,Queen Mary University of London (Formerly known as Queen Mary and Westfield College),1987-05-28,Certified,Certificate of Completion,314506,37254,15
+332806,Jim Hughes,Southern Methodist University (SMU),1985-05-28,BBA,Edwin L Cox School of Business,314507,61882,15
+333171,Strauss Zelnick,Harvard Law School Harvard University,1983-12-28,JD,,314678,63035,25
+333171,Strauss Zelnick,Wesleyan University,1979-12-28,BA,,314679,62908,25
+333171,Strauss Zelnick,Harvard Business School Harvard University,1983-12-28,MBA,,314677,63013,25
+333755,Jim Whitehurst,Klinikum der Friedrich-Alexander-Universität Erlangen-Nürnberg,9999-12-31,Attended,,315805,73459,80
+333755,Jim Whitehurst,London School of Economics and Political Science,9999-12-31,Degree,,315806,38522,80
+333755,Jim Whitehurst,Rice University,1989-12-28,BS,,315803,61692,25
+333755,Jim Whitehurst,Harvard Business School Harvard University,1994-12-28,MBA,,315807,63013,25
+334096,Colin Shannon,Association of Chartered Certified Accountants (ACCA) (UK),9999-12-31,Certified Accountant,,316195,36352,80
+334096,Colin Shannon,Bayes Business School (Cass Business School City University London prior to 9/2021),9999-12-31,MBA,,316194,816983,80
+339239,Victor Peng,Cornell University  New York,1982-12-31,MSEE,,322332,60457,25
+339239,Victor Peng,Rensselaer Polytechnic Institute (RPI),1981-12-31,BSEE,,322617,61687,25
+339339,Doug Merritt,University of Pacific in Stockton,1987-12-28,BS,,322554,92122,25
+339859,Steve Davis,Southern Nazarene University,1983-12-28,BS,,323116,598869,25
+339859,Steve Davis,Vanderbilt University,1990-12-28,JD,,323117,62843,25
+339859,Steve Davis,American Institute of Certified Public Accountants (AICPA),9999-12-31,Certified Public Accountant,,323118,54373,80
+340014,John Giamatteo,St John's University (SJU),1988-12-31,BS,,524194,61913,25
+340014,John Giamatteo,St John's University (SJU),1991-12-28,MBA,,524195,61913,25
+340655,Alan Trefler,Dartmouth College,1977-12-31,BS (Distinction),,324665,60488,25
+345845,Professor Barry Greene,University of Pittsburgh,1985-12-31,BS,,343967,62593,25
+346826,Craig Muhlhauser,University of Cincinnati,1975-12-28,BS,,345110,62243,25
+346826,Craig Muhlhauser,University of Cincinnati,1975-12-28,MS,,345109,62243,25
+347211,Doctor Clay Siegall,University of Texas at Austin (UT Austin),9999-12-31,BS,,525705,62742,80
+347211,Doctor Clay Siegall,George Washington University (GW) (The),9999-12-31,PhD,,345504,60749,80
+347211,Doctor Clay Siegall,University of Texas Health Science Center at Houston,9999-12-31,PhD,,525703,92992,80
+347211,Doctor Clay Siegall,University of Maryland College Park,1982-12-31,BS,,345503,62449,25
+347211,Doctor Clay Siegall,University of Washington,9999-12-31,MBA,,525706,62785,80
+350055,Moshe Gavrielov,Technion - Israel Institute of Technology (IIT),1975-12-31,BS,,330074,780210,25
+350055,Moshe Gavrielov,Technion - Israel Institute of Technology (IIT),1983-12-28,MS,,330075,780210,25
+375436,Joe Conway,Dalhousie University,1987-12-31,MBA,,356720,60481,25
+375436,Joe Conway,Memorial University of Newfoundland,1981-12-31,BSc,,356722,121997,25
+375926,Marc Benioff,University of Southern California (USC),1986-12-31,BS,,357494,62673,25
+376149,Michael Klein,Wharton School (The) University of Pennsylvania,1985-12-31,BS,,430548,64966,25
+376225,Joseph Podolski,Illinois Institute of Technology (IIT),1969-12-31,BS,,357943,60904,25
+376225,Joseph Podolski,Illinois Institute of Technology (IIT),9999-12-31,MS,,357906,60904,80
+376561,Howard Robin,Fairleigh Dickinson University,1974-12-31,BS,,430243,60671,25
+377031,Mike McNamara,Santa Clara University (SCU),1982-12-28,MBA,,431245,61782,25
+377031,Mike McNamara,University of Cincinnati,1979-12-28,BS,,431243,62243,25
+443474,Jim Chirico Jr,Providence College,1979-12-31,BS,,492775,61633,25
+444827,Brad Smith,United States Military Academy (USMA) West Point,9999-12-31,Attended,,540899,62117,80
+444827,Brad Smith,Marshall University (MU),1985-12-31,BBA,,439085,251472,25
+444827,Brad Smith,Aquinas College,1991-12-28,MBA,,439086,83137,25
+447596,Michael Hsing,University of Florida (UF),1980-12-31,BSEE,,442597,62323,25
+453077,Doctor Tom Caulfield,Columbia University,9999-12-31,Doctorate,,4182163,60434,80
+453077,Doctor Tom Caulfield,Columbia University,1984-12-28,MS,,472020,60434,25
+453077,Doctor Tom Caulfield,St Lawrence University,1980-12-28,BS,,472018,78719,25
+453077,Doctor Tom Caulfield,Columbia University,1986-12-28,PhD,,472021,60434,25
+453077,Doctor Tom Caulfield,Columbia University,1982-12-28,BS,,472016,60434,25
+456223,Michael Clarke,Columbia University,9999-12-31,Professional Development Program (PDP),,724960,60434,80
+456223,Michael Clarke,University of Western Ontario,9999-12-31,Professional Development Program (PDP),,724959,62795,80
+456223,Michael Clarke,Bradford University School of Management University of Bradford,1976-12-28,ME,,724958,1003042,25
+480400,Clarence Granger,University of California Berkeley,1969-12-31,BS,,481347,62215,25
+480400,Clarence Granger,Stanford University,9999-12-31,MS,,481346,61935,80
+485621,Ian Read,Imperial College London (The Imperial College of Science Technology and Medicine),1974-12-31,BSc,,491072,63104,25
+485621,Ian Read,Institute of Chartered Accountants in England and Wales (ICAEW),1978-12-31,Chartered Accountant,,491074,36362,25
+485800,Rob Davis,Northwestern University Pritzker School of Law,1998-12-28,JD,,491485,638744,25
+485800,Rob Davis,Miami University Ohio,1990-12-31,Bachelor's Degree,,491488,61276,25
+485800,Rob Davis,Kellogg School of Management Northwestern University,1993-12-28,MBA,,491487,77878,25
+486395,Doctor Pat Gelsinger,Stanford University,1985-12-31,MS,,492817,61935,25
+486395,Doctor Pat Gelsinger,Santa Clara University (SCU),1983-12-31,BS (magna Cum Laude),,492816,61782,25
+486395,Doctor Pat Gelsinger,Lincoln Technical Institute,1979-12-31,AA,,492815,383102,25
+486806,Randal Nardone,School of Law Boston University,9999-12-31,JD,,493749,833517,80
+486806,Randal Nardone,University of Connecticut (UCONN),1977-12-31,BA,,493748,62265,25
+486930,Phil Brace,California State University Sacramento,1996-12-28,MS,,493963,745378,25
+486930,Phil Brace,University of Waterloo (UWaterloo),1993-12-28,Bachelor of Applied Science,,493965,62786,25
+486930,Phil Brace,Stanford University,9999-12-31,Attended,,4207399,61935,80
+488928,Mark Widmar,Indiana University,1992-12-31,MBA,,498031,60920,25
+488928,Mark Widmar,American Institute of Certified Public Accountants (AICPA),1991-12-31,Certified Public Accountant,,498033,54373,25
+488928,Mark Widmar,Indiana University,1987-12-31,BS,,498030,60920,25
+495149,Frank Gibeau,Santa Clara University (SCU),9999-12-31,MBA,,520488,61782,80
+495149,Frank Gibeau,University of Southern California (USC),1990-12-31,BS,,520486,62673,25
+496482,Doctor Larry Dillaha,University of Tennessee,1985-12-31,BA,,522758,64218,25
+496482,Doctor Larry Dillaha,University of Tennessee,9999-12-31,MD,,522757,64218,80
+497854,Rob Johnson,Missouri University of Science & Technology (University of Missouri - Rolla prior to 01/2008),1989-12-28,BS,,525124,1483741,25
+498587,Doctor Jason Rhode,San Diego State University (SDSU),1991-12-31,BS,,526290,61775,25
+498587,Doctor Jason Rhode,North Carolina State University (NCSU) (NC State University),1995-12-31,PhD,,526288,61450,25
+498587,Doctor Jason Rhode,North Carolina State University (NCSU) (NC State University),9999-12-31,MS,,526289,61450,80
+499383,Satya Nadella,University of Wisconsin-Milwaukee (UWM),2000-12-28,MS,,530944,79033,25
+499383,Satya Nadella,Manipal Institute of Technology (MIT),9999-12-31,BS,,1384689,493688,80
+499383,Satya Nadella,University of Chicago Booth School of Business (University of Chicago Graduate School of Business prior to 2008),1996-12-28,MBA,,1615445,1342262,25
+499843,Mike Pearson,Duke University,1981-12-28,BSE,,657382,60547,25
+499843,Mike Pearson,Duke University,1981-12-28,BS (summa Cum Laude),,657381,60547,25
+499843,Mike Pearson,Darden School of Business University of Virginia (Formerly known as Colgate Darden School of Business University of Virginia),9999-12-31,MBA,,657383,53191,80
+507530,Stéphane Bancel,University of Minnesota,1995-12-28,MS,,560029,62475,25
+507530,Stéphane Bancel,Harvard Business School Harvard University,2000-12-28,MBA,,542711,63013,25
+507530,Stéphane Bancel,École Centrale Paris (École centrale des arts et manufactures) (ECP) (Ceased Trading 01/2015),1995-12-28,MEng,,542709,60576,25
+507661,Stan Erck,University of Illinois Chicago (UIC),9999-12-31,BS,,543006,62367,80
+507661,Stan Erck,University of Chicago Booth School of Business (University of Chicago Graduate School of Business prior to 2008),1976-12-28,MBA,,543007,1342262,25
+508234,Antonio Pietri,University of Tulsa (TU),1987-12-28,BS,,543638,89471,25
+508234,Antonio Pietri,University of Houston,1988-12-28,MBA,,543636,62360,25
+510070,Bob Kramer Sr,Clemson University,1979-12-28,BS,,545954,78370,25
+510070,Bob Kramer Sr,Western Kentucky University,1983-12-28,MBA,,545953,83922,25
+510212,Dan Abdun-Nabi,University of San Diego School of Law,9999-12-31,JD,,546148,421175,80
+510212,Dan Abdun-Nabi,University of Massachusetts Amherst (UMA),9999-12-31,BA,,546149,62456,80
+510212,Dan Abdun-Nabi,Georgetown University Law Center (Georgetown Law School),9999-12-31,LLM,,546146,79195,80
+513708,Kevin Conroy,University of Michigan Law School,1991-12-28,JD,,551367,75652,25
+513708,Kevin Conroy,College of Engineering Michigan State University,1988-12-28,BS,,551366,1075605,25
+514584,Doctor Jeff Jonas,Harvard Medical School Harvard University,1979-12-31,MD,,551604,63348,25
+514584,Doctor Jeff Jonas,Amherst College,9999-12-31,BA,,1649816,60055,80
+514584,Doctor Jeff Jonas,Harvard Medical School Harvard University,9999-12-31,Completed,,1649817,63348,80
+516742,Dick Lynch,University of Massachusetts Lowell (UMass Lowell),1970-12-28,BS,,585677,62459,25
+516742,Dick Lynch,Wharton School (The) University of Pennsylvania,9999-12-31,Postgraduate Studies,,585679,64966,80
+516742,Dick Lynch,Samuel Curtis Johnson Graduate School of Management Cornell University,9999-12-31,Postgraduate Studies,,585680,78597,80
+516742,Dick Lynch,University of Massachusetts Lowell (UMass Lowell),1972-12-28,MS,,585678,62459,25
+534543,Bob Bradway,Harvard University,9999-12-31,MBA,,642130,63830,80
+534543,Bob Bradway,Amherst College,9999-12-31,BA,,642129,60055,80
+535295,Jeff Benck,Rochester Institute of Technology (RIT),1988-12-28,BS,,1123378,80404,25
+535295,Jeff Benck,Project Management Institute Inc (PMI),9999-12-31,Certified Project Management Professional,,1123380,489712,80
+535295,Jeff Benck,University of Miami Florida,1995-12-28,MS,,1123377,62467,25
+536199,Mike Hayford,American Institute of Certified Public Accountants (AICPA),9999-12-31,Certified Public Accountant,,580155,54373,80
+536199,Mike Hayford,University of Wisconsin La Crosse,9999-12-31,Bachelor's Degree,,1245916,62813,80
+536199,Mike Hayford,Kellogg School of Management Northwestern University,9999-12-31,MBA,,580153,77878,80
+536593,George Tuttle,Johns Hopkins University,1989-12-28,BSEE,,577774,61026,25
+536593,George Tuttle,University of California Los Angeles (UCLA),1992-12-28,MSEE,,577778,62218,25
+540099,Mark Adams,Harvard Business School Harvard University,1995-12-28,MBA,,581280,63013,25
+540099,Mark Adams,Boston College (BC),1987-12-28,BA,,581279,60193,25
+540451,Mike Dastoor,University of Mumbai (University of Bombay prior to 09/1996),9999-12-31,Degree,,581642,76151,80
+540451,Mike Dastoor,Institute of Chartered Accountants in England and Wales (ICAEW),1991-12-31,Chartered Accountant,,581643,36362,25
+540927,Scott Smith,University of Western Ontario,1985-12-28,BS (Hons),,1678326,62795,25
+540927,Scott Smith,American Graduate School of International Management (Thunderbird),1987-12-28,Masters Degree,,582139,44551,25
+540927,Scott Smith,University of Western Ontario,1983-12-28,BS,,582140,62795,25
+541897,David Hallal,University of New Hampshire,9999-12-31,BA,,583976,62520,80
+542142,Doctor Lisa Su,Massachusetts Institute of Technology (MIT),9999-12-31,BS,,582893,40436,80
+542142,Doctor Lisa Su,Massachusetts Institute of Technology (MIT),1991-12-28,MS,,582894,40436,25
+542142,Doctor Lisa Su,Massachusetts Institute of Technology (MIT),1994-12-31,PhD,,582895,40436,25
+544257,Yuval Wasserman,Ben-Gurion University of the Negev,1983-12-28,BS,,585579,60153,25
+544257,Yuval Wasserman,AeA/Stanford Executive Institute,9999-12-31,Studied,,585580,814244,80
+544533,Neil Barua,Leonard N Stern School of Business New York University,9999-12-31,BSc,,593228,42226,80
+545851,Doctor Ajei Gopal,University of Arizona (UOA),9999-12-31,MSc,,692128,62155,80
+545851,Doctor Ajei Gopal,Indian Institute of Technology (IIT) Bombay,9999-12-31,BTech,,692124,567548,80
+545851,Doctor Ajei Gopal,Cornell University  New York,9999-12-31,MSc,,692127,60457,80
+545851,Doctor Ajei Gopal,Cornell University  New York,9999-12-31,PhD,,692126,60457,80
+547579,Doctor Dave Mosley,University of California Davis,9999-12-31,PhD,,1160028,62216,80
+549027,Todd Kelsey,University of Wisconsin-Madison,9999-12-31,BS,,590404,751347,80
+549027,Todd Kelsey,University of Wisconsin Oshkosh,2004-12-28,MBA,,590402,90352,25
+549027,Todd Kelsey,University of Wisconsin-Madison,1989-12-28,MS,,590403,751347,25
+550037,Doctor Anirudh Devgan,Carnegie Mellon University,1993-12-31,PhD,,591764,41519,25
+550037,Doctor Anirudh Devgan,Indian Institute of Technology (IIT) Delhi,1990-12-31,BTech,,591763,87237,25
+550037,Doctor Anirudh Devgan,Carnegie Mellon University,1991-12-31,MS,,591765,41519,25
+552034,Iain MacKenzie,Kirkcaldy Technical College Scotland,1979-12-28,Higher Diploma,,594425,881084,25
+552050,Doctor Valentin Gapontsev,Moscow Institute of Radio Engineering Electronics and Automatics (MIREEA),9999-12-31,Studied,,2487757,1386293,80
+552050,Doctor Valentin Gapontsev,Polytechnical University,1961-12-31,MSEE,,593964,1000492,25
+552050,Doctor Valentin Gapontsev,Moscow Institute of Physics and Technology,1972-12-31,PhD,,593956,862304,25
+552052,Doctor Eugene Scherbakov,Lebedev Physical Institute of the Russian Academy of Sciences,9999-12-31,PhD,,593960,44377,80
+552052,Doctor Eugene Scherbakov,A M Prokhorov General Physics Institute,9999-12-31,DSc,,595261,1002119,80
+552052,Doctor Eugene Scherbakov,Moscow Physics and Technology Institute,9999-12-31,MS,,593959,1001791,80
+556870,Sasan Goodarzi,University of Central Florida (UCF),1989-12-28,BSEE,,643356,80620,25
+556870,Sasan Goodarzi,Kellogg School of Management Northwestern University,2002-12-28,MBA,,643357,77878,25
+593280,Jeff Simmons,Cornell University  New York,1989-12-28,Bachelor's Degree,,1210076,60457,25
+601215,Wayne Pisano,St John Fisher College,1976-12-28,BS,,1152592,85732,25
+601215,Wayne Pisano,University of Dayton,1984-12-28,MBA,,1152594,62274,25
+640531,Steve Mollenkopf,University of Michigan,9999-12-31,MSEE,,714669,63187,80
+640531,Steve Mollenkopf,Virginia Polytechnic Institute and State University (Virginia Tech),1992-12-28,BSEE,,714668,110197,25
+647302,Steve Kelley,Massachusetts Institute of Technology (MIT),1984-12-28,BS,,1662289,40436,25
+647302,Steve Kelley,School of Law Santa Clara University,1995-12-28,JD,,1662288,741476,25
+647592,Lino Saputo Jr,Concordia University,9999-12-31,BA,,722811,60442,80
+647592,Lino Saputo Jr,St Francis Xavier University,9999-12-31,Doctor of Law (Hons),,4343227,79930,80
+650660,Uwe Röhrhoff,Universität zu Köln (University of Cologne),9999-12-31,Dipl Kfm,,724622,63055,80
+657839,David Epstein,Columbia Business School Columbia University,1987-12-28,MBA,,811248,63118,25
+657839,David Epstein,Ernest Mario School of Pharmacy Rutgers University (Formerly known as Rutgers College of Pharmacy),1984-12-28,BS (Hons),,811245,1940955,25
+657842,Doctor Yvonne Greenstreet,St Bartholomew's Hospital Medical College University of London,9999-12-31,Studied,,811242,600128,80
+657842,Doctor Yvonne Greenstreet,University of Leeds,1985-12-28,MBChB,,811240,62407,25
+657842,Doctor Yvonne Greenstreet,St Mary's University,9999-12-31,Studied,,811243,63236,80
+657842,Doctor Yvonne Greenstreet,University College London Hospital (UCLH),1990-12-28,Training Program,,1827576,647010,25
+657842,Doctor Yvonne Greenstreet,Institut Europeen d'Administration des Affaires (INSEAD) (European Institute of Business Administration),1991-12-28,MBA,,811241,60651,25
+731568,Barry Allan,University of British Columbia (UBC),9999-12-31,Degree,,837118,62203,80
+731568,Barry Allan,University of Arizona (UOA),9999-12-31,MBA,,837120,62155,80
+732483,Doctor Quinton Hennigh,University of Missouri Columbia,9999-12-31,BS,,1245496,62483,80
+732483,Doctor Quinton Hennigh,Colorado School of Mines (CSM),1996-12-28,PhD,,843678,60430,25
+732483,Doctor Quinton Hennigh,Colorado School of Mines (CSM),1993-12-28,MSc,,843677,60430,25
+735088,Doctor Shawn Qu,University of Manitoba,1990-12-28,MSc,,882480,62443,25
+735088,Doctor Shawn Qu,University of Toronto,1995-12-28,PhD,,882477,62752,25
+735088,Doctor Shawn Qu,Tsinghua University,1986-12-28,BSc,,882484,62095,25
+745229,Mark Benjamin,University of Miami Florida,9999-12-31,Bachelor's Degree,,816372,62467,80
+747756,Alex Gorsky,Wharton School (The) University of Pennsylvania,1996-12-28,MBA,,816434,64966,25
+747756,Alex Gorsky,United States Military Academy (USMA) West Point,1982-12-28,BS,,816432,62117,25
+761557,Matt Murphy,Stanford Graduate School of Business,2010-12-28,Executive Program,,1280233,67360,25
+761557,Matt Murphy,Franklin & Marshall College,1994-12-28,BA,,843747,60710,25
+762401,Chirag Patel,HA College of Commerce,9999-12-31,Bachelor's Degree,,2675787,1388314,80
+762401,Chirag Patel,New Jersey City University,1989-12-28,BS,,2675789,117696,25
+762401,Chirag Patel,American Institute of Certified Public Accountants (AICPA),1993-12-28,CPA,,2675792,54373,25
+764621,Brian Krzanich,San Jose State University,1982-12-28,Bachelor's Degree,,826388,61780,25
+790414,Doctor Brad Thompson,University of Alberta,1978-12-28,BSc,,3176738,62142,25
+790414,Doctor Brad Thompson,University of Western Ontario,1981-12-28,PhD,,884056,62795,25
+790419,Doctor Matt Coffey,University of Calgary,1998-12-28,PhD,,882996,86931,25
+807018,Hartmut Liebel,Flagler College,1987-12-28,BA,,921758,468662,25
+807018,Hartmut Liebel,Institute of Chartered Financial Analysts (ICFA) (USA),2000-12-28,Chartered Financial Analyst,,921757,41274,25
+807018,Hartmut Liebel,University of Notre Dame,1989-12-28,MBA,,921351,62544,25
+833256,Peter Leav,Lehigh University (LU),9999-12-31,BA,,925764,61143,80
+843302,Frank Slootman,Netherlands School of Economics,1985-12-28,Graduated,,935214,1565027,25
+843302,Frank Slootman,Erasmus Universiteit Rotterdam (Erasmus University Rotterdam),9999-12-31,Graduated,,1679385,78416,80
+857412,Doctor Giovanni Caforio,Università degli Studi di Roma La Sapienza (La Sapienza University of Rome),1988-12-28,MD,,946710,62703,25
+879247,Joaquin Duato,Escuela Superior de Administración y Dirección de Empresas (ESADE),9999-12-31,Degree,,955885,73564,80
+879247,Joaquin Duato,Escuela Superior de Administración y Dirección de Empresas (ESADE),9999-12-31,MBA,,955887,73564,80
+879247,Joaquin Duato,Thunderbird School of Global Management,9999-12-31,Masters Degree,,955890,923424,80
+879360,Ernie Mast,McGill University (Canada),1989-12-28,Masters Degree,,1229910,61248,25
+879360,Ernie Mast,McGill University (Canada),1987-12-28,Bachelor's Degree,,2035234,61248,25
+879360,Ernie Mast,American Society for Quality (ASQ) (Formerly known as American Society for Quality Control),2003-12-28,Six Sigma Black Belt (SSBB),,1229911,126596,25
+879360,Ernie Mast,Association of Professional Engineers,9999-12-31,Registered Professional Engineer,,1229909,825450,80
+889340,Eric Starkloff,University of Virginia,1997-12-28,BSEE,,1078020,62777,25
+892665,Revathi Advaithi,Birla Institute of Technology & Science (BITS) India,1991-12-28,BE (Hons),,969310,468626,25
+892665,Revathi Advaithi,Thunderbird School of Global Management,2005-12-28,MBA,,969311,923424,25
+895019,Bill Meury,University of Maryland Global Campus (UMGC) (University of Maryland University College (UMUC) prior to 07/2019),9999-12-31,BA,,1621419,640826,80
+982110,Doctor August Troendle,Brown University,9999-12-31,Completed,,1061507,60224,80
+982110,Doctor August Troendle,School of Medicine University of Maryland,9999-12-31,MD,,1061496,464173,80
+982110,Doctor August Troendle,Boston University,9999-12-31,MBA,,3881647,60195,80
+1010281,Tom Pike,University of Delaware,9999-12-31,BS,,1517056,79387,80
+1015194,Matt Mannelly,Boston College (BC),1979-12-28,BS,,1232479,60193,25
+1015194,Matt Mannelly,University of North Carolina (UNC),1983-12-28,MBA,,1232478,40198,25
+1015485,Daniel O'Day,Columbia University,1997-12-28,MBA,,1153578,60434,25
+1015485,Daniel O'Day,Georgetown University,1986-12-28,BS,,1153579,60750,25
+1047323,John Chiminski,Purdue University,1987-12-28,MSEE,,1127467,61638,25
+1047323,John Chiminski,Kellogg School of Management Northwestern University,1996-12-28,Master of Management (MM),,1127468,77878,25
+1047323,John Chiminski,Michigan State University (MSU),1986-12-28,BS,,1127466,61278,25
+1052584,Robert Feurle,University of Applied Sciences,9999-12-31,Degree,,1166768,816441,80
+1054826,Robert Stewart,Fairleigh Dickinson University,1994-12-28,BS,,1233058,60671,25
+1055310,Ken Xie,Stanford University,9999-12-31,MS,,1171763,61935,80
+1055310,Ken Xie,Tsinghua University,9999-12-31,BS,,1171761,62095,80
+1055310,Ken Xie,Stanford University,9999-12-31,Certified,,1526487,61935,80
+1055310,Ken Xie,Association of Professional Engineers,9999-12-31,PEng,,1526484,825450,80
+1055310,Ken Xie,Tsinghua University,9999-12-31,MS,,1171762,62095,80
+1058303,Doctor Kishore Seendripu,University of California Berkeley,1996-12-28,PhD,,1129029,62215,25
+1058303,Doctor Kishore Seendripu,Wharton School (The) University of Pennsylvania,2003-12-28,MBA,,1129031,64966,25
+1058303,Doctor Kishore Seendripu,University of California Berkeley,1996-12-28,MS,,1129028,62215,25
+1058303,Doctor Kishore Seendripu,Indian Institute of Technology (IIT) Bombay,1990-12-28,Bachelor of Technology,,1129030,567548,25
+1068227,Greg Clark,University College University of New Mexico,9999-12-31,Postgraduate Studies,,1176213,62522,80
+1068227,Greg Clark,Griffith University,9999-12-31,BS,,1176214,97576,80
+1068880,Dave Ricks,Indiana University,1996-12-28,MBA,,1177930,60920,25
+1068880,Dave Ricks,Purdue University,1990-12-28,BS,,1177931,61638,25
+1074205,Kristin Peck,Georgetown University,1993-12-28,Bachelor's Degree (magna cum laude),,1190481,60750,25
+1074205,Kristin Peck,Columbia Business School Columbia University,1999-12-28,MBA,,1190482,63118,25
+1075570,Juan Alaix,University of Madrid,9999-12-31,Degree,,1194488,36331,80
+1075579,David Simmons,Carnegie Mellon University,1986-12-28,BS,,1295430,41519,25
+1077323,Doctor Ludwig Hantson,Universite Catholique de Louvain (UCL) (University of Louvain),9999-12-31,PhD,,1197349,63180,80
+1077323,Doctor Ludwig Hantson,Universite Catholique de Louvain (UCL) (University of Louvain),9999-12-31,Masters Degree,,2887473,63180,80
+1077323,Doctor Ludwig Hantson,Universite Catholique de Louvain (UCL) (University of Louvain),9999-12-31,Certificate,,2887474,63180,80
+1083252,Chris Garabedian,University of Maryland Baltimore County,1989-12-28,BS,,1208140,916134,25
+1083477,Howard Schiller,University of Chicago Law School,1987-12-28,JD,,1296854,1283365,25
+1083477,Howard Schiller,Wharton School (The) University of Pennsylvania,1984-12-28,BS,,1296852,64966,25
+1084894,Rob Mionis,University of Massachusetts Amherst (UMA),1985-12-28,BSc,,1211344,62456,25
+1089168,Brian Crutcher,University of Central Florida (UCF),1995-12-28,BS,,1219548,80620,25
+1089168,Brian Crutcher,University of California Irvine,2001-12-28,MBA,,1219550,383127,25
+1093063,Seth Blackley,University of North Carolina Chapel Hill,2001-12-28,BS (Hons),,1230067,62533,25
+1093063,Seth Blackley,Harvard Business School Harvard University,2007-12-28,MBA,,1230060,63013,25
+1093467,Pablo Legorreta Creel,Universidad Iberoamericana,1985-12-28,BA,,1232264,1341986,25
+1093830,Doctor Chris Boerner,Haas School of Business University of California Berkeley,2001-12-28,PhD,,1231295,757832,25
+1093830,Doctor Chris Boerner,Haas School of Business University of California Berkeley,9999-12-31,MA,,1231296,757832,80
+1093830,Doctor Chris Boerner,Washington University St Louis,1993-12-28,BA,,1231297,82206,25
+1094011,Ron Lombardi,Springfield College,9999-12-31,BS,,1231697,96171,80
+1094011,Ron Lombardi,American Institute of Certified Public Accountants (AICPA),9999-12-31,Certified Public Accountant,,1231699,54373,80
+1094011,Ron Lombardi,American International College,9999-12-31,MBA,,1231698,128922,80
+1096288,Vincent Pilette,Universite Catholique de Louvain (UCL) (University of Louvain),1996-12-28,BS (magna Cum Laude),,1236499,63180,25
+1096288,Vincent Pilette,Universite Catholique de Louvain (UCL) (University of Louvain),1998-12-28,MS,,1236500,63180,25
+1096288,Vincent Pilette,Kellogg School of Management Northwestern University,2004-12-28,MBA,,1236501,77878,25
+1096978,Kurt Sievers,Universität Augsburg (University of Augsburg),9999-12-31,Masters Degree,,1850479,62166,80
+1096978,Kurt Sievers,Ashridge Executive Education (Formerly known as Ashridge Business School),9999-12-31,MBA,,2122603,65339,80
+1108033,Bret Taylor,Stanford University,2003-06-28,MS,,1240412,61935,15
+1108033,Bret Taylor,Stanford University,2002-06-28,BS,,1240413,61935,15
+1112822,Rob Enslin,University of South Africa (UNISA),9999-12-31,Degree,,1535372,62664,80
+1114611,Mike Spreadborough,University of Queensland,1986-12-28,BEng (Hons),,1250733,90682,25
+1114611,Mike Spreadborough,Government of Western Australia,1995-12-28,Certified,,2516891,1976741,25
+1114611,Mike Spreadborough,Deakin University,1994-12-28,MBA (Hons),,1250734,586451,25
+1118666,Doctor Ed Kaye,Loyola University Chicago,9999-12-31,BS,,4146962,1578750,80
+1118666,Doctor Ed Kaye,Stritch School of Medicine Loyola University Chicago,9999-12-31,MD,,1257556,1620063,80
+1118666,Doctor Ed Kaye,Boston Medical Center (BMC),9999-12-31,Training Program,,2585191,247892,80
+1122129,Mike Sutcliff,Georgia Institute of Technology (GIT) (Georgia Tech),1985-12-28,BS,,1273473,60751,25
+1122129,Mike Sutcliff,Georgia Institute of Technology (GIT) (Georgia Tech),1987-12-28,MS,,1273474,60751,25
+1123231,John Cox,California State University (CSU),1991-12-28,MS,,1949165,60252,25
+1123231,John Cox,Arizona State University,1984-12-28,BS,,1949167,60074,25
+1123231,John Cox,Stephen M Ross School of Business University of Michigan (University of Michigan Business School prior to 09/2004),1993-12-28,MBA,,1949162,747221,25
+1123639,Shuki Nir,Tel Aviv University,1998-12-28,MBA,,1276441,62031,25
+1123639,Shuki Nir,Tel Aviv University,1996-12-28,BA,,1276443,62031,25
+1123639,Shuki Nir,Tel Aviv University,9999-12-31,LLB,,4137813,62031,80
+1123881,Tim Westergren,Stanford University,1988-12-28,BA,,1276532,61935,25
+1127175,Doctor Helen Torley,University of Glasgow,9999-12-31,MBChB,,1283024,60760,80
+1134582,Chuck Kummeth,University of St Thomas Minnesota,1989-12-28,MS,,1298097,80829,25
+1134582,Chuck Kummeth,Carlson School of Management University of Minnesota,1993-12-28,MBA,,1298100,76622,25
+1134582,Chuck Kummeth,University of North Dakota (UND),1983-12-28,BSEE,,1298096,62536,25
+1192124,Antonio Neri,National Technological University (NTU),9999-12-31,Bachelor's Degree,,3800367,819281,80
+1192124,Antonio Neri,Universidad Tecnológica Nacional,1990-12-28,BEng,,1591829,1583669,25
+1192485,Marcus Ryu,Princeton University,1995-12-28,AB,,1367687,61632,25
+1192485,Marcus Ryu,New College University of Oxford,1997-12-28,BPhil,,1367686,63045,25
+1192633,Mark Pincus,Harvard Business School Harvard University,1993-12-28,MBA,,1368284,63013,25
+1192633,Mark Pincus,Wharton School (The) University of Pennsylvania,1988-12-28,BS (summa Cum Laude),,1368282,64966,25
+1197971,Badri Kothandaraman,Indian Institute of Technology (IIT) Madras,1993-12-28,BTech,,2502335,486821,25
+1197971,Badri Kothandaraman,University of California Berkeley,1995-12-28,MS,,2502337,62215,25
+1197971,Badri Kothandaraman,Stanford Graduate School of Business,2008-12-28,Executive Program,,2502346,67360,25
+1198909,Doctor Brett Monia,University of Pennsylvania,9999-12-31,PhD,,1376635,62579,80
+1198909,Doctor Brett Monia,Stockton State College,9999-12-31,BS,,1647720,104422,80
+1201064,Jeremy Allaire,Macalester College,1993-12-28,BA,,1380022,80775,25
+1202489,Paul Nahi,University of Southern California (USC),1986-12-28,BSc,,1382136,62673,25
+1202489,Paul Nahi,University of Southern California (USC),1992-12-28,MBA,,1382137,62673,25
+1203855,Mark Alles,Lock Haven University of Pennsylvania,9999-12-31,BS,,1384585,117866,80
+1249099,Hervé Hoppenot,École Supérieure des Sciences Économiques et Commerciales (ESSEC Business School),1983-12-28,Diploma,,1652533,64829,25
+1252966,Gary Steele,Washington State University (WSU),1984-12-28,BS,,1438964,62894,25
+1258069,Doctor Stu Peltz,McArdle Laboratory for Cancer Research,9999-12-31,PhD,,1445946,2207689,80
+1264832,Rob Humphryson,Western Australian School of Mines (WASM),1990-12-28,Graduated,,2857913,667270,25
+1265100,Doug Boothe,Princeton University,1986-12-28,BSE,,1458109,61632,25
+1265100,Doug Boothe,Wharton School (The) University of Pennsylvania,1990-12-28,MBA,,1458110,64966,25
+1269387,Hassane El-Khoury,Lawrence Technological University,2001-12-28,BSEE,,1461452,111047,25
+1269387,Hassane El-Khoury,Oakland University,2006-12-28,MS,,1461453,61514,25
+1275602,Adam Foroughi,University of California Berkeley,2001-12-28,BBA (Hons),,1471308,62215,25
+1275602,Adam Foroughi,University of California Berkeley,2001-12-28,BA,,1723642,62215,25
+1284093,Cristiano Amon,Universidade Estadual de Campinas,1992-12-28,BS,,1488314,874118,25
+1301965,Renee Gala,Columbia Business School Columbia University,9999-12-31,MBA,,1522118,63118,80
+1301965,Renee Gala,Vanderbilt University,9999-12-31,BS,,1522119,62843,80
+1302499,Mike Hurlston,University of California Davis,1991-12-28,MSEE,,1531084,62216,25
+1302499,Mike Hurlston,University of California Davis,1988-12-28,BSEE,,1531083,62216,25
+1302499,Mike Hurlston,University of California Davis,1990-12-28,MBA,,1531085,62216,25
+1313292,Doctor Kyle Gano,University of California Los Angeles (UCLA),2002-12-28,MBA,,1544417,62218,25
+1313292,Doctor Kyle Gano,University of Oregon,1996-12-28,BS,,1544413,62552,25
+1313292,Doctor Kyle Gano,University of California Los Angeles (UCLA),2000-12-28,PhD,,1544415,62218,25
+1313292,Doctor Kyle Gano,University of Washington,1996-12-28,BS,,1544414,62785,25
+1315152,Neil de Crescenzo IV,Yale University,9999-12-31,BA,,1546377,62981,80
+1315152,Neil de Crescenzo IV,Graduate School of Business Administration Northeastern University,9999-12-31,MBA,,1546378,1344228,80
+1315513,Christian Chabot,Stanford University,2000-12-28,MBA,,1547526,61935,25
+1315513,Christian Chabot,Stanford University,1994-12-28,BS,,1547528,61935,25
+1315513,Christian Chabot,University of Sussex,1995-12-28,MSc,,1547527,62713,25
+1318835,Mark Saxon,University of Melbourne,1991-12-28,BSc (Hons),,1552964,62463,25
+1318835,Mark Saxon,Financial Services Institute of Australasia (Finsia),2006-12-28,Graduate Diploma,,1552965,872585,25
+1345036,Doctor Edwin Roks,NHTV Breda University of Applied Sciences,1985-12-28,BSc,,1598756,1882269,25
+1345036,Doctor Edwin Roks,Technical University of Eindhoven,1990-12-28,MSc,,1598755,1010056,25
+1345036,Doctor Edwin Roks,Universiteit Twente (University of Twente),1994-12-28,PhD,,1598754,62761,25
+1361005,Doctor Albert Bourla,Aristotle University of Thessaloniki,1991-12-28,PhD,,1630499,60073,25
+1361005,Doctor Albert Bourla,Aristotle University of Thessaloniki,1985-12-28,Doctor of Veterinary Medicine (DVM),,2449476,60073,25
+1361005,Doctor Albert Bourla,Royal College of Veterinary Surgeons,9999-12-31,Certified,,1630498,827910,80
+1365884,Giel Rutten,Radboud Universiteit Nijmegen (Katholieke Universiteit Nijmegen prior to 08/2004) (Radboud University Nijmegen),1983-12-28,Masters Degree,,1636336,62527,25
+1365884,Giel Rutten,Bisschoppelijk College,1977-12-28,Bachelor's Degree,,2293307,591131,25
+1376569,George Paleologou,Simon Fraser University,9999-12-31,BBA,,1652043,61839,80
+1376569,George Paleologou,Canadian Institute of Chartered Accountants (CICA),9999-12-31,Chartered Accountant,,1652044,56019,80
+1396615,Paul Sparkes,Memorial University of Newfoundland,9999-12-31,BA,,1724235,121997,80
+1398426,Tim Breen,London Business School,2004-12-28,MBA,,2079918,61171,25
+1402205,Mark Ayranto,Royal Roads University,2006-12-28,MBA,,1733554,590383,25
+1402205,Mark Ayranto,Dalhousie University,1996-12-28,BSc,,1733553,60481,25
+1402205,Mark Ayranto,Canadian Association of Management Consultants,9999-12-31,Certified Management Consultant,,1733556,826945,80
+1448606,George Kurian,Stanford Graduate School of Business,1995-12-28,MBA,,1740300,67360,25
+1448606,George Kurian,Princeton University,1990-12-28,BS,,1740299,61632,25
+1468813,Alan Masarek,American Institute of Certified Public Accountants (AICPA),9999-12-31,Certified Public Accountant,,2281430,54373,80
+1468813,Alan Masarek,Harvard Business School Harvard University,1989-12-28,MBA (Distinction),,1770111,63013,25
+1468813,Alan Masarek,University of Georgia (UGA),1982-12-28,BBA (magna cum laude),,1770110,62333,25
+1477017,Shay Banon,Technion - Israel Institute of Technology (IIT),9999-12-31,BSE,,3270094,780210,80
+1480344,Alistair Macdonald,University of Plymouth,1991-12-28,BSc,,1791965,62595,25
+1480344,Alistair Macdonald,Cranfield University,1994-12-28,MSc,,1791949,60464,25
+1488593,Doctor Cedric Francois,Katholieke Universiteit Leuven (KUL) (Catholic University of Leuven) (KU Leuven),1998-12-28,MD,,1826589,69305,25
+1488593,Doctor Cedric Francois,University of Louisville,9999-12-31,Postgraduate Degree,,1826600,62424,80
+1488593,Doctor Cedric Francois,University of Louisville School of Medicine,2004-12-28,PhD,,1826590,1192650,25
+1523588,Patrick McCaney,Massachusetts Institute of Technology (MIT),2003-12-28,BS,,1857363,40436,25
+1523588,Patrick McCaney,Massachusetts Institute of Technology (MIT),2004-12-28,ME,,1857362,40436,25
+1599924,Ash Kulkarni,University of Texas at Austin (UT Austin),9999-12-31,MS,,1966479,62742,80
+1599924,Ash Kulkarni,University of California Berkeley,2004-12-28,MBA,,1966482,62215,25
+1599924,Ash Kulkarni,University of Mumbai (University of Bombay prior to 09/1996),9999-12-31,BE,,1966478,76151,80
+1616987,Jon Kemp,Darden School of Business University of Virginia (Formerly known as Colgate Darden School of Business University of Virginia),2005-12-28,MBA,,2003637,53191,25
+1616987,Jon Kemp,University of Utah,1999-12-28,BA,,2003636,62764,25
+1618087,Rene Haas,Stanford Graduate School of Business,9999-12-31,Executive Education Program,,3862907,67360,80
+1618087,Rene Haas,Clarkson University,1984-12-28,BS,,2006065,60383,25
+1621914,David Goeckeler,University of Illinois Urbana-Champaign (UIUC),1986-12-28,MS,,2014708,77782,25
+1621914,David Goeckeler,University of Missouri Columbia,1984-12-28,BS,,2014705,62483,25
+1621914,David Goeckeler,University of Missouri Columbia,1984-12-28,BA,,2014757,62483,25
+1621914,David Goeckeler,Columbia University,2006-12-28,MBA,,2014710,60434,25
+1621914,David Goeckeler,University of California Berkeley,2006-12-28,MBA,,2014711,62215,25
+1621922,Irving Tan,Nanyang Technological University,9999-12-31,MBA,,2014847,131087,80
+1621922,Irving Tan,Curtin University,9999-12-31,Doctorate (Hons),,4088377,60472,80
+1621922,Irving Tan,Nanyang Technological University,9999-12-31,Bachelor's Degree,,2014846,131087,80
+1679156,Doctor Frank Zhang,Chengdu University of Technology (CDUT) (Chengdu College of Geology prior to 1993),1984-07-28,BE,,2133699,563473,15
+1679156,Doctor Frank Zhang,NanJing University,1987-07-28,MS,,2133702,61360,15
+1679156,Doctor Frank Zhang,Unknown Organisation,9999-12-31,Post Doctoral Studies,,2134546,0,80
+1679156,Doctor Frank Zhang,Duke University,1995-09-28,PhD,,2133708,60547,15
+1694109,Michel Vounatsos,Université Victor Segalen Bordeaux 2,1988-12-28,Certified,,2160278,938046,25
+1694109,Michel Vounatsos,École des Hautes Études Commerciales de Paris (HEC Paris School of Management) (Groupe HEC),1989-12-28,MBA,,2160280,60833,25
+1706999,Mike Rosenbaum,Haas School of Business University of California Berkeley,2002-05-28,MBA,,2184603,757832,15
+1706999,Mike Rosenbaum,United States Naval Academy (USNA),1994-05-28,BS,,2184600,377927,15
+1710096,Patrick Lockwood-Taylor,University of Leeds,1991-12-28,Bachelor's Degree (Hons),,2189865,62407,25
+1710096,Patrick Lockwood-Taylor,Chartered Institute of Marketing (CIM) (UK),9999-12-31,Post Graduate Diploma,,2189868,38129,80
+1712387,Tom Appio,WP Carey School of Business Arizona State University (Arizona State University College of Business prior to 2003),9999-12-31,BS,,2192465,485630,80
+1754265,Vineet Nargolwala,University of Texas at Arlington (The),1996-12-28,MS,,2273903,62741,25
+1754265,Vineet Nargolwala,Maharaja Sayajirao University of Baroda (The),1994-12-28,Bachelor's Degree,,2273907,124797,25
+1754265,Vineet Nargolwala,Six Sigma Inc,9999-12-31,Six Sigma Green Belt (SSGB),,2273920,81376,80
+1754265,Vineet Nargolwala,Samuel Curtis Johnson Graduate School of Management Cornell University,2003-12-28,MBA,,2273902,78597,25
+1758691,Matt Bromberg,Cornell University  New York,1988-12-28,BA,,2282389,60457,25
+1758691,Matt Bromberg,Harvard Law School Harvard University,1993-12-28,JD,,2282361,63035,25
+1760716,Joe Ciaffoni,Rutgers University New Brunswick,1993-12-28,BA,,2286340,2419095,25
+1760716,Joe Ciaffoni,State University of New Jersey Rutgers (Rutgers University),2000-12-28,MBA,,2286334,100431,25
+1768029,Adam Selipsky,Harvard Business School Harvard University,1997-12-28,MBA,,2298917,63013,25
+1768029,Adam Selipsky,Harvard University,1988-12-28,AB,,2298919,63830,25
+1779146,Alessandro Maselli,Università degli Studi di Roma La Sapienza (La Sapienza University of Rome),9999-12-31,Masters Degree,,3065314,62703,80
+1779146,Alessandro Maselli,Università degli Studi di Roma La Sapienza (La Sapienza University of Rome),9999-12-31,Bachelor's Degree,,3065313,62703,80
+1788371,Mike Sicilia,Saint Joseph's University (SJU),9999-12-31,BS,,4339301,64795,80
+1799113,Rob Michael,Indiana University Kelley School of Business,1992-12-28,Bachelor's Degree,,3649354,79674,25
+1799113,Rob Michael,American Institute of Certified Public Accountants (AICPA),1994-02-28,Certified Public Accountant,,3649359,54373,15
+1799113,Rob Michael,UCLA Anderson School of Management,2000-12-28,MBA,,3649356,2460934,25
+1808923,Edward Kreps,University of California Santa Cruz (UCSC),2005-12-28,MS,,2371856,2361289,25
+1808923,Edward Kreps,University of California Santa Cruz (UCSC),2002-12-28,BS,,2371857,2361289,25
+1853290,Haviv Ilan,Kellogg School of Management Northwestern University,2005-12-28,International Executive MBA,,2452594,77878,25
+1853290,Haviv Ilan,Leon Recanati Graduate School of Business Tel Aviv University,2005-12-28,MBA,,2452595,596698,25
+1853290,Haviv Ilan,Tel Aviv University,1995-12-28,MSc (magna cum laude),,2452590,62031,25
+1853290,Haviv Ilan,Tel Aviv University,1990-12-28,BSc (magna cum laude),,2452588,62031,25
+1860271,Dylan Field,Sonoma State University,2009-12-28,Studied,,2498029,378257,25
+1860271,Dylan Field,Brown University,2009-12-28,Studied,,2497871,60224,25
+1864086,Sassine Ghazi,University of Tennessee,1995-12-28,MSEE,,2469292,64218,25
+1864086,Sassine Ghazi,Georgia Institute of Technology (GIT) (Georgia Tech),1993-12-28,BSEE,,2469291,60751,25
+1864086,Sassine Ghazi,University of Tennessee,1997-12-28,PhD,,2469305,64218,25
+1864086,Sassine Ghazi,Lebanese American University (LAU),1991-12-28,Bachelor's Degree,,2469289,577859,25
+1890670,Doctor Reshma Kewalramani,Harvard Business School Harvard University,2015-12-28,General Management Program,,2512130,63013,25
+1890670,Doctor Reshma Kewalramani,Unknown Organisation,2003-12-28,Board Certified,,4340222,0,25
+1890670,Doctor Reshma Kewalramani,Boston University,1998-12-28,BA (Hons),,2512131,60195,25
+1890670,Doctor Reshma Kewalramani,Boston University Chobanian & Avedisian School of Medicine (Formerly known as School of Medicine Boston University),1998-12-28,MD (Hons),,2512129,530621,25
+1890670,Doctor Reshma Kewalramani,Unknown Organisation,2001-12-28,Board Certified,,4340221,0,25
+1890670,Doctor Reshma Kewalramani,Harvard TH Chan School of Public Health Harvard University,2003-12-28,Completed,,2512304,2309294,25
+1908442,Anshul Thakral,Wharton School (The) University of Pennsylvania,2006-12-28,MBA,,2537741,64966,25
+1908442,Anshul Thakral,Johns Hopkins University,2000-12-28,Masters Degree,,2537739,61026,25
+1908442,Anshul Thakral,Johns Hopkins University,2000-12-28,BS,,2537737,61026,25
+1931869,Doctor Mark Gitin,Cornell University  New York,9999-12-31,PhD,,2572715,60457,80
+1931869,Doctor Mark Gitin,Cornell University  New York,9999-12-31,MEng,,3925251,60457,80
+1931869,Doctor Mark Gitin,University of California Davis,9999-12-31,BS,,2572714,62216,80
+1948850,Doctor Marianne De Backer,Harvard Business School Harvard University,2010-12-28,Studied,,2615459,63013,25
+1948850,Doctor Marianne De Backer,Universiteit Gent (University of Ghent),2001-12-28,PhD (summa cum laude),,2614200,48939,25
+1948850,Doctor Marianne De Backer,Stanford University,2015-12-28,Studied,,2615458,61935,25
+1948850,Doctor Marianne De Backer,Erasmus Universiteit Rotterdam (Erasmus University Rotterdam),2004-12-28,MBA,,2614196,78416,25
+1948850,Doctor Marianne De Backer,Universiteit Gent (University of Ghent),9999-12-31,Master of Science (MOS),,4091327,48939,80
+1948850,Doctor Marianne De Backer,Institut Europeen d'Administration des Affaires (INSEAD) (European Institute of Business Administration),2009-12-28,Studied,,2615461,60651,25
+1948850,Doctor Marianne De Backer,Vrije Universiteit Brussel (VUB) (Vrije University Brussels),1994-12-28,MSc (summa cum laude),,2614201,62872,25
+1948850,Doctor Marianne De Backer,Wharton School (The) University of Pennsylvania,2016-12-28,Studied,,2615457,64966,25
+1948850,Doctor Marianne De Backer,George Washington University (GW) (The),2016-12-28,Certificate,,2615456,60749,25
+1948850,Doctor Marianne De Backer,Institut Europeen d'Administration des Affaires (INSEAD) (European Institute of Business Administration),2010-12-28,Studied,,2615460,60651,25
+1948850,Doctor Marianne De Backer,Harvard Business School Harvard University,2017-12-28,Studied,,2615454,63013,25
+1960636,Michelle Keefe,Seton Hall University,1988-12-28,BS,,2640642,61818,25
+1962819,Gary Yu,University of Texas at Dallas,9999-12-31,MBA,,3206795,62743,80
+1962819,Gary Yu,Fu Jen Catholic University,9999-12-31,Bachelor's Degree,,3206790,756623,80
+1962819,Gary Yu,Southern Methodist University (SMU),1998-12-28,Masters Degree,,3206793,61882,25
+1975125,Guo Xiao,Peking University,1996-12-28,BS,,2665661,78186,25
+1975125,Guo Xiao,Northwestern University,1998-12-28,MS,,2665660,61494,25
+1975125,Guo Xiao,Kellogg School of Management Northwestern University,2006-12-28,Executive Development Program,,2665659,77878,25
+1981116,Chintu Patel,Ernest Mario School of Pharmacy Rutgers University (Formerly known as Rutgers College of Pharmacy),1994-12-28,BS,,2675081,1940955,25
+1996477,Kenny Wilson,University of Edinburgh Business School,1999-12-28,MBA,,2696161,1568846,25
+1996477,Kenny Wilson,University of Edinburgh,9999-12-31,Bachelor's Degree,,2696167,60610,80
+2008711,Kim Kelderman,Zuyd University of Applied Sciences (Zuyd Hogeschool),9999-12-31,BS,,3280566,2908502,80
+2025770,John Forsyth,University of Glasgow,1995-12-28,Graduated,,2739629,60760,25
+2032686,Matt Johnson,Harvard Business School Harvard University,9999-12-31,Completed,,3983352,63013,80
+2032686,Matt Johnson,University of Maine,2000-12-28,BSEE,,2796241,62432,25
+2032686,Matt Johnson,Stanford University,9999-12-31,Completed,,3983353,61935,80
+2033434,Michael Goettler,Wissenschaftliche Hochschule Fur Unternehmensfuhrung (WHU) Otto Beisheim School of Management,1992-12-28,Graduated (summa cum laude),,2797841,62873,25
+2033434,Michael Goettler,University of Texas at Austin (UT Austin),1993-12-28,MBA (summa cum laude),,2797837,62742,25
+2107029,John Jacobs,State University of New York Plattsburgh,1992-12-28,MBA,,2869963,1235039,25
+2107029,John Jacobs,State University of New York Plattsburgh,1989-12-28,BS,,2869960,1235039,25
+2113430,Alex Hardy,University of Cambridge,1990-12-28,MA,,2880091,60268,25
+2113430,Alex Hardy,University of Michigan,1992-12-28,MBA,,2880092,63187,25
+2118690,Andrew Dudum,Wharton School (The) University of Pennsylvania,9999-12-31,Bachelor's Degree,,2891107,64966,80
+2132665,Clay Magouyrk,University of Memphis (UoM),2007-12-28,BS,,2916648,97372,25
+2177363,Travis Dalton,Ohio State University (OSU),1997-12-28,Masters Degree,,3002543,61523,25
+2177363,Travis Dalton,Wright State University (WSU),1993-12-28,Bachelor's Degree,,3002544,374267,25
+2179602,Doctor Yuan Xu,University of California San Diego School of Medicine,1995-12-28,Postdoctoral Fellow,,3006025,1221266,25
+2179602,Doctor Yuan Xu,University of Maryland College Park,1993-12-28,PhD,,3005760,62449,25
+2179602,Doctor Yuan Xu,NanJing University,1989-12-28,BS,,3005759,61360,25
+2204699,Rahul Patel,Santa Clara University (SCU),1998-12-28,MBA,,3047245,61782,25
+2204699,Rahul Patel,Arizona State University,1993-12-28,MS,,3047246,60074,25
+2204699,Rahul Patel,National Institute of Technology Warangal,1991-12-28,BTech,,3047248,1552394,25
+2250110,Jared Kelly,Georgetown University Law Center (Georgetown Law School),2012-12-28,JD,,3130184,79195,25
+2250110,Jared Kelly,Georgetown University Law Center (Georgetown Law School),2014-12-28,LLM,,3130186,79195,25
+2250110,Jared Kelly,Florida State University,2007-12-28,BS (magna Cum Laude),,3130182,60692,25
+2262605,Ravi Vig,Yale University,2017-12-28,Global Leadership Programme,,3152284,62981,25
+2262605,Ravi Vig,Southern New Hampshire University (New Hampshire College prior to 07/2001),1989-12-28,MBA,,3152280,492266,25
+2262605,Ravi Vig,Dartmouth College,1984-12-28,MSEE,,3152276,60488,25
+2262605,Ravi Vig,State University of New Jersey Rutgers (Rutgers University),1982-12-28,BSEE,,3152271,100431,25
+2277545,Giordano Albertazzi,Stanford University,2002-12-28,MS,,3178892,61935,25
+2277545,Giordano Albertazzi,Polytechnic University of Milan,1992-12-28,Bachelor's Degree,,3178887,2925613,25
+2295328,David Wilkinson,University of Texas at Arlington (The),2000-12-28,MBA,,3212074,62741,25
+2295328,David Wilkinson,Stephen F Austin State University,1994-12-28,BBA (summa cum laude),,3212075,120101,25
+2299828,Doctor Matthew Klein,Yale School of Medicine (Yale-New Haven Medical Center),1997-12-28,MD (Hons),,3218391,79150,25
+2299828,Doctor Matthew Klein,Stanford University School of Medicine,2003-12-28,Completed,,3218396,79154,25
+2299828,Doctor Matthew Klein,University of Washington School of Public Health and Community Medicine,9999-12-31,MS,,3218392,1244804,80
+2299828,Doctor Matthew Klein,University of Pennsylvania,1993-12-28,BA (summa cum laude),,3218390,62579,25
+2310470,Doctor Huang Ying,Columbia Business School Columbia University,2007-12-28,Studied,,3238444,63118,25
+2310470,Doctor Huang Ying,University of Science and Technology of China (USTC),9999-12-31,Studied,,3238443,464534,80
+2310470,Doctor Huang Ying,Columbia University,9999-12-31,PhD,,3238440,60434,80
+2347499,Catherine Owen Adams,University of London,1996-12-28,Postgraduate Degree,,3280584,62421,25
+2347499,Catherine Owen Adams,University of Manchester (The),1992-12-28,BSc (Hons),,3280444,62441,25
+2347499,Catherine Owen Adams,Royal Pharmaceutical Society of Great Britain (RPSGB) (Royal Pharmaceutical Society),9999-12-31,Registered Pharmacist (RPh),,3280582,45751,80
+2400789,Mike Doogue,Stanford Graduate School of Business,2007-12-28,Executive Program,,3373883,67360,25
+2400789,Mike Doogue,Colby College,1997-12-28,BA,,3373880,60394,25
+2400789,Mike Doogue,Dartmouth College,1998-12-28,BE,,3373882,60488,25
+2413290,Paddy Nicol,Simon Fraser University,1993-12-28,BA,,3645828,61839,25
+2413290,Paddy Nicol,Royal Roads University,2005-12-28,MBA,,3645833,590383,25
+2422313,Jesse Kaplan,CFA Institute (Association for Investment Management and Research prior to 2004),2007-12-28,CFA,,3408410,594747,25
+2422313,Jesse Kaplan,Canadian Securities Course,2005-12-28,Certified,,3408409,1227054,25
+2422313,Jesse Kaplan,University of Toronto,9999-12-31,BCom,,3407900,62752,80
+2470210,Rafael Sotomayor,Harvard Business School Harvard University,9999-12-31,MBA,,3481287,63013,80
+2470210,Rafael Sotomayor,Georgia Institute of Technology (GIT) (Georgia Tech),9999-12-31,MSEE,,3481288,60751,80
+2470210,Rafael Sotomayor,Purdue University,9999-12-31,BSEE,,3481289,61638,80
+2489439,Kevin Ali,University of California Berkeley,9999-12-31,BA,,3506903,62215,80
+2489439,Kevin Ali,Santa Clara University (SCU),9999-12-31,MBA,,3506902,61782,80
+2545410,Roger Milad,Vancouver College,9999-12-31,Diploma,,3597278,1196439,80
+2545410,Roger Milad,British Columbia Institute of Technology (BCIT),9999-12-31,Training Program,,3597279,593626,80
+2669292,Doctor Ian Sandler,Ontario Veterinary College (The) University of Guelph,1994-12-28,Doctor of Veterinary Medicine (DVM),,3788202,591891,25
+2680998,Doctor Kirk Hollohan,Memorial University of Newfoundland,9999-12-31,Doctor of Medicine (DM),,3816681,121997,80
+2680998,Doctor Kirk Hollohan,College of Family Physicians of Canada (FCFP),9999-12-31,Studied,,3816675,1224563,80
+2680998,Doctor Kirk Hollohan,College of Family Physicians of Canada (FCFP),9999-12-31,Studied,,3816679,1224563,80
+2680998,Doctor Kirk Hollohan,Memorial University of Newfoundland,9999-12-31,Bachelor of Medical Sciences (BMS),,3816683,121997,80
+2818371,Matt Badiali,Florida Atlantic University,9999-12-31,MS,,4030222,60686,80
+2818371,Matt Badiali,Pennsylvania State University (Penn State University),9999-12-31,BS,,4030221,61582,80
+2818371,Matt Badiali,University of North Carolina Chapel Hill,9999-12-31,PhD,,4030249,62533,80
+3082984,James Xiao,Stanford University,9999-12-31,Executive Leadership,,4298628,61935,80
+3082984,James Xiao,Dalian University of Technology,9999-12-31,BS,,4298626,1205521,80
+3082984,James Xiao,Indiana University Kelley School of Business,9999-12-31,MBA,,4298627,79674,80

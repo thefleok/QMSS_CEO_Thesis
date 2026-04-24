@@ -18,4 +18,8 @@ sic_to_industry = {
 }
 large_cap["industry"] = large_cap["sic"].map(sic_to_industry)
 
+# Drop cannabis and non-relevant biotech tickers
+exclude_tickers = ['CURLF', 'GTBIF', 'TCNNF', 'HLF', 'USNA']
+large_cap = large_cap[~large_cap["tic"].isin(exclude_tickers)]
+
 large_cap.to_csv("csv_data/compustat_large_cap.csv", index=False)
