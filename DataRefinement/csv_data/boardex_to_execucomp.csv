@@ -1,0 +1,215 @@
+execid,exec_lname,exec_fname,exec_mname,exec_fullname,directorid,directorname,forename1,forename2,forename3,forename4,usualname,surname,suffixtitle,score,matchStyle
+281,Dell,MICHAEL,Saul,Michael Saul Dell,32603,Mike Dell,MICHAEL,Saul,,,Mike,Dell,,1,fullname+cusip
+2518,Scully,EDWARD,R.,Edward R. Scully,1808923,Edward Kreps,EDWARD,Jay,,,,Kreps,,12,partialname+age
+2518,Scully,EDWARD,R.,Edward R. Scully,344491,Ted Kunkel,EDWARD,Thomas,,,Ted,Kunkel,,12,partialname+age
+2930,Johnson,ROBERT,C.,Robert C. Johnson,44976,Ben Johnson,ROBERT,B,,,Ben,Johnson,,12,partialname+age
+2930,Johnson,ROBERT,C.,Robert C. Johnson,347148,Robert Johnson,ROBERT,H,,,,Johnson,CPA,12,partialname+age
+2930,Johnson,ROBERT,C.,Robert C. Johnson,201065,Bob Johnson,ROBERT,Lee,,,Bob,Johnson,MBA,12,partialname+age
+2930,Johnson,ROBERT,C.,Robert C. Johnson,323351,Robert Johnson,ROBERT,T,,,,Johnson,,12,partialname+age
+2930,Johnson,ROBERT,C.,Robert C. Johnson,327315,Doctor Robert Johnson,ROBERT,W,,,,Johnson,MS MBA DBA,12,partialname+age
+2930,Johnson,ROBERT,C.,Robert C. Johnson,341537,Doctor Robert Johnson Jr,ROBERT,G,,,,Johnson Jr,MD PhD,12,partialname+age
+2930,Johnson,ROBERT,C.,Robert C. Johnson,330161,Bob Johnson,ROBERT,L,,,Bob,Johnson,,12,partialname+age
+2930,Johnson,ROBERT,C.,Robert C. Johnson,497854,Rob Johnson,ROBERT,J,,,Rob,Johnson,,12,partialname+age
+2930,Johnson,ROBERT,C.,Robert C. Johnson,1331866,Bob Johnson,ROBERT,L,,,Bob,Johnson,,12,partialname+age
+2930,Johnson,ROBERT,C.,Robert C. Johnson,1814248,Bob Shedd,ROBERT,W,,,Bob,Shedd,,12,partialname+age
+2930,Johnson,ROBERT,C.,Robert C. Johnson,2841996,Robert Turgeon,ROBERT,,,,,Turgeon,,12,partialname+age
+2930,Johnson,ROBERT,C.,Robert C. Johnson,621394,Paul Stockton,ROBERT,Paul,,,Paul,Stockton,CA,12,partialname+age
+2930,Johnson,ROBERT,C.,Robert C. Johnson,483083,Robert Colquhoun,ROBERT,Henry,,,,Colquhoun,FIDM,12,partialname+age
+2930,Johnson,ROBERT,C.,Robert C. Johnson,1768881,Robert Schwob,ROBERT,Jean,,,,Schwob,,12,partialname+age
+4834,Brown,MICHAEL,Allen,Michael Allen Brown,49801,Mike Brown,MICHAEL,A,,,Mike,Brown,MBA,1,fullname+cusip
+4834,Brown,MICHAEL,Allen,Michael Allen Brown,49801,Mike Brown,,,,,,,,9,existing
+5315,"Rodgers, Ph.D.",THURMAN,John,"Thurman John Rodgers, Ph.D.",180412,Doctor TJ Rodgers,THURMAN,John,,,TJ,Rodgers,MS PhD,1,fullname+cusip
+5706,Whitman,MARGARET,Cushing,Margaret Cushing Whitman,34345,Meg Whitman,MARGARET,Cushing,,,Meg,Whitman,MBA,1,fullname+cusip
+5706,Whitman,MARGARET,Cushing,Margaret Cushing Whitman,34345,Meg Whitman,,,,,,,,9,existing
+5910,"Foster, J.D.",JAMES,C.,"James C. Foster, J.D.",142122,Jim Foster,JAMES,Clifford,,,Jim,Foster,,1,fullname+cusip
+5910,"Foster, J.D.",JAMES,C.,"James C. Foster, J.D.",142122,Jim Foster,,,,,,,,9,existing
+6212,Maier,LOTHAR,,Lothar Maier,45781,Lothar Maier,LOTHAR,,,,,Maier,,1,fullname+cusip
+6212,Maier,LOTHAR,,Lothar Maier,45781,Lothar Maier,,,,,,,,9,existing
+7634,Sanghi,STEPHEN,,Stephen Sanghi,61502,Steve Sanghi,STEPHEN,,,,Steve,Sanghi,,1,fullname+cusip
+8095,Sola,JURE,,Jure Sola,83652,Jure Sola,JURE,,,,,Sola,,1,fullname+cusip
+8124,"Laub, J.D.",STEVEN,A.,"Steven A. Laub, J.D.",183402,Steve Laub,STEVEN,A,,,Steve,Laub,,1,fullname+cusip
+9349,Chen,JOHN,S.,John S. Chen,141731,John Chen,JOHN,S,,,,Chen,,1,fullname+cusip
+9349,Chen,JOHN,S.,John S. Chen,141731,John Chen,,,,,,,,9,existing
+9752,"Schleifer, M.D., Ph.",LEONARD,S.,"Leonard S. Schleifer, M.D., Ph.D.",201093,Doctor Len Schleifer,LEONARD,S,,,Len,Schleifer,MD PhD,1,fullname+cusip
+10038,Doluca,TUNC,,Tunc Doluca,36387,Tunc Doluca,TUNC,,,,,Doluca,MSEE,1,fullname+cusip
+10075,Tan,HOCK,E.,Hock E. Tan,102722,Hock Tan,HOCK,E,,,,Tan,MS MBA,1,fullname+cusip
+12812,Cozadd,BRUCE,C.,Bruce C. Cozadd,183256,Bruce Cozadd,BRUCE,C,,,,Cozadd,,3,fullname+ticker
+12812,Cozadd,BRUCE,C.,Bruce C. Cozadd,183256,Bruce Cozadd,,,,,,,,9,existing
+13950,Luczo,STEPHEN,James,Stephen James Luczo,49516,Dato' Steve Luczo,STEPHEN,J,,,Steve,Luczo,,1,fullname+cusip
+13950,Luczo,STEPHEN,James,Stephen James Luczo,49516,Dato' Steve Luczo,STEPHEN,J,,,Steve,Luczo,,3,fullname+ticker
+13950,Luczo,STEPHEN,James,Stephen James Luczo,49516,Dato' Steve Luczo,,,,,,,,9,existing
+14024,"de Geus, Ph.D.",AART,J.,"Aart J. de Geus, Ph.D.",64702,Doctor Aart De Geus,AART,J,,,,de Geus,MSEE PhD,1,fullname+cusip
+14027,"Chan, Ph.D.",CHI-FOON,,"Chi-Foon Chan, Ph.D.",64712,Doctor Chi-Foon Chan,CHI-FOON,,,,,Chan,,1,fullname+cusip
+14085,Peterson,JAMES,J.,James J. Peterson,201550,Jimmy Peterson,JAMES,J,,,Jimmy,Peterson,,1,fullname+cusip
+14085,Peterson,JAMES,J.,James J. Peterson,201550,Jimmy Peterson,,,,,,,,9,existing
+14274,Templeton,RICHARD,K.,Richard K. Templeton,13520,Rich Templeton,RICHARD,K,,,Rich,Templeton,,1,fullname+cusip
+14287,von Rickenbach,JOSEF,H.,Josef H. von Rickenbach,324013,Josef Von Rickenbach,JOSEF,H,,,,von Rickenbach,MBA,1,fullname+cusip
+14304,"Calderoni, CPA",ROBERT,M.,"Robert M. Calderoni, CPA",52347,Bob Calderoni,ROBERT,M,,,Bob,Calderoni,,1,fullname+cusip
+14304,"Calderoni, CPA",ROBERT,M.,"Robert M. Calderoni, CPA",52347,Bob Calderoni,,,,,,,,9,existing
+15533,Riccitiello,JOHN,S.,John S. Riccitiello,47756,John Riccitiello,JOHN,S,,,,Riccitiello,,1,fullname+cusip
+15587,Clemmer,RICHARD,L.,Richard L. Clemmer,82157,Rick Clemmer,RICHARD,L,,,Rick,Clemmer,,1,fullname+cusip
+15587,Clemmer,RICHARD,L.,Richard L. Clemmer,82157,Rick Clemmer,RICHARD,L,,,Rick,Clemmer,,3,fullname+ticker
+15587,Clemmer,RICHARD,L.,Richard L. Clemmer,82157,Rick Clemmer,,,,,,,,9,existing
+15620,"Truchard, Ph.D.",JAMES,J.,"James J. Truchard, Ph.D.",92037,Doctor Jim Truchard,JAMES,Joseph,,,Jim,Truchard,MS PhD,1,fullname+cusip
+17260,Aldrich,DAVID,J.,David J. Aldrich,327474,Dave Aldrich,DAVID,J,,,Dave,Aldrich,,1,fullname+cusip
+18070,Foate,DEAN,A.,Dean A. Foate,200556,Dean Foate,DEAN,A,,,,Foate,MS,1,fullname+cusip
+18346,"Lu, Ph.D.",KEH-SHEW,,"Keh-Shew Lu, Ph.D.",34717,Doctor Keh-Shew Lu,KEH-SHEW,,,,,Lu,,1,fullname+cusip
+18569,Gonzalez,RICHARD,A.,Richard A. Gonzalez,33494,Rick Gonzalez,RICHARD,A,,,Rick,Gonzalez,,1,fullname+cusip
+18580,Swoboda,CHARLES,M.,Charles M. Swoboda,90127,Chuck Swoboda,CHARLES,M,,,Chuck,Swoboda,,1,fullname+cusip
+18929,Hurd,MARK,Vincent,Mark Vincent Hurd,86007,Mark Hurd,MARK,Vincent,,,,Hurd,,1,fullname+cusip
+19583,Huang,JEN-HSUN,,Jen-Hsun Huang,83377,Jensen Huang,JEN-HSUN,,,,Jensen,Huang,MS,1,fullname+cusip
+20238,Hendrickson,JOHN,T.,John T. Hendrickson,270780,John Hendrickson,JOHN,T,,,,Hendrickson,MBA,3,fullname+ticker
+20625,McDermott,WILLIAM,R.,William R. McDermott,206474,Bill McDermott,WILLIAM,R,,,Bill,McDermott,MBA,1,fullname+cusip
+20625,McDermott,WILLIAM,R.,William R. McDermott,206474,Bill McDermott,,,,,,,,9,existing
+20629,Mondello,MARK,T.,Mark T. Mondello,63117,Mark Mondello,MARK,Thomas,,,,Mondello,,1,fullname+cusip
+21474,"Davern, CPA",ALEXANDER,M.,"Alexander M. Davern, CPA",205003,Alex Davern,ALEXANDER,M,,,Alex,Davern,,1,fullname+cusip
+21604,Mehrotra,SANJAY,,Sanjay Mehrotra,205405,Sanjay Mehrotra,SANJAY,,,,,Mehrotra,MS,1,fullname+cusip
+21626,"Delly, CPA",GAYLA,J.,"Gayla J. Delly, CPA",205183,Gayla Delly,GAYLA,J,,,,Delly,CPA,1,fullname+cusip
+21770,Mionis,ROBERT,A.,Robert A. Mionis,1084894,Rob Mionis,ROBERT,A,,,Rob,Mionis,,10,fullname+age
+22024,Bruggeworth,ROBERT,A.,Robert A. Bruggeworth,181113,Bob Bruggeworth,ROBERT,A,,,Bob,Bruggeworth,,1,fullname+cusip
+22451,Kelly,JAMES,G.,James G. Kelly,275263,Jim Kelly,JAMES,G,,,Jim,Kelly,CPA,1,fullname+cusip
+22632,Peng,VICTOR,,Victor Peng,339239,Victor Peng,VICTOR,,,,,Peng,MSEE,1,fullname+cusip
+22632,Peng,VICTOR,,Victor Peng,339239,Victor Peng,,,,,,,,9,existing
+22832,Jackson,KEITH,D.,Keith D. Jackson,200418,Keith Jackson,KEITH,D,,,,Jackson,MS,1,fullname+cusip
+22978,Kotick,ROBERT,A.,Robert A. Kotick,69696,Bobby Kotick,ROBERT,A,,,Bobby,Kotick,,1,fullname+cusip
+22978,Kotick,ROBERT,A.,Robert A. Kotick,69696,Bobby Kotick,,,,,,,,9,existing
+23011,Lechleiter,JOHN,C.,John C. Lechleiter,33316,Doctor John Lechleiter,JOHN,C,,,,Lechleiter,Phd,1,fullname+cusip
+23051,"Leiden, M.D., Ph.D.",JEFFREY,Marc,"Jeffrey Marc Leiden, M.D., Ph.D.",33491,Professor Doctor Jeff Leiden,JEFFREY,Marc,,,Jeff,Leiden,MD PhD MA,1,fullname+cusip
+23462,Tatarinov,KIRILL,,Kirill Tatarinov,272180,Kirill Tatarinov,KIRILL,,,,,Tatarinov,MBA,1,fullname+cusip
+23585,Block,KEITH,Gordon,Keith Gordon Block,33569,Keith Block,KEITH,G,,,,Block,MS,1,fullname+cusip
+24319,Griffin,LIAM,K.,Liam K. Griffin,327486,Liam Griffin,LIAM,K,,,,Griffin,MBA,1,fullname+cusip
+24349,Bousbib,ARI,,Ari Bousbib,33049,Ari Bousbib,ARI,,,,,Bousbib,MS MBA,1,fullname+cusip
+24736,"Papa, Jr.",JOSEPH,C.,"Joseph C. Papa, Jr.",206108,Joe Papa Jr,JOSEPH,C,,,Joe,Papa Jr,MBA,3,fullname+ticker
+26136,Swan,ROBERT,Holmes,Robert Holmes Swan,48076,Bob Swan,ROBERT,Holmes,,,Bob,Swan,,1,fullname+cusip
+26171,Nuti,WILLIAM,R.,William R. Nuti,201483,Bill Nuti,WILLIAM,R,,,Bill,Nuti,,1,fullname+cusip
+26385,Henshall,DAVID,James,David James Henshall,205153,David Henshall,DAVID,James,,,,Henshall,,1,fullname+cusip
+26449,Smith,GRAHAM,Vivian,Graham Vivian Smith,271741,Graham Smith,GRAHAM,V,,,,Smith,CA,1,fullname+cusip
+26635,"Milligan, Ph.D.",JOHN,F.,"John F. Milligan, Ph.D.",48201,Doctor John Milligan,JOHN,F,,,,Milligan,PhD,1,fullname+cusip
+27067,Moorthy,GANESH,,Ganesh Moorthy,61667,Ganesh Moorthy,GANESH,,,,,Moorthy,MBA,1,fullname+cusip
+27208,Catz,SAFRA,Ada,Safra Ada Catz,33503,Safra Catz,SAFRA,Ada,,,,Catz,,1,fullname+cusip
+27549,"Ingram, Esq.",DOUGLAS,S.,"Douglas S. Ingram, Esq.",46796,Doug Ingram,DOUGLAS,Stephen,,,Doug,Ingram,JD,1,fullname+cusip
+28073,Shannon,COLIN,,Colin Shannon,334096,Colin Shannon,COLIN,,,,,Shannon,MBA,1,fullname+cusip
+28220,Whitehurst,JAMES,Moon,James Moon Whitehurst,333755,Jim Whitehurst,JAMES,Moon,,,Jim,Whitehurst,MBA,1,fullname+cusip
+28834,Milligan,STEPHEN,D.,Stephen D. Milligan,325964,Steve Milligan,STEPHEN,D,,,Steve,Milligan,CPA,1,fullname+cusip
+28880,Smith,BRAD,D.,Brad D. Smith,444827,Brad Smith,BRAD,D,,,,Smith,,1,fullname+cusip
+29095,"Frazier, J.D.",KENNETH,C.,"Kenneth C. Frazier, J.D.",31551,Ken Frazier,KENNETH,C,,,Ken,Frazier,,1,fullname+cusip
+30883,"Hayford, CPA",MICHAEL,Dale,"Michael Dale Hayford, CPA",536199,Mike Hayford,MICHAEL,Dale,,,Mike,Hayford,MBA CPA,1,fullname+cusip
+30883,"Hayford, CPA",MICHAEL,Dale,"Michael Dale Hayford, CPA",536199,Mike Hayford,,,,,,,,9,existing
+30886,Read,IAN,C.,Ian C. Read,485621,Ian Read,IAN,C,,,,Read,CA,1,fullname+cusip
+31092,"Caulfield, DES, Ph.D",THOMAS,H.,"Thomas H. Caulfield, DES, Ph.D.",453077,Doctor Tom Caulfield,THOMAS,,,,Tom,Caulfield,,2,partialname+cusip
+31185,"Davis, J.D.",ROBERT,M.,"Robert M. Davis, J.D.",485800,Rob Davis,ROBERT,M,,,Rob,Davis,,1,fullname+cusip
+31306,Widmar,MARK,R.,Mark R. Widmar,488928,Mark Widmar,MARK,R,,,,Widmar,MBA CPA,1,fullname+cusip
+31306,Widmar,MARK,R.,Mark R. Widmar,488928,Mark Widmar,,,,,,,,9,existing
+32279,Adams,MARK,W.,Mark W. Adams,540099,Mark Adams,MARK,W,,,,Adams,,1,fullname+cusip
+32279,Adams,MARK,W.,Mark W. Adams,540099,Mark Adams,MARK,W,,,,Adams,,3,fullname+ticker
+32412,Roche,VINCENT,T.,Vincent T. Roche,35469,Vincent Roche,VINCENT,T,,,,Roche,,1,fullname+cusip
+32732,Wasserman,YUVAL,,Yuval Wasserman,544257,Yuval Wasserman,YUVAL,,,,,Wasserman,,1,fullname+cusip
+33199,Bradway,ROBERT,A.,Robert A. Bradway,534543,Bob Bradway,ROBERT,Alan,,,Bob,Bradway,MBA,1,fullname+cusip
+33750,Rhode,JASON,P.,Jason P. Rhode,498587,Doctor Jason Rhode,JASON,P,,,,Rhode,MS PhD,1,fullname+cusip
+33791,Gibeau,FRANK,D.,Frank D. Gibeau,495149,Frank Gibeau,FRANK,D,,,,Gibeau,MBA,1,fullname+cusip
+33918,Benck,JEFFREY,W.,Jeffrey W. Benck,535295,Jeff Benck,JEFFREY,W,,,Jeff,Benck,MS,1,fullname+cusip
+33918,Benck,JEFFREY,W.,Jeffrey W. Benck,535295,Jeff Benck,,,,,,,,9,existing
+34151,"Chirico, Jr.",JAMES,M.,"James M. Chirico, Jr.",443474,Jim Chirico Jr,JAMES,Michael,,,Jim,Chirico Jr,,3,fullname+ticker
+34151,"Chirico, Jr.",JAMES,M.,"James M. Chirico, Jr.",443474,Jim Chirico Jr,,,,,,,,9,existing
+34210,Goodarzi,SASAN,K.,Sasan K. Goodarzi,556870,Sasan Goodarzi,SASAN,Khanlari,,,,Goodarzi,,1,fullname+cusip
+35475,Tan,LIP-BU,,Lip-Bu Tan,182411,Lip-Bu Tan,LIP-BU,,,,,Tan,,1,fullname+cusip
+35700,"Hugin, MBA",ROBERT,J.,"Robert J. Hugin, MBA",84112,Bob Hugin,ROBERT,J,,,Bob,Hugin,MBA,1,fullname+cusip
+35712,Benioff,MARC,R.,Marc R. Benioff,375926,Marc Benioff,MARC,Russell,,,,Benioff,,1,fullname+cusip
+35959,"Rothblatt, J.D., M.B",MARTINE,A.,"Martine A. Rothblatt, J.D., M.B.A., Ph.D.",330136,Doctor Martine Rothblatt,MARTINE,A,,,,Rothblatt,JD MBA PhD,1,fullname+cusip
+35961,"Jeffs, Ph.D.",ROGER,A.,"Roger A. Jeffs, Ph.D.",330139,Doctor Roger Jeffs,ROGER,A,,,,Jeffs,PhD,1,fullname+cusip
+36206,"Kelley, J.D.",STEPHEN,D.,"Stephen D. Kelley, J.D.",647302,Steve Kelley,STEPHEN,Douglas,,,Steve,Kelley,,1,fullname+cusip
+36230,"Mosley, Ph.D.",WILLIAM,David,"William David Mosley, Ph.D.",547579,Doctor Dave Mosley,WILLIAM,David,,,Dave,Mosley,,3,fullname+ticker
+36261,Aquila,ANTHONY,,Anthony Aquila,598932,Tony Aquila,ANTHONY,,,,Tony,Aquila,,1,fullname+cusip
+36373,Pietri,ANTONIO,J.,Antonio J. Pietri,508234,Antonio Pietri,ANTONIO,J,,,,Pietri,MBA,1,fullname+cusip
+36516,"Kramer, Sr.",ROBERT,G.,"Robert G. Kramer, Sr.",510070,Bob Kramer Sr,ROBERT,G,,,Bob,Kramer Sr,MBA,1,fullname+cusip
+36696,Mollenkopf,STEVEN,M.,Steven M. Mollenkopf,640531,Steve Mollenkopf,STEVEN,M,,,Steve,Mollenkopf,MSEE,1,fullname+cusip
+36988,Leav,PETER,A.,Peter A. Leav,833256,Peter Leav,PETER,A,,,,Leav,,1,fullname+cusip
+37196,Gelsinger,PATRICK,P.,Patrick P. Gelsinger,486395,Doctor Pat Gelsinger,PATRICK,P,,,Pat,Gelsinger,MS D Litt,1,fullname+cusip
+37497,Lynch,ROGER,J.,Roger J. Lynch,8391,Roger Lynch,ROGER,J,,,,Lynch,,1,fullname+cusip
+37497,Lynch,ROGER,J.,Roger J. Lynch,8391,Roger Lynch,,,,,,,,9,existing
+37577,"Zelnick, Esq., J.D.",STRAUSS,H.,"Strauss H. Zelnick, Esq., J.D.",333171,Strauss Zelnick,STRAUSS,Harry,,,,Zelnick,,1,fullname+cusip
+37809,"Su, Ph.D.",LISA,T.,"Lisa T. Su, Ph.D.",542142,Doctor Lisa Su,LISA,T,,,,Su,MS PhD,1,fullname+cusip
+37809,"Su, Ph.D.",LISA,T.,"Lisa T. Su, Ph.D.",542142,Doctor Lisa Su,,,,,,,,9,existing
+40545,Hsing,MICHAEL,R.,Michael R. Hsing,447596,Michael Hsing,MICHAEL,R,,,,Hsing,,1,fullname+cusip
+40634,Kelsey,TODD,P.,Todd P. Kelsey,549027,Todd Kelsey,TODD,P,,,,Kelsey,,1,fullname+cusip
+40775,Bergman,RICHARD,A.,Richard A. Bergman,330400,Rick Bergman,RICHARD,A,,,Rick,Bergman,MBA,1,fullname+cusip
+40792,"Hantson, Ph.D.",LUDWIG,N.,"Ludwig N. Hantson, Ph.D.",1077323,Doctor Ludwig Hantson,LUDWIG,Norbert,Michel,,,Hantson,PhD,1,fullname+cusip
+41346,"Scangos, Ph.D.",GEORGE,A.,"George A. Scangos, Ph.D.",272786,Doctor George Scangos,GEORGE,A,,,,Scangos,PhD,1,fullname+cusip
+41364,Stewart,ROBERT,A.,Robert A. Stewart,1054826,Robert Stewart,ROBERT,A,,,,Stewart,,3,fullname+ticker
+41809,"Gopal, Ph.D.",AJEI,S.,"Ajei S. Gopal, Ph.D.",545851,Doctor Ajei Gopal,AJEI,S,,,,Gopal,PhD MSc,1,fullname+cusip
+42000,"Lombardi, CPA",RONALD,M.,"Ronald M. Lombardi, CPA",1094011,Ron Lombardi,RONALD,M,,,Ron,Lombardi,MBA CFA,1,fullname+cusip
+42535,Gorsky,ALEX,,Alex Gorsky,747756,Alex Gorsky,ALEX,,,,,Gorsky,MBA,1,fullname+cusip
+42618,Simmons,DAVID,S.,David S. Simmons,1075579,David Simmons,DAVID,S,,,,Simmons,,1,fullname+cusip
+43232,"Cox, M.B.A.",JOHN,G.,"John G. Cox, M.B.A.",1123231,John Cox,JOHN,G,,,,Cox,,1,fullname+cusip
+43392,Hallal,DAVID,L.,David L. Hallal,541897,David Hallal,DAVID,L,,,,Hallal,,1,fullname+cusip
+43585,Murphy,MATTHEW,J.,Matthew J. Murphy,761557,Matt Murphy,MATTHEW,J,,,Matt,Murphy,,1,fullname+cusip
+43722,Pilette,VINCENT,,Vincent Pilette,1096288,Vincent Pilette,VINCENT,,,,,Pilette,,1,fullname+cusip
+43722,Pilette,VINCENT,,Vincent Pilette,1096288,Vincent Pilette,,,,,,,,9,existing
+44188,Krzanich,BRIAN,Matthew,Brian Matthew Krzanich,764621,Brian Krzanich,BRIAN,Matthew,,,,Krzanich,,1,fullname+cusip
+44576,"Hughes, J.D.",JAMES,A.,"James A. Hughes, J.D.",332806,Jim Hughes,JAMES,A,,,Jim,Hughes,JD,1,fullname+cusip
+44810,Wilson,ANDREW,,Andrew Wilson,1207036,Andrew Wilson,ANDREW,,,,,Wilson,,1,fullname+cusip
+44939,Nadella,SATYA,,Satya Nadella,499383,Satya Nadella,SATYA,Narayana,,,,Nadella,MS MBA,2,partialname+cusip
+44948,Peck,KRISTIN,C.,Kristin C. Peck,1074205,Kristin Peck,KRISTIN,C,,,,Peck,MBA,1,fullname+cusip
+44952,Alaix,JUAN,Ramn,Juan Ramn Alaix,1075570,Juan Alaix,JUAN,Ramon,,,,Alaix,,1,fullname+cusip
+44956,Kummeth,CHARLES,R.,Charles R. Kummeth,1134582,Chuck Kummeth,CHARLES,R,,,Chuck,Kummeth,,1,fullname+cusip
+45376,"Caforio, M.D.",GIOVANNI,,"Giovanni Caforio, M.D.",857412,Doctor Giovanni Caforio,GIOVANNI,,,,,Caforio,MD,1,fullname+cusip
+45625,Edman,THOMAS,T.,Thomas T. Edman,321651,Tom Edman,THOMAS,T,,,Tom,Edman,MBA,1,fullname+cusip
+45673,Xie,KEN,,Ken Xie,1055310,Ken Xie,KEN,Q,,,,Xie,,2,partialname+cusip
+45833,Kothandaraman,BADRINARAYANAN,,Badrinarayanan Kothandaraman,1197971,Badri Kothandaraman,BADRINARAYANAN,Narayanan,,,Badri,Kothandaraman,,2,partialname+cusip
+45833,Kothandaraman,BADRINARAYANAN,,Badrinarayanan Kothandaraman,1197971,Badri Kothandaraman,,,,,,,,9,existing
+45957,Starkloff,ERIC,Howard,Eric Howard Starkloff,889340,Eric Starkloff,ERIC,Howard,,,,Starkloff,,1,fullname+cusip
+46535,Kurian,GEORGE,,George Kurian,1448606,George Kurian,GEORGE,,,,,Kurian,,1,fullname+cusip
+46758,Amon,CRISTIANO,Renno,Cristiano Renno Amon,1284093,Cristiano Amon,CRISTIANO,Renno,,,,Amon,,1,fullname+cusip
+46801,"Gapontsev, Ph.D.",VALENTIN,P.,"Valentin P. Gapontsev, Ph.D.",552050,Doctor Valentin Gapontsev,VALENTIN,P,,,,Gapontsev,PhD MSEE,1,fullname+cusip
+46804,"Scherbakov, Ph.D.",EUGENE,A.,"Eugene A. Scherbakov, Ph.D.",552052,Doctor Eugene Scherbakov,EUGENE,A,,,,Scherbakov,PhD DSc MS,1,fullname+cusip
+47415,"Devgan, Ph.D.",ANIRUDH,,"Anirudh Devgan, Ph.D.",550037,Doctor Anirudh Devgan,ANIRUDH,,,,,Devgan,MS PhD,1,fullname+cusip
+47489,Meury,WILLIAM,,William Meury,895019,Bill Meury,WILLIAM,J,,,Bill,Meury,,4,partialname+ticker
+47489,Meury,WILLIAM,,William Meury,895019,Bill Meury,,,,,,,,9,existing
+47802,"Smith, Ph.D.",SCOTT,Andrew,"Scott Andrew Smith, Ph.D.",540927,Scott Smith,SCOTT,A,,,,Smith,,1,fullname+cusip
+47849,Nir,YEHOSHUA,,Yehoshua Nir,1123639,Shuki Nir,YEHOSHUA,,,,Shuki,Nir,,1,fullname+cusip
+48040,Chiminski,JOHN,R.,John R. Chiminski,1047323,John Chiminski,JOHN,Richard,,,,Chiminski,MS MBA,1,fullname+cusip
+48100,Robin,HOWARD,W.,Howard W. Robin,376561,Howard Robin,HOWARD,W,,,,Robin,,1,fullname+cusip
+48198,Benjamin,MARK,D.,Mark D. Benjamin,745229,Mark Benjamin,MARK,D,,,,Benjamin,,1,fullname+cusip
+48198,Benjamin,MARK,D.,Mark D. Benjamin,745229,Mark Benjamin,,,,,,,,9,existing
+48291,Brace,PHILIP,Gordon,Philip Gordon Brace,486930,Phil Brace,PHILIP,Gordon,,,Phil,Brace,MS,3,fullname+ticker
+48585,Advaithi,REVATHI,,Revathi Advaithi,892665,Revathi Advaithi,REVATHI,,,,,Advaithi,MBA,3,fullname+ticker
+48608,Neri,ANTONIO,Fabio,Antonio Fabio Neri,1192124,Antonio Neri,ANTONIO,Fabio,,,,Neri,,1,fullname+cusip
+49137,El-Khoury,HASSANE,S.,Hassane S. El-Khoury,1269387,Hassane El-Khoury,HASSANE,,,,,El-Khoury,,2,partialname+cusip
+50453,Duato,JOAQUIN,,Joaquin Duato,879247,Joaquin Duato,JOAQUIN,,,,,Duato,MBA,1,fullname+cusip
+50499,"Bourla, D.V.M., Ph.D",ALBERT,,"Albert Bourla, D.V.M., Ph.D.",1361005,Doctor Albert Bourla,ALBERT,,,,,Bourla,,1,fullname+cusip
+51055,Macdonald,ALISTAIR,,Alistair Macdonald,1480344,Alistair Macdonald,ALISTAIR,John,,,,Macdonald,,2,partialname+cusip
+51061,Tufano,PAUL,J.,Paul J. Tufano,106062,Paul Tufano,PAUL,J,,,,Tufano,MBA,1,fullname+cusip
+51186,Brennan,DAVID,R.,David R. Brennan,332327,Dave Brennan,DAVID,Richard,,,Dave,Brennan,,1,fullname+cusip
+51599,"Seendripu, Ph.D.",KISHORE,,"Kishore Seendripu, Ph.D.",1058303,Doctor Kishore Seendripu,KISHORE,V,,,,Seendripu,PhD MBA MS,2,partialname+cusip
+51776,Clark,GREGORY,Scott,Gregory Scott Clark,1068227,Greg Clark,GREGORY,S,,,Greg,Clark,,1,fullname+cusip
+51778,Pike,THOMAS,H.,Thomas H. Pike,1010281,Tom Pike,THOMAS,H,,,Tom,Pike,,1,fullname+cusip
+51778,Pike,THOMAS,H.,Thomas H. Pike,1010281,Tom Pike,THOMAS,H,,,Tom,Pike,,6,fullname+conameLow
+51831,Lando,ZVI,,Zvi Lando,1449249,Zvi Lando,ZVI,,,,,Lando,,1,fullname+cusip
+52398,Scholhamer,JAMES,P.,James P. Scholhamer,321685,Jim Scholhamer,JAMES,P,,,Jim,Scholhamer,,1,fullname+cusip
+52782,Ricks,DAVID,A.,David A. Ricks,1068880,Dave Ricks,DAVID,A,,,Dave,Ricks,MBA,1,fullname+cusip
+55354,"Shannon, A.C.A.",COLIN,,"Colin Shannon, A.C.A.",334096,Colin Shannon,COLIN,,,,,Shannon,MBA,1,fullname+cusip
+55599,"Morrissey, Ph.D.",MICHAEL,M.,"Michael M. Morrissey, Ph.D.",272802,Doctor Mike Morrissey,MICHAEL,M,,,Mike,Morrissey,PhD,1,fullname+cusip
+55683,"Troendle, M.D.",AUGUST,James,"August James Troendle, M.D.",982110,Doctor August Troendle,AUGUST,James,,,,Troendle,MD,1,fullname+cusip
+55878,Simmons,JEFFREY,N.,Jeffrey N. Simmons,593280,Jeff Simmons,JEFFREY,N,,,Jeff,Simmons,,1,fullname+cusip
+56955,Taylor,BRET,Steven,Bret Steven Taylor,1108033,Bret Taylor,BRET,Steven,,,,Taylor,,1,fullname+cusip
+57347,"Roks, B.Sc., M.Sc.,",EDWIN,,"Edwin Roks, B.Sc., M.Sc., Ph.D.",1345036,Doctor Edwin Roks,EDWIN,,,,,Roks,,1,fullname+cusip
+57613,Clarke,MICHAEL,J.,Michael J. Clarke,456223,Michael Clarke,MICHAEL,Joseph,,,,Clarke,ME,1,fullname+cusip
+57613,Clarke,MICHAEL,J.,Michael J. Clarke,456223,Michael Clarke,MICHAEL,Joseph,,,,Clarke,ME,3,fullname+ticker
+57614,Liebel,HARTMUT,,Hartmut Liebel,807018,Hartmut Liebel,HARTMUT,,,,,Liebel,,10,fullname+age
+57615,Dastoor,MICHAEL,,Michael Dastoor,540451,Mike Dastoor,MICHAEL,Meheryar,K,,Mike,Dastoor,u,2,partialname+cusip
+57700,Slootman,FRANK,,Frank Slootman,843302,Frank Slootman,FRANK,,,,,Slootman,,1,fullname+cusip
+58054,"Boerner, Ph.D.",CHRISTOPHER,S.,"Christopher S. Boerner, Ph.D.",1093830,Doctor Chris Boerner,CHRISTOPHER,S,,,Chris,Boerner,MA PhD,1,fullname+cusip
+59360,"Torley, M.B. Ch. B.,",HELEN,I.,"Helen I. Torley, M.B. Ch. B., M.R.C.P.",1127175,Doctor Helen Torley,HELEN,I,,,,Torley,,1,fullname+cusip
+60254,"Gano, Ph.D.",KYLE,W.,"Kyle W. Gano, Ph.D.",1313292,Doctor Kyle Gano,KYLE,William,,,,Gano,Ph.D,1,fullname+cusip
+60255,"Gorman, Ph.D.",KEVIN,C.,"Kevin C. Gorman, Ph.D.",206587,Doctor Kevin Gorman,KEVIN,C,,,,Gorman,MBA PhD,1,fullname+cusip
+60423,Gala,RENEE,D.,Renee D. Gala,1301965,Renee Gala,RENEE,D,,,,Gala,,10,fullname+age
+60463,Sievers,KURT,,Kurt Sievers,1096978,Kurt Sievers,KURT,,,,,Sievers,,3,fullname+ticker
+64480,Barua,NEIL,,Neil Barua,544533,Neil Barua,NEIL,,,,,Barua,,1,fullname+cusip
+64496,Pops,RICHARD,F.,Richard F. Pops,104962,Richard Pops,RICHARD,Frank,,,,Pops,,3,fullname+ticker
+65036,Cook,JAMES,S.,James S. Cook,1454751,James Cook,JAMES,G,,,,Cook,,12,partialname+age
+65036,Cook,JAMES,S.,James S. Cook,203273,Jim Heppelmann,JAMES,Edward,,,Jim,Heppelmann,,12,partialname+age
+65036,Cook,JAMES,S.,James S. Cook,372799,Jim Cook,JAMES,C,,,Jim,Cook,,12,partialname+age
+65036,Cook,JAMES,S.,James S. Cook,1097626,Doctor Jim Cook,JAMES,MacFarlane,,,Jim,Cook,,12,partialname+age
+65036,Cook,JAMES,S.,James S. Cook,2566536,Jim Holton,JAMES,W,,,Jim,Holton,,12,partialname+age
+65931,Steele,GARY,L.,Gary L. Steele,1252966,Gary Steele,GARY,L,,,,Steele,,1,fullname+cusip
+66237,McNamara,MICHAEL,M.,Michael M. McNamara,377031,Mike McNamara,MICHAEL,M,,,Mike,McNamara,MBA,3,fullname+ticker
