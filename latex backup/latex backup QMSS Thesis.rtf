@@ -1,0 +1,1129 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww30040\viewh18900\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \\documentclass[11pt]\{article\}\
+\
+% --- Packages ---\
+\\usepackage[margin=1in]\{geometry\}\
+\\usepackage\{hanging\}\
+\\usepackage\{amsmath, amssymb\}\
+\\usepackage\{graphicx\}\
+\\usepackage\{natbib\}\
+\\usepackage\{setspace\}\
+\\usepackage\{titlesec\}\
+\\usepackage[hidelinks]\{hyperref\}\
+\\usepackage\{pgfplots\}\
+\\pgfplotsset\{compat=1.18\}\
+\\usepackage\{tikz\}\
+\\usepackage\{filecontents\}\
+\\usepackage\{graphicx\}\
+\\usepackage\{float\}\
+\\usepackage\{booktabs\}\
+\\usepackage\{multirow\}\
+\
+% --- Spacing ---\
+\\doublespacing\
+\\begin\{document\}\
+\\begin\{titlepage\}\
+    \\centering\
+    \\vspace*\{9cm\}\
+    \
+\
+    \{\\normalsize Do Advanced Degrees Explain Technology CEO Performance? \\par\}\
+    \
+    \\vspace*\{\\fill\}\
+    \
+    \{\\small \\textbf\{Leo Jergovic\} \\par\}\
+    \{\\small Advised by Professor Harrison Hong \\par\}\
+    \{\\small Columbia University \\par\}\
+    \{\\small Quantitative Methods in the Social Sciences \\par\}\
+    \{\\small Master's Thesis \\par\}\
+    \
+    \\vspace*\{\\fill\}\
+\\end\{titlepage\}\
+\
+\\begin\{abstract\}\
+\\thispagestyle\{empty\}\
+\
+While a large canon of psychological and management literature claims a positive impact of higher education on leadership, few studies quantitatively link educational attainment to the financial outcomes for organizations. This paper seeks to unravel whether CEO educational attainment (particularly in the form of advanced degrees) can explain the financial performance of high technology companies.\
+\
+A hand-selected, merged dataset is built including financial reporting data from 151 firms (biotech, hardware, and software) from 2015 to 2025. For each firm-year observation, the operating CEO and five educational attainment variables (undergraduate, master's, MBA, PHD, and MD) are added. Financial, CEO-specific, and compensation-related controls are included to address education-adjacent omitted variable bias.\
+\
+Across two separate specifications, CEO higher educational attainment shows a significant relationship with firm performance (measured by normalized return on assets) for biotech and hardware \\& semiconductor firms. Biotech CEOs with PHDs are associated with stronger ROA performance, while Biotech CEOs with MDs work at companies that underperform their peers. For semiconductor and hardware firms, CEOs with PHDs are associated with stronger ROA performance, while CEOs with MBAs are associated with companies that perform poorly.\
+\
+These observational results tie strongly to psychological research suggesting that individuals with higher "integrative complexity" perform better in solving complex problems and leading. The findings of this thesis present initial support for the notion that successful technology leadership, controlling for firm characteristics and compensation incentives, requires an education-derived capacity for high complexity information.\
+\
+\
+\
+\\end\{abstract\}\
+\
+\
+\\newpage\
+\
+\\tableofcontents\
+\
+\
+\\newpage\
+\\pagenumbering\{arabic\}\
+\\section\{Introduction\}\
+Since the 1960s, psychological research has ratified the value of a strong education. At the individual level, educational attainment leads to improved decision making, cognitive performance, and leadership. Contemporary population views align; more than 90\\% of U.S. citizens with an undergraduate degree believe that higher education pays off in the long term value (Pew Research Center, 2014).\
+\
+High Technology companies typically agree with psychologists and population sentiment. An increasing number of top employers require employees to have degrees from selective and prestigious undergraduate institutions. For higher level management and executive roles, a strong educational background is a baseline expectation (Ellis, 2026).\
+\
+Despite this implicit assumption \'97 that well-educated  leaders should drive more successful innovation \'97 few studies examine the data-driven relationship between leadership educational attainment and technology firm performance. While some strands of management literature gravitate to specific examples of well-educated CEOs or operators turning R\\&D-intensive firms around, these studies do not provide formalized quantitative results. Outside of Knowledge-Based sectors, a handful of studies have identified the value of management education in specific fields, such as the improved income performance of banks led by CEOs with MBAs (King et al., 2016). The lack of studies unpacking the role leadership education plays in innovation-driven firms constitutes the core motivation of this paper.\
+\
+Using financial data from the Wharton Research Data Services (WRDS), this research paper seeks to explore the following question \'97 \\textit\{For R\\&D-intensive, innovation-driven companies, how do the educational backgrounds of company CEOs (both undergraduate and specified advanced degrees) impact the performance of the underlying companies?\} Throughout the forthcoming analysis, the initial alternative hypothesis will be that advanced degrees (PHDs, medical doctorates) lead to stronger financial performance (measured as an adjustment of return on assets).\
+\
+The literature review that follows will discuss  previous psychology research and management papers that motivate the potential importance of educational attainment in this analysis. It will also detail the behavioral finance papers providing the baseline of our methodological design. The Dataset overview will provide an explanation of the modified WRDS dataset and its final construction. The Methodology section will outline the baseline regressions utilized to explain the impact of educational attainment and provide a comprehensive overview of key control variables. Finally, initial results will be shared alongside a discussion of findings and what they may imply for the industry groups of companies being analyzed.\
+\
+\\newpage\
+\
+\\section\{Literature Review\}\
+\\subsection\{Psychology and Management Literature on Individual Cognition\}\
+In the 1960s, psychological researchers began publishing explicit findings about the individual impact of education. In his seminal work on Human Capital, Gary Becker assessed "education" and "on-the-job training" in tandem, identifying them as particularly strong drivers of earnings and security of employment. Becker's work treats education in the manner of an accountant analyzing a company's capital investment, calculating the financial returns on investment for various kinds of degrees (Becker, 1964). Becker's work not only cemented the academic and public perception of education's role in individual success, but also sketched the first analogy of education as a financial independent variable (motivating its role in the management and financial papers to eventually follow).\
+\
+In the few years following Becker's first publication, a number of theorists expanded on his work, providing new theories about the role of complex cognition in problem-solving. Princeton researchers Marvin Karlins et. al tested the value of individual capacities for complex information; in a problem-solving task, individuals that were classified as having more "integrative complexity" asked more questions and performed better in learning tasks. They also exhibited stronger performance when presented with tasks characterized by less structure and required action (Karlins et al., 1967). Although an early step in the development of psychological frameworks around education, the concept of "integrative complexity" provides a compelling basis for the hypothesis of this paper. Given that the CEOs of R\\&D-heavy companies are likely to face complex, unstructured problems, it is rational to hypothesize that achieving a higher education would improve their ability to lead effectively.\
+\
+Eventually, studies of management and educational psychology directly overlapped. Philip Mason and Donald Hambrick proposed Upper Echelons Theory, which draws a relationship between executive teams and two measures of performance: strategic choices and performance levels. After observing top performing management teams, they created a model tying cognitive ability to a number of background characteristics, including age, experience, financial background, and education (Hambrick \\& Mason, 1984). These findings present one of the first fundamental overlaps between the psychological characterization of "cognitive ability" and corporate leadership acumen. Even more importantly, they acknowledge the importance of control variables in the context of education (age, tenure, background information) and the difficulty of drawing appropriate causality; just as strong education could yield impressive cognitive ability, impressive cognitive ability might have led a company's leader to attain a strong education in the first place.\
+\
+The proposition that basic profile details could predict a leader's ability to execute effective strategy birthed a number of follow-ups on Upper Echelons theory. Professors Marianne Bertrand and Antoinette Schoar identify statistically significant patterns in decision-making based solely on experience and education. For older, higher tenure executives, they demonstrate that leaders execute more conservative management decisions than younger managers. With regards to education, they find that managers with MBA degrees tend to enact more aggressive firm strategies (Bertrand \\& Schoar, 2003). This explicit articulation of management style ties to the "integrative complexity" described in Marvin Karlins' work, suggesting for this body of research that different degrees may lead to executives operating with differences in approach (and resultantly, differences in performance).\
+\
+The choice of this research methodology to concentrate on CEO education in particular originates from a handful of papers that scrutinize CEO education and firm performance. For example, Professors Deepak Datta and Nandini Rajagopalan assess the performance of successor CEOs (joining after a CEO leaves their position) in capital investment, advertising intensity, and board power. They find that education is a statistically significant predictor of CEO performance in these categories for successor CEOs (Datta \\& Rajagopalan, 1998). Datta and Rajagopalan's work not only validates the CEO as a core individual responsible for company-wide strategic decision making, but also motivates this study's scrutiny of potential corruption of transition years for the CEOs included in the analysis.\
+\
+While the psychological groundwork and resulting follow-on studies provide a logical explanation for the variable selection, baseline design, and working hypothesis of this research, drawing a clear relationship requires better access to firm-specific controls and proper addressing of endogeneity concerns. To understand how this strand of research might properly account for CEO education, assessing the behavioral finance literature and its implications for measuring firm performance are detailed in the following sections.\
+\
+\\subsection\{Financial Literature and Methodological Groundwork\}\
+A number of core behavioral finance studies utilize publicly listed stock returns as a core dependent variable for their analysis. These studies consider a plethora of quantitative indicators, including time-of-year effects (Chen \\& Singal, 2004), volatility (Ang et al., 2009), and country-of-trade (Froot, 1999), illustrating how publicly available information about these variables can impact the market pricing of the securities in question. However, the majority of these papers utilize these variables to understand how markets behave in the context of such information, but not how firms themselves actually perform. The implication is that even when firm performance does not change, market pricing can respond to changes in available information and generate "financial" returns for investors.\
+\
+When seeking strategically honest, sentiment-agnostic measures of firm performance, seminal papers from the financial literature routinely select return on assets (ROA) as a successful tool across different independent variables, industry categories, and geographies of interest. Computed by dividing the net income of a company by the value of its total assets, the measure allows for comparison between different firms regardless of their scale, industry, or operating geography (Barber \\& Lyon, 1996). Furthermore, ROA is resistant to the market volatility created by sentiment and information-driven investors.\
+\
+The literature precedents for constructing education variables inform the inclusion of binary indicators and the value of capturing "school prestige." In their examination of mutual fund managers, Professors Judith Chevalier and Glen Ellison assess how the average composite SAT score of an individual's undergraduate school, MBA completion status, and age ultimately affect the performance of the fund they manage. Their main conclusion outlines that managers who attended higher-SAT undergraduate institutions have stronger risk-adjusted returns for their portfolios (Chevalier \\& Ellison, 2002). Ellison and Chevalier's work not only exemplifies the value of constructing degree-type binary variables (e.g. MBA, yes or no), but also the importance of capturing some measure of ranking or quality as a potential driver of cognitive success.\
+\
+This study's methodology draws primarily from a CEO education project that was completed by Professors Timothy King, Abhishek Srivastav, and Jonathan Williams. Focusing on the U.S. banking sector, their paper constructs a hand-built dataset capturing CEO education (both attainment percentages and quality) and ROA performance observations from 1992 to 2011. They define financial controls (including stock pricing volatility, macroeconomic conditions, and bank size) alongside CEO-specific controls (including compensation and experience) in order to reduce the potential impact of financial and external factors. Across multiple robustness checks and endogeneity attempts, they demonstrate that bank CEOs with MBAs are associated with stronger ROA performance (King et al., 2016).\
+\
+This banking-specific analysis differentiates itself from preceding papers because of its narrow industry focus. By concentrating on a specific sector, hyper-localized educational effects take stronger hold in the data; MBA-earning CEOs may not affect all industries equally (with effects cancelling out or neutralizing positive findings), but they do specifically provide strong performance value for banking executives. This confirms a R\\&D specific lens for this paper; with the prevalence of high development cost, public technology companies in the 2010s, isolating a subset of innovation-oriented industries may lead to more significant findings than running the same testing for an economy-wide sample.\
+\
+Treating ROA and firm-specific controls as a panel dataset also constitutes a valuable lesson from King et al. By choosing a specific set of fiscal year observations over 19 years, they capture different iterations of CEO tenure, tie ROA performance with year-by-year CEO profiles, and include more samples in their final dataset.\
+\
+Finally, their study of banking CEO education correctly humbles the aspirations of this canon of research. Even with positive results and endogeneity checks, their findings are fundamentally limited by the lingering possibility of reverse causality. The aforementioned conundrum remains; just as a well-educated CEO might build out a high ROA company, a high ROA company might benefit from the flexibility to hire a well-educated CEO.\
+\
+The forthcoming section details the construction of a comparable dataset for hand-selected technology companies from 2015-2025 using WRDS querying and data concision. The methodology section will delve into the core approach utilized by King et al. and outline the adjustments made for a technology-oriented dataset. Finally, the Results and Discussion sections will outline initial regression results and compare them to the banking-specific findings described above.\
+\
+\\subsection\{CEO Compensation and Incentives Literature\}\
+\
+\
+\
+\
+\
+\
+\
+\
+[TO BE UPDATED - add literature sources (and to bibliography) about CEO compensation and incentives. These include studies about how compensation affects risk-taking behavior, how amount of options/equity as a proportion of total comp impacts management risk-taking, and how these might translate to performance.]\
+\
+\\section\{Dataset: Wharton Research Data Services\}\
+\
+The panel dataset used for this paper comes from three primary datasets included with the Columbia University license of Wharton Research Data Services (WRDS): Compustat (North America), Boardex, and the Center for Research in Securities Pricing (CRSP). Queries from these three datasets, alongside additional data coding operations executed in python, are used to construct the final panel dataset of observations from January of 2015 to December of 2025. The only non-WRDS data included in the analysis is taken from the world bank (11 observations for annual U.S. GDP growth from 2015-2025).\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tx18086\tx24063\tx24611\ri-8950\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 WRDS is a platform providing institution-licensed users access to more than 60 data vendors (Wharton Research Data Services [WRDS], 2026). In addition to providing gold-standard financial data (accurate high-speed trading data, financial reporting, institutional profiles), it also provides bridging services that allow users to match datasets (useful in this paper's usage case for bridging company and executive identification numbers between Compustat and BoardEx).\
+\
+\\textit\{Appendix A: Overview of Data Construction Pipeline\} is included in the Appendix section to provide a more comprehensive overview of the explicit steps followed when querying and modifying all WRDS data collections. Additionally, each of the following sub-sections will reference subsequent Appendix entries that capture the specific query parameters used to collect the resulting data.\
+\
+\\subsection\{Compustat\}\
+\
+The North American Compustat database provides individual data points for U.S. and Canadian companies from their financial statements. The dataset extends from 1950 to the time of this paper's writing, providing access to key information reported by publicly traded firms in each year (S\\&P Global Market Intelligence, 2026).\
+\
+One of the primary benefits of the Compustat datset is the inclusion of firm-specific SIC (standard industrial classification) codes. SIC codes enable granular selection of peer groups of firms with similar operating practices, target markets, and product lines. Given this paper's concentration on high-R\\&D, technology-oriented firms, SIC codes were the filtration mechanism for selecting relevant U.S. companies that met the industry focus criteria. For a total of 10 selected SIC codes, companies were classified under three categories: Semiconductors and Hardware, Biotech, and Software. Table 1 outlines the 10 SIC codes, their corresponding sub-industry, and their high-level industry classification for the purposes of the forthcoming dataset construction (OSHA, 2026):\
+\
+\\begin\{table\}[ht]\
+\\centering\
+\\caption\{\{SIC Code Mapping to Macro Industries\}\}\
+\\vspace*\{0.25cm\}\
+\\label\{tab:sic_mappings\}\
+\\begin\{tabular\}\{lll\}\
+\\toprule\
+\\textbf\{High-Level Industry Classification\} & \\textbf\{SIC Code\} & \\textbf\{Sub-Industry\} \\\\\
+\\midrule\
+\\multirow\{5\}\{*\}\{Semiconductors and Hardware\} & 3674 & Semiconductors \\& Related Devices \\\\\
+                                         & 3672 & Printed Circuit Boards \\\\\
+                                         & 3679 & Electronic Components, NEC \\\\\
+                                         & 3571 & Electronic Computers \\\\\
+                                         & 3572 & Computer Storage Devices \\\\\
+\\midrule\
+\\multirow\{3\}\{*\}\{Biotech\}                 & 2836 & Biological Products \\\\\
+                                         & 2834 & Pharmaceutical Preparations \\\\\
+                                         & 8731 & Commercial Physical Research \\\\\
+\\midrule\
+\\multirow\{2\}\{*\}\{Software\}                & 7372 & Prepackaged Software \\\\\
+                                         & 7371 & Computer Programming Services \\\\\
+\\bottomrule\
+\\end\{tabular\}\
+\\end\{table\}\
+\
+WIth the above SIC codes, all U.S. companies falling under the above three industry classifications are withdrawn (name and ticker). This provides the basis for extracting financial data for each of the respective firms through Compustat. A few hand-selected companies are removed from the dataset (rationale detailed in Appendix A).\
+\
+Compustat provides all core financial figures for this study's selected companies. For annual fiscal years from 2015 to 2025, financial figures include outstanding shares, cost of shares at end of fiscal year, total equity value, total asset value, total debt, retained earnings, net income, and research and development (R\\&D) expenditure. Calculations are performed on these figures in order to construct dependent variables and controls for eventual analysis (for example, ROA will be computed as the net income divided by total asset value). Once collected, these financial figures constitute the baseline for this study's panel data. The comprehensive list of collected financial figures are detailed in \\textit\{Appendix B: Collected Compustat Financial Data\}.\
+\
+Compustat also provides the strongest-available executive compensation data in WRDS through a dataset called ExecuComp. Execucomp provides data on each selected public company's top five executive officers (when available) (WRDS, 2026). Given the importance of including CEO-specific compensation controls (with the potential to impact management incentives), this panel dataset also leverages CEO annual compensation figures (total compensation, cash base salary, cash bonus, equity bonus, unexercisable/unexercised options, exercisable/unexercised options). Because core CEO educational data is taken from BoardEx (see section \\textit\{3.2 Boardex\}), a WRDS data bridge is performed between BoardEx CEO identification numbers and Execucomp that allows for panel data matching. Collected Execucomp variables are detailed in \\textit\{Appendix C: Collected Execucomp Compensation Data\}.\
+\
+\\subsection\{BoardEx\}\
+\
+Available through WRDS, BoardEx is an aggregator of executive data, detailing profiles of key leadership personnel at a large list of publicly traded U.S. firms. In addition to providing lists of managers and their positions at respective companies, BoardEx provides access to employment history, birth information, and educational data that are the critical makeup of this paper's independent variables and CEO-specific controls.\
+\
+Equipped with a list of industry-relevant firms from Compustat, BoardEx must be queried in order to extract BoardEx-specific company identification numbers. Filtering data from 2015 to 2025, these company identification values yield a gross list of company executives for the dates and securities requested. For each of those executives, basic employment information (start date, position, seniority) and personal information (name, date of birth, state inhabited) are provided. \
+\
+To isolate the dataset to CEO-only entries, language processing filters and seniority filters (executive CEOs only) are applied through a python scrypt to isolate Chief Executive Officers from their peers. The results is a consolidated list of the specific CEOs that served at the companies of interest from the start of 2015 to the end of 2025.\
+\
+A separate BoardEx query is then performed on the specific CEO identification numbers. This query extracts educational data for each of the CEOs (degree, institution, date of award, etc.). For a given CEO, multiple rows may appear, with each row representing a separate degree awarded. \
+\
+Valuable CEO-specific controls are also available through BoardEx and are extracted in the querying process. These include CEO age, tenure, and gender.\
+\
+A comprehensive list of extracted BoardEx variables used in the construction of this paper's panel dataset are included in \\textit\{Appendix D: Collected BoardEx Variables\}\
+\
+\\subsection\{Center for Research in Security Prices\}\
+Available through WRDS, the Center for Research in Security Prices (CRSP) provides benchmark accuracy in market data for the United States, including stock performance of publicly listed firms. While this study prioritizes the use of ROA over stock performance as an indicator of financial performance, including CRSP stock trading data still provides useful controls for the panel data analysis. As a result, closing stock data for the selected tickers are extracted from CRSP for eventual merging with our panel dataset.\
+\
+\\subsection\{Data Consolidation and Descriptive Statistics\}\
+\
+With multiple queries performed across the three datasets (Compustat, BoardEx, CRSP), merging panel data requires careful attention to correct linkage of CEO, firm, and year related attributes. For example, when merging CEO education data with CEO control data, data merging occurs on the basis of the CEO BoardEx identification number. When merging CEO education and control data with Execucomp compensation data, merging occurs based on the bridge that links Execucomp CEO identification numbers to BoardEx CEO identification numbers. When merging occurs between the Compustat financial data and CEO financial data, merging must occur across the correct CEO, company identification, and year values.\
+\
+A number of data processing calculations are performed. As mentioned above, some calculations constitute basic column generation (ROA is generated as net income divided by total assets). The totality of these basic variable constructions are detailed in Appendix E. However, for the educational independent variables, this construction process is more complex.\
+\
+Initially, CEO education fields are provided as separate rows, with each row representing a degree awarded. To flatten a CEO observation into one row, each CEO identification number is assigned a binary variable for each of five forms of educational attainment (undergraduate, master's, MBA, PHD, and MD). If a CEO has a row corresponding to one of the degree types, the degree type is marked with a completion indicator.\
+\
+Prestige of each degree is captured using a top 20 binary variable for each degree type. Gathering the top 20 U.S. universities from U.S. News and World reporting (U.S. News \\& World Report, 2026), a language processing scrypt is applied to each "awarding institution" string. If a school falls under the top 20 institution list, a binary variable is applied. Top 20 binary variables are generated for each of the degree types present in the CEO row (top 20 undergraduate school, top 20 master's school, etc.). \
+\
+The result of having 10 binary variables representing educational attainment is that there are 10 closely correlated educational variables. To avoid multicollinearity, this paper mirrors the solution provided by King et al. in their banking CEO analysis (King et al., 2016). Factor analysis is performed in order to address multicollinearity, yielding a set of 5 factors that receive their attribution from the corresponding 5 degree types present in the underlying analysis. The attribution of each of the 10 binary variables to these factors for the baseline dataset (excluding compensation data) is outlined in \\textit\{Table 2\} below:\
+\
+\\begin\{table\}[H]\
+\\centering\
+\\caption\{Factor Loadings for Baseline Sample (Excluding Compensation Data)\}\
+\\small\
+\\vspace*\{0.25cm\}\
+\\begin\{tabular\}\{lrrrrr\}\
+\\hline\
+\\textbf\{Variable\} & \\textbf\{Factor 1\} & \\textbf\{Factor 2\} & \\textbf\{Factor 3\} & \\textbf\{Factor 4\} & \\textbf\{Factor 5\} \\\\\
+ & \\textit\{Master's\} & \\textit\{MD\} & \\textit\{PhD\} & \\textit\{MBA\} & \\textit\{UG\} \\\\\
+\\hline\
+UG Degree        & 0.05  & -0.27 & 0.03  & 0.11  & 0.42 \\\\\
+Top-20 UG        & 0.02  &  0.01 & 0.13  & 0.12  & 0.48 \\\\\
+MBA              & -0.07 & -0.07 & -0.08 & 0.75  & -0.02 \\\\\
+Top-20 MBA       & -0.03 & -0.05 & -0.02 & 0.88  & 0.04 \\\\\
+PhD              & 0.15  &  0.20 & 0.55  & -0.08 & -0.27 \\\\\
+Top-20 PhD       & 0.13  &  0.02 & 0.94  & -0.03 & 0.09 \\\\\
+MD               & -0.05 &  0.96 & 0.04  & -0.07 & -0.03 \\\\\
+Top-20 MD        & 0.10  &  0.37 & 0.24  & -0.01 & 0.20 \\\\\
+Master's         & 0.96  & -0.05 & 0.10  & -0.03 & -0.02 \\\\\
+Top-20 Master's  & 0.56  &  0.00 & 0.34  & -0.12 & 0.43 \\\\\
+\\hline\
+\\end\{tabular\}\
+\\label\{tab:factor_loadings_baseline\}\
+\\end\{table\}\
+\
+The above factor loadings reveal that the education data construction approach (quality and attainment binary variables) correctly captures the educational attainment of each CEO in the panel dataset. In the above table, Factor 1 loads heavily onto the binary variables related to the Master's degree. For each other degree type, a specific factor loads heavily onto one particular degree and its marker of prestige. As a result, each factor is renamed according to the corresponding degree that it weighs onto. The analagous tabular result for the modified dataset (including CEO compensation) is included in \\textit\{Appendix F: Factor Loadings for Baseline Sample (Including Compensation Data)\}. This factor analysis also exhibits ideal mapping onto the target degree variables.\
+\
+\\subsection\{Baseline and Compensation Datasets\}\
+\
+After merging flattened and factor-analyzed educational data with the existing merged panel dataset, a preliminary dataset is completed. The core dataset for this paper's analysis excludes executive compensation data (as more than 30\\% of CEO compensation figures are unavailable). Thus, the primary analysis (and core results) are separated from the data-constrained results that include executive compensation.\
+\
+The consolidated baseline dataset has 943 observation rows (2015 to 2025) and 151 unique high R\\&D firms, which is in the range of King et al.'s 1,032 firm-year observations for 149 banks. In total, there is a relatively even distribution between the three industry categories, with 57 biotech firms, 55 semiconductor and hardware firms, and 39 software firms included in the sample. There are 15 included variables across key analysis values, financial controls, and CEO-specific controls. Baseline dataset descriptive statistics are provided in Appendix G.\
+\
+The consolidated compensation dataset merges Execucomp compensation data onto the baseline dataset. Because Execucomp does not comprehensively cover compensation for all 154 CEOs in the baseline dataset, a number of panel data observations are omitted in the construction of a compensation-inclusive panel dataset. In total, there are 601 total observations for 37 unique biotech firms, 38 unique semiconductor and hardware firms, and 19 unique software firms. The compensation-inclusive dataset descriptive statistics are provided in Appendix H.\
+\
+In the forthcoming methodology section, the variables collected above are discussed in relation to the King et al. approach to evaluating educational attainment. \
+\
+\\newpage\
+\\section\{Methodology\}\
+The core methodological approach of this thesis derives from King et al. and their study of CEO education for U.S. publicly listed banks. Throughout the Methodology section, variables drawn from their methodology are attributed to the bank-CEO approach, while supplemental or modified variables are acknowledged. While the core regression setup mirrors their methodology, a number of variable modifications are imposed because of differences in available data and the fundamental differences of evaluating innovation-oriented firms.\
+\
+\\subsection\{Dependent Variable: Return on Assets\}\
+\
+As mentioned in the literature review of this paper, return on assets (ROA) constitutes a strong dependent variable because of its proximity to financial fundamentals and insensitivity to shifts in market sentiment. For the Compustat-derived panel dataset, raw ROA is calculated as the division of net income by value of total assets for each firm in each year of observation.\
+\
+In their bank CEO study, King et al. utilize a mean-adjusted measure of ROA, subtracting the industry-year mean from each observation of ROA. This dataset replicates the normalization, which should capture positive or negative performance in comparison to peers rather than raw values for ROA.\
+\
+\\subsection\{Independent Variable: Educational Attainment\}\
+The above Data Consolidation and Descriptive Statistics Section (3.4) explicitly details the construction of education factors. Factor analysis allows for the inclusion of school rankings (binary variables for top 20 U.S. colleges) alongside degree fulfillment binary variables, eliminating multicollinearity from education data while still capturing the weighting of the different degrees.\
+\
+Thus, the independent variables in this analysis are factor variables for undergraduate, master's, MBA, PHD, and MD degree fulfillment. Each of these factors is scaled appropriately based on whether or not the respective degree was achieved at a top 20 school in the United States. \
+\
+\\subsection\{Control Variables\}\
+\\subsubsection*\{Financial Controls\}\
+\
+Financial controls are critical in order to capture other potential drivers of profitability (and correspondingly, ROA). This prevents the misinterpretation of positive coefficients on CEO educational factors due to underlying financial differences in the firms being analyzed.\
+\
+King et al. control for firm size, equity capital, charter value, deposits, volatility, and retained earnings. Firm (log of total assets) can have a potential impact on economies of scale and impact profitability, so it is included in the financial control set. Equity capital (defined as equity value divided by asset value) and charter value (market-to-book value of equity) are potential drivers or correlates with profitability, and are also included. For this analysis, bank deposits are omitted because technology companies do not have substantial customer deposits that can be measured against assets. Average annual volatility (CRSP-derived) and retained earnings are included because of their potential connections to management risk taking and behavior.\
+\
+In lieu of bank deposits, values for R\\&D expenditure are widely available throughout the WRDS panel dataset. R\\&D scaled as a proportion of total assets is added to the panel dataset, allowing the regression to capture differences in innovation expenditure between different firms. To address the profitability impact of any macroeconomic or industry-wide shifts, a measure for annual U.S. GDP growth (2015 to 2025) is also added to the set of financial controls.\
+\
+\\subsubsection*\{CEO-specific Controls\}\
+\
+CEO-specific controls are included in the regression dataset in order to address available attributes of CEOs that may impact decision-making independent of their educational attainment. Age and gender are the main attributes available through BoardEx. Effects in tandem with Bertrand and Schoar's findings on management "style" (that older CEOs display conservative characteristic) may be mitigated by including controls for age (Bertrand \\& Schoar, 2003). While our literature review does not explicitly address gender-related differences in management decision-making, the availability of CEO gender in the BoardEx dataset motivates its inclusion as an extra control for robustness.\
+\
+\\subsubsection*\{Compensation Controls\}\
+\
+Compensation controls are separated from CEO-specific controls because of their explicit impact on the panel dataset. Because of missing compensation data for a number of CEOs in the dataset, inclusion of non-missing compensation data reduces the panel data observations from 943 observations (compensation not included) to 601 observations (compensation included). Thus, results of any regression including compensation controls must be scrutinized for the arbitrary reduction of the dataset and the reduced number of observations.\
+\
+There are four compensation controls included in the compensation regression. The percentage of equity compensation measures equity compensation for a given year against the entirety of a CEO's compensation figure for a given year, capturing how much of the CEO's pay is tied to firm performance. The delta proxy represents the proportion of unexercised options to total compensation, thereby capturing the level of sensitivity the CEO exhibits to movements in the price of the company's listed stocks. Both of these measures capture the degree of "risk" a CEO faces with their compensation and their implied propensity to pursue strategic risk taking. The other two measurements \'97 log of total compensation and percentage of total compensation in cash \'97 capture control variables for the more stable components of CEO compensation.\
+\
+\\subsection\{Combined Variables and Regression Specification\}\
+\
+Having gathered dependent, independent, and control variables in two unified sets of panel data, a baseline regression can be performed across firms from all three industry categories (biotech, semiconductors and hardware, and software). Our baseline specification is as follows:\
+\\begin\{center\}\
+    $\\text\{Firm Performance\}_\{i, t+1\} = \\beta _0 + \\beta _1(\\text\{UG Factor\}) + ... + \\beta _5(\\text\{MD Factor\}) + \\beta _6(\\text\{Controls\}) + \\text\{Firm\}_i + \\text\{Year\}_t + \\epsilon_\{i, t\}$\
+\\end\{center\}\
+The compensation-included specification is akin to the above, but assumes inclusion of CEO compensation controls in the controls variables of the regression. The primary variables of interest are the five factors (one for each educational qualification). The control variables discussed above are included under the 6th coefficient, and the Firm and Year fields capture firm and year fixed effects. \
+\
+The following section details the initial results of running the above regression.\
+\
+\\newpage\
+\\section\{Results\}\
+\\subsection*\{Baseline Results\}\
+\
+The baseline regression specification is executed for the full 943 firm sample. Additionally, equivalent baseline regressions are executed for each of the three industries: biotech, semiconductors and hardware, and software. The education factor coefficients and significant control coefficients are presented in Table 3 below.\
+\
+\\begin\{table\}[H]\
+\\centering\
+\\caption\{CEO Education and Firm Performance: Summary Results\}\
+\\small\
+\\begin\{tabular\}\{lcccc\}\
+\\hline\\hline\
+ & \\textbf\{Full Sample\} & \\textbf\{Biotech\} & \\textbf\{Semis/Hardware\} & \\textbf\{Software\} \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel A: Education Factors\}\} \\\\\
+MBA Factor      &  0.0025  &  -0.0008  & -0.0114  &  0.0471 \\\\\
+PhD Factor      & -0.0028  &  0.0253** & -0.0087  & -0.0377 \\\\\
+MD Factor       & -0.0060  & -0.0019   &  0.0935  &  0.0907 \\\\\
+Master's Factor & -0.0061  & -0.0102   & -0.0177  & -0.0241 \\\\\
+UG Factor       & -0.0023  & -0.0379*  & -0.0006  &  0.0225 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel B: Significant Controls\}\} \\\\\
+Firm Size       & -0.0425* & -0.0558*  & -0.0070  & -0.0625 \\\\\
+Equity Capital  & 0.2291***&  0.1474** &  0.3308***&  0.1796 \\\\\
+Charter Value   & 0.0499***&  0.0523***&  0.0519***&  0.0385** \\\\\
+Retained Earnings& 0.0582* &  0.0753** & -0.0016  &  0.2506*** \\\\\
+R\\&D Intensity  &-0.7718***& -1.0007***&  0.0244  & -1.0642 \\\\\
+\\hline\
+Observations    &   943    &    340    &   389    &   214   \\\\\
+Entities        &   151    &     57    &    55    &    39   \\\\\
+R-squared       &  0.273   &   0.460   &  0.233   &  0.388  \\\\\
+Fixed Effects   & \\multicolumn\{4\}\{c\}\{Firm, Year\} \\\\\
+\\hline\\hline\
+\\multicolumn\{5\}\{l\}\{*** p$<$0.01, ** p$<$0.05, * p$<$0.10. Standard errors in parentheses.\} \\\\\
+\\hline\\hline\
+\\end\{tabular\}\
+\\label\{tab:summary_results\}\
+\\end\{table\}\
+\
+Biotech is the only regression specification to display statistically significant coefficients on educational attainment. The PHD factor has a positive coefficient and the Undergraduate degree factor has a negative coefficient. \
+\
+Firm Size is negatively associated with return on assets (logical given that firm size is generated on the log of total asset value). Equity capital, retained earnings, and charter value exhibit positive and statistically significant relationships, while R\\&D Intensity exhibits a negative and statistically significant relationship.\
+\
+The full baseline regression results for the overall panel dataset, as well as the three industry subsets, are contained in Appendices I, J, K, and L.\
+\
+\\subsection*\{Compensation-Inclusive Regression\}\
+\
+Equivalent regressions are performed with the smaller dataset that includes CEO compensation figures. Table 4 documents educational attainment coefficients and their standard errors:\
+\
+\\begin\{table\}[H]\
+\\centering\
+\\caption\{CEO Education and Firm Performance with Compensation Controls \'97 Summary Results\}\
+\\small\
+\\begin\{tabular\}\{lcccc\}\
+\\hline\\hline\
+ & \\textbf\{Full Sample\} & \\textbf\{Biotech\} & \\textbf\{Semis/Hardware\} & \\textbf\{Software\} \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel A: Education Factors\}\} \\\\\
+MBA Factor      &  0.0179  &  0.0165   & -0.1011*  &  0.1985*** \\\\\
+                & (0.0112) & (0.0113)  & (0.0516)  & (0.0616)   \\\\\
+PhD Factor      & -0.0040  &  0.0213   &  0.1317** & -0.3007*** \\\\\
+                & (0.0095) & (0.0270)  & (0.0553)  & (0.1045)   \\\\\
+MD Factor       & -0.0092  & -0.0196***&  1.6437** & -3.3431*** \\\\\
+                & (0.0077) & (0.0062)  & (0.6917)  & (1.2299)   \\\\\
+Master's Factor & -0.0066  & -0.0484   &  0.0005   & -0.0373*** \\\\\
+                & (0.0075) & (0.0480)  & (0.0170)  & (0.0095)   \\\\\
+UG Factor       & -0.0132  & -0.0101   & -0.0219   &  0.0253    \\\\\
+                & (0.0187) & (0.0361)  & (0.0243)  & (0.0445)   \\\\\
+\\hline\
+Observations    &   601    &    186    &    274    &    141     \\\\\
+Entities        &    94    &     37    &     38    &     19     \\\\\
+R-squared       &  0.283   &   0.508   &   0.275   &   0.506    \\\\\
+F-statistic     &  12.688  &   8.532   &   5.340   &   6.621    \\\\\
+Fixed Effects   & \\multicolumn\{4\}\{c\}\{Firm, Year\} \\\\\
+Std. Errors     & \\multicolumn\{4\}\{c\}\{Clustered at firm level\} \\\\\
+\\hline\\hline\
+\\multicolumn\{5\}\{l\}\{*** p$<$0.01, ** p$<$0.05, * p$<$0.10. Standard errors in parentheses.\} \\\\\
+\\multicolumn\{5\}\{l\}\{\\textit\{Note: Software results should be interpreted with caution given small sample (19 firms).\}\} \\\\\
+\\hline\\hline\
+\\end\{tabular\}\
+\\label\{tab:comp_summary\}\
+\\end\{table\}\
+\
+Once again, the full sample regression yields no significant coefficients on educational attainment variables. The biotech-specific regression yields a negative coefficient on the MD factor. The semiconductor yields significant coefficients on the MBA Factor (negative) and PHD factor (positive). It also exhibits an extreme positive coefficient on the MD Factor (with a high standard error). Software findings demonstrate extreme coefficients on four of five factors, with extremity likely due to the small sample size (only 141 observations across 19 different companies). \
+\
+\\subsection*\{Compensation-Interactive Regressions\}\
+(TO BE UPDATED with regression results from delta x BV interaction terms and pct\\_equity x BV interaction terms for semis and biotech. Software sample is too small to proceed further.)\
+\
+\\section\{Discussion of Findings\}\
+\\subsection\{Baseline Specification: Overall and Industry-Specific Findings\}\
+\\subsubsection*\{Overall Baseline\}\
+Baseline regressions compute results with the most robust dataset constructed from this paper's data queries. Across all three industries, there are 943 observations (in line with King et al.'s sampling). There are 340 biotech-specific observations, 389 Semiconductor and Hardware observations, and 214 software observations, with 47, 55, and 39 unique firms, respectively.\
+\
+When executed on the full panel dataset, no singular educational factor pulls a coefficient with a statistically significant, non-zero result. Firm size and retained earnings are significant at the 10\\% level, which justify their inclusion in the control set; firm size is a partial reciprocal of ROA and justifies the negative coefficient, while retained earnings have a logically positive coefficient because of their adjacency to net income. Charter value, equity capital, and R\\&D intensity all exhibit significance at the 1\\% level. Representing higher market premiums and lower utilization of debt, charter value and equity capital exhibit commensurate positive coefficients. The negative coefficient on R\\&D intensity likely draws from the situations where firms investing heavily in research and development are income-constrained.\
+\
+There are a handful of potential explanations for the lack of significant educational attainment results at the panel-wide regression level. For one, it is a possibility that an industry-agnostic, albeit industry focused, panel dataset provides too much diversification. This would mean that across the different characteristics and capital structures of the observed 151 firms, no particular degree type was consistently significant enough across the dataset. Another more ambitious explanation is the balancing of different effects across the three different sub industries. There is some data-driven basis for this explanation; for four out of the five factors (excluding the Master's Factor), the three sub-industry coefficients include both positive and negative values. While generally not significant in the baseline specification, this potentially indicates that slight negative or positive effects potentially cancel out when combining multiple sub-industries. Further commentary on this phenomenon occurs in the forthcoming \\textit\{Compensation Results\} section. Full regression results for the baseline, panel-wide dataset are detailed in Appendix I.\
+\
+\\subsubsection*\{Biotech Baseline\}\
+Biotech constitutes the strongest result pool from the baseline specification and yields one of the core findings of this paper's entire analysis. Significant at the 95\\% level, the PHD factor (which captures the attainment of a PHD degree) explains a significant and positive impact on ROA. Within the locality of biotech firms, this strengthens this paper's core operating hypothesis; an advanced degree (i.e. a PHD) for a biotech CEO potentially explains positive financial performance when controlling for CEO-specific and firm-wide controls. \
+\
+One potential limitation of this significant coefficient on the PHD factor is the omission of CEO compensation data. Given that CEO educational attainment may be correlated with compensation incentives (well-educated CEOs receiving better compensation), \\textit\{section 6.2\} recreates this regression with compensation figures included. Because of the limitations of WRDS-available data, this presents a fundamental tradeoff; the baseline regression omits compensation data but has 340 biotech observations, while the compensation-adjusted regression includes valuable compensation controls but has only 186 biotech observations. Nonetheless, as discussed further in \\textit\{Section 6.2\}, both regressions reveal that biotech-specific companies potentially exhibit stronger performance under CEOs with advanced degrees.\
+\
+The coefficient demanding higher scrutiny under the Biotech industry umbrella is the undergraduate factor. The undergraduate factor has a high magnitude, negative coefficient significant at the 10\\% confidence level for ROA. However, it is important to contextualize a negative UG Factor coefficient around factor loading and data-specific limitations. To begin, factor loadings (available in \\textit\{Section 3.4\}) reveal that 27\\% of Undergraduate Factor variance can be attributed to the PHD binary variable in the negative direction. While smaller than the impact of the undergraduate binary variable, this still constitutes a significant impact on factor construction in the opposite direction of a variable deemed to have a significant and positive relationship with ROA. Furthermore, given that the majority of sample CEOs have an undergraduate degree, primary factor construction draws from variables for top 20 institutions, meaning the factor loading may have less explanatory power than that of advanced degrees in the dataset.\
+\
+Within the control set, Biotech demonstrates significant coefficients on the five same variables as the overall panel baseline specification. For all five variables (firm size, equity capital, charter value, retained earnings, R\\&D Intensity), the coefficients tell an equivalent story. R\\&D intensity in particular has a high and drastic negative impact on ROA, likely indicating that Biotech firms investing more heavily in research and development processes are heavily constrained with regards to profitability that is scaled by their assets.\
+\
+All in all, the positive and significant coefficient on an advanced degree factor (representing PHD attainment) provides initial positive evidence in favor of the relationship between advanced CEO education and high R\\&D firm performance. Robustness checks that include compensation and compensation interaction terms (albeit using a constricted dataset limited by Execucomp data availability) are detailed in \\textit\{Section 6.2\} and \\textit\{Section 6.3\}. \
+\
+\\subsubsection*\{Semiconductor \\& Hardware and Software Baselines\}\
+The Semiconductor \\& Hardware and Software baseline industry-specific regressions provide no significant coefficients for educational attainment. Interestingly, the only significant controls present are the controls for equity capital and charter value, indicating that debt utilization and market premium perceptions are in tandem with ROA. The lack of a significant or even negative coefficient on R\\&D intensity seems to indicate that R\\&D costs are not associated with lower ROA for semiconductor and hardware firms. This is possibly due to the fact that R\\&D expenses are accepted and ingrained components of the hardware product development cycle, and that firms are better adjusted to protecting their earnings from increasing development costs. The Semiconductor and Hardware baseline regression full results are tabled in Appendix K.\
+\
+For Software companies, baseline industry-specific regression provides no significant coefficients for educational attainment. Charter Value and Retained Earnings are the only positive and significant coefficients that explain ROA. Similarly to semiconductor and hardware firms, there is no significant relationship with R\\&D expenditure. This seems to indicate that the majority of the significance in the overall panel specification can be explained by the heavy impact of R\\&D on biotech ROA performance. The Software baseline regression full results are tabled in Appendix L.\
+\
+As discussed in \\textit\{Section 2\}'s literature review, CEO compensation historically has demonstrated a significant impact on CEO decision-making and firm outcomes. While preliminary and positive biotech results are promising, the other two industries have potential to demonstrate significant results when CEO compensation incentives are taken into account. \
+\
+\\subsection\{Compensation-Inclusive Regression\}\
+Compensation has a high potential for interrelation with both financial performance (ROA) and CEO educational attainment. Although the relationship of causality is nebulous at best, CEO compensation and education likely go hand-in-hand; well-educated CEOs are qualified for high-paying leaderhsip positions. The effects of CEO compensation on management decision-making, and the trickle-down effects for ROA and other measure of company performance, are well-documented by previous papers tackling the specific issue.\
+\
+The fundamental issue with the inclusion of CEO compensation in this analysis is the limitation that it places on executing analysis on a sufficient number of samples. After omitting CEO-firm-year observations for which Execucomp did not have available compensation data, the panel datset shrinks from 943 observations to 601 observations. For the industry-specific specifications, biotech sample counts reduce to 186 CEO-firm-year observations, Semiconductor \\& Hardware sample counts reduce to 274 CEO-firm-year observations, and Software sample counts reduce to 141 CEO-firm-year observations.\
+\
+\\subsubsection*\{Compensation-Inclusive Overall Panel\}\
+\
+The overall compensation-inclusive regression results are analogous to the baseline overall panel specification. No educational attainment factor is significant at even the 10\\% level. Four of the 11 included controls display statistically significant coefficients, and all four of these controls are financial controls.\
+\
+It is interesting to note that the MBA Factor has a P-value of 0.109, indicating near-10\\% significance with a relatively large and positive coefficient (largest magnitude out of all 5 education factor coefficients). Given that there are significant results across the different degree types for the remaining sub-industry regressions, this potentially foreshadows an interesting phenomenon; while advanced degrees and different degree types drive factor significance in sub-industry regressions that include compensation, the MBA factor's near-significant coefficient endures throughout the remaining observations in the panel dataset. This potentially suggests that an MBA degree, when contextualized with compensation incentives (option risk and equity compensation valuation) may coincide with slightly stronger CEO-firm performance in ROA. Potentially, the availability of compensation data for all 943 CEO-firm-year observations could reveal stronger statistical significance for the MBA factor. Appendix M provides the full regression results for the Overall compenstaion-inclusive specification.\
+\
+\\subsubsection*\{Compensation-Inclusive Biotech\}\
+\
+Applying a compensation-inclusive specification to our biotech subset of firm-year-CEO observations leads to an interesting potential nuance about the type of advanced degree that may benefit biotech CEO-firm combos. Under the reduced number of observations, the PHD factor carries the largest positive coefficient in the compensation-inclusive regression, but with lower statistical significance than the core baseline output. This can likely be attributed to the substantial reduction observations from 340 to 186 firm-year-CEO rows. \
+\
+The primary takeaway from the Biotech compensation regression is the presence of a significant and negative coefficient on the MD Factor. At the 1\\% significance level, a CEO having an MD has a slight negative impact on firm ROA. Interestingly, this flip from the positive PHD coefficient provides some nuance with regards to the value of advanced degrees for leadership at Biotech firms. It appears that the specific type of advanced degree may lead to different observations of ROA; MD degrees potentially carry less complex relevance for the execution of managerial duties in a biotechnology company. \
+\
+The MD Factor remains negative in the baseline biotech regression, although not significant. Alongside the reduction of the size of the dataset, this may suggest that the inclusion of compensation controls amplifies the negative value of an MD; once payment of MD-earning CEOs is accounted for, their performance relative to peers becomes lower at a statistically significant level.\
+\
+Once again, the positive-coefficient MBA Factor edges close to 10\\% significance, indicating a potential slight benefit of an MBA-educated CEO when trying to select a high ROA company. This implies that leveling the compensation playing field leads to slight increased "MBA attainment value" independent of a CEO's paycheck.\
+\
+Once again, there are five financial controls (firm size, equity capital, charter value, retained earnings, and R\\&D intensity) that all yield statistically significant coefficients. R\\&D intensity continues to demonstrate a high significance, and extreme negative relationship with ROA. Whereas GDP Growth did not have a significant relationship with biotech ROA in the baseline sample, it demonstrates a positive relationship in the compensation-adjusted sample. This is likely because GDP growth effects are absorbed by compensation variables; market up-swings tie directly to better CEO compensation (equities and options), potentially driving the significance of GDP growth in this regression. [TO BE UPDATED, POTENTIAL REGRESSION WITH GDP COMP INTERACTION TERM]. \
+\
+Appendix N provides a comprehensive regression table capturing coefficients and statistics for the variables of interest in the semiconductor-specific compensation-inclusive specification.\
+\
+\\subsubsection*\{Compensation-Inclusive Semiconductors \\& Hardware\}\
+The inclusion of compensation controls unveils a key finding about Semiconductor and Hardware companies. For educational factors, there are statistically significant coefficients on MBA, PHD, and MD factors.\
+\
+Factor coefficients for PHDs and MBAs potentially paint a striking story validating the necessity of "integrative complexity" in hardware leadership. While the PHD factor boasts a positive coefficient, the MBA factor has a smaller, negative coefficient. This potentially implies that the management-style leadership of an MBA (that King et al. found to benefit banks throughout robustness checks) is not as compatible with semiconductor leadership. On the other hand, after addressing omitted variable bias in missing compensation data, a PHD corresponds to increases in ROA at a significant level.\
+\
+This reinforces support for the hypothesis of this paper \'97 that high R\\&D companies benefit from leadership with complex, technical education \'97 by demonstrating a positive relationship between PHD attainment and financial performance (ROA). \
+\
+The positive coefficient on the MD factor should be heavily scrutinized and not interpreted as a significant result. There are zero semiconductor CEOs in the compensation-inclusive sample that boast an MD degree (as is to be expended in a hardware sub sample). Any significant relationship professed by the MD Factor between MD degree attainment and ROA is attributable to noise from the weighting of other degree types in the construction of the MD Factor (reference Appendix F). \
+\
+Overall, this constitutes a positive and significant result suggesting that high degree attainment (PHD completion) outperforms management education (MBA completion) as a predictor of firm performance (ROA). Full regression results for the semiconductor-specific compensation-inclusive specification are included in Appendix O.\
+\
+\\subsubsection*\{Compensation-Inclusive Software: A Cautionary Tale\}\
+\
+Software results (detailed in Appendix P) for the compensation-inclusive regression do not provide substantive value to the results of this analysis because of data limitations. There are only 19 unique firms and 141 firm-year-CEO observations in the software sample. Furthermore, there exists the continued presence of resultant factor-related noise (i.e. MD Factor significance), meaning that any significant coefficients on educational attainment must be interpreted with extreme caution.\
+\
+\\subsection\{Interactive Compensation Regressions\}\
+[TO BE UPDATED: REGRESSIONS INCLUDING INTERACTION OF EDUCATION FACTORS WITH DELTA APPROXIMATION, EQUITY]\
+\
+\\subsection\{Discussion of Limitations\}\
+[TO BE UPDATED WITH BELOW]\
+\
+$\
+\\bullet \\text\{ Discuss endogeneity\}\
+\\bullet \\text\{ Discuss issues with additional controls / data concision\}\
+$\
+\
+\\newpage\
+\\section\{Conclusion\}\
+\
+The baseline dataset presented in this paper emulates the work of King et al., constructing 943 firm-year-CEO observations from fiscal years 2015 to 2025. Controlling for firm-specific attributes and CEO-specific personal information, the baseline model provides a statistically significant, positive relationship between CEO PHD attainment and firm ROA. \
+\
+Expanding the dataset to include CEO compensation controls (total compensation and equity attribution), industry-specific regressions provide refined accounts of degree value in specific sectors. For Biotech, MD degrees are shown to be slightly detrimental, providing added nuance to the aforementioned value of an advance doctorate degree; while industry-relevant PHDs may correlate with improved ROA performance, CEOs with non-relevant medical degrees may associate with slightly detracted firm performance. In the semiconductor sector, the same double-edged sword nuance emerges; statistically significant findings suggest that PHDs are associated with improvements in firm performance, while MBAs are associated with negative outcomes for ROA (when controlling for firm compensation). When leveling the playing field of CEO compensation, degree nuance emerges as the trend; certain kinds of high-complexity degrees improve associated operating performance of CEOs, while others can even detract (for biotech and hardware). For software firms, limited effects emerge across the two core specifications (partially due to data unavailability in the compensation-inclusive software dataset).\
+\
+The primary limitation of this analysis is endogeneity; there is a well-acknowledged possibility that CEOs with strong education may gravitate to better-performing firms. Although panel fixed effects address time-invariant selection bias, there is an undeniable likelihood that endogeneity will filter through. Nonetheless, the observation \'97 that innovation-driven companies tend to perform better under CEOs with relevant, higher education degrees in hardware and biotech \'97 might motivate additional research in pursuit of an endogeneity solution. Future exploration of this dataset could employ instrumental variables or even the construction of a natural experiment in order to strengthen social science causality.\
+\
+\\newpage\
+\\section*\{Appendices\}\
+\\singlespacing\
+\\subsection*\{Appendix A: Ordered Overview of Data Construction Pipeline\} \
+\\textbf\{Data Wrangling\} \'97 Folder of processes dedicated to data querying and merging\
+\\newline\
+\\indent \\textit\{core\\_data\\_workflow.ipynb\} \'97 working file for initial data queries and dataset construction (all \
+\\newline\
+\\indent date ranges set as January 2015 to December 2025)\
+\\begin\{itemize\}\
+\\itemsep-0em \
+\\setlength\{\\leftmargini\}\{1em\}   % level 1\
+\\setlength\{\\leftmarginii\}\{1em\}    % level 2\
+\\setlength\{\\leftmarginiii\}\{0em\}\
+    \\item WRDS query \'97 pull Compustat financials (Appendix B) for SIC codes (Table 1)\
+    \\subitem \{$\\rightarrow$\} Run \\textit\{market\\_cap\\_consolidation.py\} to isolate firms with \\$1B+ market cap from query\
+    \\item WRDS query \'97 convert raw tickers \
+    \\subitem \{$\\rightarrow$\} Run \\textit\{boardid\\_txt\\_conversion.py\} to prepare BoardEx IDs for WRDS query\
+    \\item WRDS query \'97 pull Key Personnel from BoardEx Org. Summary (Appendix D) \
+    \\subitem \{$\\rightarrow$\} Isolate CEOs through NLP parsing (\'93CEO,\'94 \'93C.E.O.,\'94 etc.) and seniority filtering\
+    \\subitem \{$\\rightarrow$\} Run \\textit\{directorid\\_txt\\_conversion.py\} to isolate CEO ID numbers for further queries\
+    \\item WRDS query \'97 Extract personal/education data for each selected CEO (Appendix D)\
+    \\subitem \{$\\rightarrow$\} Use LLM to compile  string forms of education/top 20 schools (Appendix R)\
+    \\subitem \{$\\rightarrow$\} Create row for each CEO with BV for education type/top 20 school\
+    \\item WRDS query \'97 Pull CEO-specific controls from BoardEx (Appendix D)\
+\\end\{itemize\}\
+\
+\\textit\{data\\_merge\\_1.ipynb\} \'97 merging Compustat/BoardEx extractions from \\textit\{core\\_data\\_workflow.ipynb\}\
+\\begin\{itemize\}\
+\\itemsep-0em \
+\\setlength\{\\leftmargini\}\{1em\}   % level 1\
+\\setlength\{\\leftmarginii\}\{1em\}    % level 2\
+\\setlength\{\\leftmarginiii\}\{0em\}\
+    \\item Use existing BoardEx/Compustat ticker bridge to link company ID variables\
+    \\subitem \{$\\rightarrow$\} Ensures CEO start year inclusion, and CEO end year is excluded (avoid redundancy)\
+    \\item Perform exploratory data analysis, null checks, and year filtering\
+    \\item Merge CEO-specific controls\
+\\end\{itemize\}\
+\
+\\noindent \\textbf\{Data Refinement\} \'97 Folder of processes dedicated to data refining and error mitigation\
+\\newline\
+\\indent \\textit\{data\\_refinement.ipynb\}\
+\\begin\{itemize\}\
+\\itemsep-0em \
+\\setlength\{\\leftmargini\}\{1em\}   % level 1\
+\\setlength\{\\leftmarginii\}\{1em\}    % level 2\
+\\setlength\{\\leftmarginiii\}\{0em\}\
+    \\item Investigate instances of duplicate CEO-firm-year observations\
+    \\subitem \{$\\rightarrow$\} Duplicates correspond to co-CEOs/co-chairs. Isolate highest seniority director and eliminate peers\
+    \\item Evaluate NaN values for potential concision/modification\
+    \\subitem \{$\\rightarrow$\} set NaN financial values (i.e. R\\&D expenditure) to zero and eliminate NaN educational values (except UG)\
+    \\item Reuse \\textit\{directorid\\_txt\\_conversion.py\} to save down updated director IDs for further queries\
+    \\item Generate bridge between BoardEx CEO ID numbers and Compustat CEO ID numbers\
+    \\item WRDS query \'97 Extract CEO-specific compensation data using ExecuComp\
+    \\item Use bridge to merge ExecuComp salary controls with existing firm-year-CEO observations\
+    \\item Result: One dataset with cleaned firm-year-CEO observations, one additional dataset with added financial controls\
+\
+\\end\{itemize\}\
+\\newpage\
+\\noindent \\textbf\{Regressions\} \'97 Performing Baseline Regressions and Compensation-Inclusive Regressions\
+\
+\\indent \\textit\{baseline\\_1.ipynb\} \'97 Baseline regression results computed\
+\\begin\{itemize\}\
+\\itemsep-0em \
+\\setlength\{\\leftmargini\}\{1em\}   % level 1\
+\\setlength\{\\leftmarginii\}\{1em\}    % level 2\
+\\setlength\{\\leftmarginiii\}\{0em\}\
+    \\item Construct macro control (annual GDP growth), merge with firm-year-CEO observations\
+    \\item Run baseline regression \'97 ROA, CEO education, financial/macro controls\
+    \\subitem \{$\\rightarrow$\} Execute overall dataset FE regression (fiscal year, firm) for baseline variables\
+    \\subitem \{$\\rightarrow$\} Execute biotech-specific baseline regression\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0     \\subitem \{$\\rightarrow$\} Execute semiconductor/hardware-specific baseline regression\
+    \\subitem \{$\\rightarrow$\} Execute software-specific baseline regression\
+    \\subitem \{$\\rightarrow$\} Compute descriptive statistics for baseline regression specification\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\\end\{itemize\}\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \\indent \\textit\{baseline\\_2.ipynb\} \'97 Baseline regression results computed \
+\\begin\{itemize\}\
+\\itemsep-0em \
+\\setlength\{\\leftmargini\}\{1em\}   % level 1\
+\\setlength\{\\leftmarginii\}\{1em\}    % level 2\
+\\setlength\{\\leftmarginiii\}\{0em\}\
+    \\item Identical to \\textit\{baseline\\_1.ipynb\} without inclusion of annual GDP growth (not included in paper results)\
+\\end\{itemize\}\
+\
+\\indent \\textit\{comp\\_reg.ipynb\} \'97 Baseline regression results computed \
+\\begin\{itemize\}\
+\\itemsep-0em \
+\\setlength\{\\leftmargini\}\{1em\}   % level 1\
+\\setlength\{\\leftmarginii\}\{1em\}    % level 2\
+\\setlength\{\\leftmarginiii\}\{0em\}\
+    \\item Identical to \\textit\{baseline\\_1.ipynb\} but with inclusion of compensation controls (Appendix C \\& E)\
+    \\item Interactive regressions (biotech and semis/hardware)\
+    \\subitem \{$\\rightarrow$\} Equity Compensation Percentage x Education Factor Regression \
+    \\subitem \{$\\rightarrow$\} Delta Compensation Proxy x Education Factor Regression\
+\\end\{itemize\}\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\\doublespacing\
+\\newpage\
+\
+\\subsection*\{Appendix B: Collected Compustat Financial Data\}\
+\
+\\subsection*\{Appendix C: Collected Execucomp Compensation Data\}\
+[to be updated]\
+\
+\\subsection*\{Appendix D: Collected BoardEx Variables\}\
+[to be updated]\
+\
+\\subsection*\{Appendix E: Basic Variable Constructions\}\
+[to be updated]\
+\
+\\subsection*\{Appendix F: Factor Loadings for Baseline Sample (Including Compensation Data)\}\
+\\begin\{table\}[H]\
+\\centering\
+\\caption\{Factor Loadings for Baseline Sample (Excluding Compensation Data)\}\
+\\small\
+\\vspace*\{0.25cm\}\
+\\begin\{tabular\}\{lrrrrr\}\
+\\hline\
+\\textbf\{Variable\} & \\textbf\{Factor 1\} & \\textbf\{Factor 2\} & \\textbf\{Factor 3\} & \\textbf\{Factor 4\} & \\textbf\{Factor 5\} \\\\\
+ & \\textit\{Master's\} & \\textit\{MD\} & \\textit\{MBA\} & \\textit\{PhD\} & \\textit\{UG\} \\\\\
+\\hline\
+UG Degree        &  0.18  & -0.32 &  0.09  & -0.22  &  0.50 \\\\\
+Top-20 UG        &  0.24  &  0.05 &  0.21  & -0.00  &  0.30 \\\\\
+MBA              & -0.13  & -0.04 &  0.69  & -0.16  &  0.05 \\\\\
+Top-20 MBA       & -0.05  & -0.05 &  0.98  & -0.02  &  0.01 \\\\\
+PhD              &  0.08  &  0.10 & -0.08  &  0.90  & -0.09 \\\\\
+Top-20 PhD       &  0.37  &  0.09 & -0.03  &  0.60  &  0.32 \\\\\
+MD               & -0.00  &  0.97 & -0.06  &  0.07  & -0.04 \\\\\
+Top-20 MD        &  0.16  &  0.46 & -0.02  &  0.20  &  0.35 \\\\\
+Master's         &  0.59  & -0.09 & -0.10  &  0.22  & -0.21 \\\\\
+Top-20 Master's  &  0.97  &  0.03 & -0.07  &  0.09  &  0.10 \\\\\
+\\hline\
+\
+\\end\{tabular\}\
+\\label\{tab:factor_loadings_comp\}\
+\\end\{table\}\
+[to be updated]\
+\
+\\subsection*\{Appendix G: Descriptive Statistics for Baseline Regression Sample\}\
+\\begin\{table\}[H]\
+\\centering\
+\\caption\{Descriptive Statistics \'97 Baseline Regression Sample\}\
+\\small\
+\\begin\{tabular\}\{lrrrrrr\}\
+\\hline\\hline\
+\\textbf\{Variable\} & \\textbf\{N\} & \\textbf\{Mean\} & \\textbf\{Std. Dev.\} & \\textbf\{Min\} & \\textbf\{Median\} & \\textbf\{Max\} \\\\\
+\\hline\
+\\multicolumn\{7\}\{l\}\{\\textit\{Panel A: Dependent Variable\}\} \\\\\
+Adjusted ROA & 943 & 0.005 & 0.103 & -0.586 & 0.000 & 0.596 \\\\\
+\\hline\
+\\multicolumn\{7\}\{l\}\{\\textit\{Panel B: Education Factors\}\} \\\\\
+UG Factor & 943 & 0.014 & 0.744 & -1.766 & 0.086 & 2.674 \\\\\
+MBA Factor & 943 & 0.015 & 0.916 & -0.654 & -0.494 & 1.832 \\\\\
+PhD Factor & 943 & 0.012 & 0.989 & -0.491 & -0.188 & 4.350 \\\\\
+MD Factor & 943 & 0.015 & 0.991 & -0.512 & -0.209 & 4.829 \\\\\
+Master's Factor & 943 & 0.034 & 0.973 & -1.184 & -0.613 & 1.641 \\\\\
+\\hline\
+\\multicolumn\{7\}\{l\}\{\\textit\{Panel C: Firm Controls\}\} \\\\\
+Firm Size (log assets) & 943 & 9.280 & 1.342 & 6.562 & 9.058 & 13.336 \\\\\
+Equity Capital & 943 & 0.465 & 0.204 & 0.001 & 0.457 & 0.960 \\\\\
+Charter Value & 943 & 1.572 & 1.005 & -0.580 & 1.457 & 7.005 \\\\\
+Retained Earnings & 943 & 0.132 & 0.489 & -2.804 & 0.131 & 2.195 \\\\\
+R\\&D Intensity & 943 & 0.093 & 0.084 & 0.000 & 0.073 & 0.622 \\\\\
+Volatility & 943 & 0.024 & 0.010 & 0.004 & 0.022 & 0.079 \\\\\
+\\hline\
+\\multicolumn\{7\}\{l\}\{\\textit\{Panel D: CEO Controls\}\} \\\\\
+CEO Age & 943 & 58.508 & 9.874 & 35 & 58 & 125 \\\\\
+CEO Gender (Female=1) & 943 & 0.055 & 0.228 & 0 & 0 & 1 \\\\\
+GDP Growth & 943 & 2.456 & 1.893 & -2.200 & 2.600 & 6.100 \\\\\
+\\hline\\hline\
+\\multicolumn\{7\}\{l\}\{\\textit\{Note: Sample consists of 943 firm-year observations from 2015--2025 across\}\} \\\\\
+\\multicolumn\{7\}\{l\}\{\\textit\{R\\&D-intensive technology industries. Adjusted ROA is industry-year adjusted.\}\} \\\\\
+\\hline\\hline\
+\\end\{tabular\}\
+\\label\{tab:descriptive_stats_baseline\}\
+\\end\{table\}\
+\
+\\subsection*\{Appendix H: Descriptive Statistics for Dataset Including Compensation\}\
+\\begin\{table\}[H]\
+\\centering\
+\\caption\{Descriptive Statistics \'97 Compensation Subsample\}\
+\\small\
+\\begin\{tabular\}\{lrrrrrr\}\
+\\hline\\hline\
+\\textbf\{Variable\} & \\textbf\{N\} & \\textbf\{Mean\} & \\textbf\{Std. Dev.\} & \\textbf\{Min\} & \\textbf\{Median\} & \\textbf\{Max\} \\\\\
+\\hline\
+\\multicolumn\{7\}\{l\}\{\\textit\{Panel A: Dependent Variable\}\} \\\\\
+Adjusted ROA & 601 & 0.002 & 0.090 & -0.564 & -0.004 & 0.577 \\\\\
+\\hline\
+\\multicolumn\{7\}\{l\}\{\\textit\{Panel B: Education Factors\}\} \\\\\
+UG Factor & 601 & 0.000 & 0.729 & -1.675 & 0.119 & 3.895 \\\\\
+MBA Factor & 601 & -0.018 & 0.967 & -0.628 & -0.505 & 1.856 \\\\\
+PhD Factor & 601 & 0.005 & 0.932 & -0.924 & -0.400 & 2.773 \\\\\
+MD Factor & 601 & 0.004 & 0.989 & -0.408 & -0.195 & 5.065 \\\\\
+Master's Factor & 601 & 0.010 & 0.988 & -0.768 & -0.406 & 2.527 \\\\\
+\\hline\
+\\multicolumn\{7\}\{l\}\{\\textit\{Panel C: Firm Controls\}\} \\\\\
+Firm Size (log assets) & 601 & 9.418 & 1.433 & 7.005 & 9.186 & 13.336 \\\\\
+Equity Capital & 601 & 0.463 & 0.205 & 0.001 & 0.464 & 0.919 \\\\\
+Charter Value & 601 & 1.621 & 0.975 & -0.454 & 1.517 & 7.005 \\\\\
+Retained Earnings & 601 & 0.210 & 0.472 & -2.351 & 0.183 & 2.195 \\\\\
+R\\&D Intensity & 601 & 0.088 & 0.074 & 0.000 & 0.070 & 0.419 \\\\\
+Volatility & 601 & 0.023 & 0.008 & 0.004 & 0.021 & 0.079 \\\\\
+\\hline\
+\\multicolumn\{7\}\{l\}\{\\textit\{Panel D: CEO Controls\}\} \\\\\
+CEO Age & 601 & 57.664 & 6.580 & 37 & 57 & 81 \\\\\
+CEO Gender (Female=1) & 601 & 0.060 & 0.237 & 0 & 0 & 1 \\\\\
+GDP Growth & 601 & 2.493 & 1.883 & -2.200 & 2.600 & 6.100 \\\\\
+\\hline\
+\\multicolumn\{7\}\{l\}\{\\textit\{Panel E: Compensation Variables\}\} \\\\\
+Pct. Equity Compensation & 601 & 0.555 & 0.276 & 0.000 & 0.613 & 0.992 \\\\\
+Delta Proxy & 601 & 7.641 & 47.834 & 0.000 & 0.392 & 893.375 \\\\\
+Log Total Compensation & 601 & 9.257 & 1.270 & -6.908 & 9.462 & 12.232 \\\\\
+Pct. Cash Compensation & 601 & 0.125 & 0.139 & 0.000 & 0.085 & 1.000 \\\\\
+\\hline\\hline\
+\\multicolumn\{7\}\{l\}\{\\textit\{Note: Sample consists of 601 firm-year observations with available compensation\}\} \\\\\
+\\multicolumn\{7\}\{l\}\{\\textit\{data from ExecuComp. Adjusted ROA is industry-year adjusted.\}\} \\\\\
+\\hline\\hline\
+\\end\{tabular\}\
+\\label\{tab:descriptive_stats_comp\}\
+\\end\{table\}\
+\
+\\subsection*\{Appendix I: Overall Baseline\}\
+\\begin\{table\}[H]\
+\\centering\
+\\caption\{CEO Education and Firm Performance \'97 Baseline Results\}\
+\\small\
+\\begin\{tabular\}\{lcccc\}\
+\\hline\\hline\
+ & \\multicolumn\{1\}\{c\}\{\\textbf\{Parameter\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{Std. Error\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{T-stat\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{P-value\}\} \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel A: Education Factors\}\} \\\\\
+MBA Factor          &  0.0025 & 0.0085 &  0.297 & 0.766 \\\\\
+PhD Factor          & -0.0028 & 0.0090 & -0.308 & 0.758 \\\\\
+MD Factor           & -0.0060 & 0.0080 & -0.753 & 0.452 \\\\\
+Master's Factor     & -0.0061 & 0.0070 & -0.863 & 0.389 \\\\\
+UG Factor           & -0.0023 & 0.0095 & -0.239 & 0.812 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel B: Firm Controls\}\} \\\\\
+Firm Size           & -0.0425 & 0.0242 & -1.753 & 0.080* \\\\\
+Equity Capital      &  0.2291 & 0.0636 &  3.603 & 0.000*** \\\\\
+Charter Value       &  0.0499 & 0.0107 &  4.663 & 0.000*** \\\\\
+Retained Earnings   &  0.0582 & 0.0298 &  1.953 & 0.051* \\\\\
+R\\&D Intensity      & -0.7718 & 0.1890 & -4.083 & 0.000*** \\\\\
+Volatility          &  0.8022 & 0.8714 &  0.921 & 0.358 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel C: CEO Controls\}\} \\\\\
+GDP Growth          &  0.1046 & 0.0981 &  1.067 & 0.287 \\\\\
+CEO Age             &  0.0000 & 0.0005 &  0.092 & 0.927 \\\\\
+CEO Gender          & -0.0082 & 0.0162 & -0.508 & 0.611 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Model Statistics\}\} \\\\\
+Observations        & \\multicolumn\{4\}\{l\}\{943\} \\\\\
+Entities            & \\multicolumn\{4\}\{l\}\{151\} \\\\\
+Time Periods        & \\multicolumn\{4\}\{l\}\{11\} \\\\\
+R-squared           & \\multicolumn\{4\}\{l\}\{0.273\} \\\\\
+F-statistic         & \\multicolumn\{4\}\{l\}\{22.240 (p = 0.000)\} \\\\\
+Fixed Effects       & \\multicolumn\{4\}\{l\}\{Firm, Year\} \\\\\
+Standard Errors     & \\multicolumn\{4\}\{l\}\{Clustered at firm level\} \\\\\
+\\hline\\hline\
+\\multicolumn\{5\}\{l\}\{*** p$<$0.01, ** p$<$0.05, * p$<$0.10\} \\\\\
+\\hline\\hline\
+\\end\{tabular\}\
+\\label\{tab:baseline_results\}\
+\\end\{table\}\
+\
+\\subsection*\{Appendix J: Biotech Baseline\}\
+\\begin\{table\}[H]\
+\\centering\
+\\caption\{CEO Education and Firm Performance \'97 Biotech Subsample\}\
+\\small\
+\\begin\{tabular\}\{lcccc\}\
+\\hline\\hline\
+ & \\multicolumn\{1\}\{c\}\{\\textbf\{Parameter\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{Std. Error\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{T-stat\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{P-value\}\} \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel A: Education Factors\}\} \\\\\
+MBA Factor          & -0.0008 & 0.0146 & -0.054 & 0.957 \\\\\
+PhD Factor          &  0.0253 & 0.0100 &  2.526 & 0.012** \\\\\
+MD Factor           & -0.0019 & 0.0068 & -0.275 & 0.783 \\\\\
+Master's Factor     & -0.0102 & 0.0180 & -0.569 & 0.570 \\\\\
+UG Factor           & -0.0379 & 0.0210 & -1.800 & 0.073* \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel B: Firm Controls\}\} \\\\\
+Firm Size           & -0.0558 & 0.0321 & -1.736 & 0.084* \\\\\
+Equity Capital      &  0.1474 & 0.0712 &  2.070 & 0.039** \\\\\
+Charter Value       &  0.0523 & 0.0185 &  2.828 & 0.005*** \\\\\
+Retained Earnings   &  0.0753 & 0.0342 &  2.203 & 0.029** \\\\\
+R\\&D Intensity      & -1.0007 & 0.2265 & -4.418 & 0.000*** \\\\\
+Volatility          &  1.7271 & 2.0480 &  0.843 & 0.400 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel C: CEO Controls\}\} \\\\\
+GDP Growth          &  0.1887 & 0.1392 &  1.356 & 0.176 \\\\\
+CEO Age             & -0.0003 & 0.0004 & -0.718 & 0.473 \\\\\
+CEO Gender          & -0.0071 & 0.0368 & -0.193 & 0.847 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Model Statistics\}\} \\\\\
+Observations        & \\multicolumn\{4\}\{l\}\{340\} \\\\\
+Entities            & \\multicolumn\{4\}\{l\}\{57\} \\\\\
+Time Periods        & \\multicolumn\{4\}\{l\}\{11\} \\\\\
+R-squared           & \\multicolumn\{4\}\{l\}\{0.460\} \\\\\
+F-statistic         & \\multicolumn\{4\}\{l\}\{17.033 (p = 0.000)\} \\\\\
+Fixed Effects       & \\multicolumn\{4\}\{l\}\{Firm, Year\} \\\\\
+Standard Errors     & \\multicolumn\{4\}\{l\}\{Clustered at firm level\} \\\\\
+\\hline\\hline\
+\\multicolumn\{5\}\{l\}\{*** p$<$0.01, ** p$<$0.05, * p$<$0.10\} \\\\\
+\\hline\\hline\
+\\end\{tabular\}\
+\\label\{tab:biotech_results\}\
+\\end\{table\}\
+\
+\
+\
+\\subsection*\{Appendix K: Semi Baseline\}\
+\
+\\begin\{table\}[H]\
+\\centering\
+\\caption\{CEO Education and Firm Performance \'97 Semiconductors/Hardware Subsample\}\
+\\small\
+\\begin\{tabular\}\{lcccc\}\
+\\hline\\hline\
+ & \\multicolumn\{1\}\{c\}\{\\textbf\{Parameter\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{Std. Error\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{T-stat\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{P-value\}\} \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel A: Education Factors\}\} \\\\\
+MBA Factor          & -0.0114 & 0.0193 & -0.587 & 0.558 \\\\\
+PhD Factor          & -0.0087 & 0.0145 & -0.603 & 0.547 \\\\\
+MD Factor           &  0.0935 & 0.3370 &  0.278 & 0.782 \\\\\
+Master's Factor     & -0.0177 & 0.0166 & -1.066 & 0.288 \\\\\
+UG Factor           & -0.0006 & 0.0110 & -0.058 & 0.954 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel B: Firm Controls\}\} \\\\\
+Firm Size           & -0.0070 & 0.0312 & -0.224 & 0.823 \\\\\
+Equity Capital      &  0.3308 & 0.1052 &  3.146 & 0.002*** \\\\\
+Charter Value       &  0.0519 & 0.0166 &  3.130 & 0.002*** \\\\\
+Retained Earnings   & -0.0016 & 0.0520 & -0.031 & 0.976 \\\\\
+R\\&D Intensity      &  0.0244 & 0.3231 &  0.076 & 0.940 \\\\\
+Volatility          &  0.5131 & 1.1596 &  0.443 & 0.658 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel C: CEO Controls\}\} \\\\\
+GDP Growth          & -0.0702 & 0.1443 & -0.487 & 0.627 \\\\\
+CEO Age             &  0.0004 & 0.0004 &  1.091 & 0.276 \\\\\
+CEO Gender          &  0.0026 & 0.0094 &  0.280 & 0.780 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Model Statistics\}\} \\\\\
+Observations        & \\multicolumn\{4\}\{l\}\{389\} \\\\\
+Entities            & \\multicolumn\{4\}\{l\}\{55\} \\\\\
+Time Periods        & \\multicolumn\{4\}\{l\}\{11\} \\\\\
+R-squared           & \\multicolumn\{4\}\{l\}\{0.233\} \\\\\
+F-statistic         & \\multicolumn\{4\}\{l\}\{7.258 (p = 0.000)\} \\\\\
+Fixed Effects       & \\multicolumn\{4\}\{l\}\{Firm, Year\} \\\\\
+Standard Errors     & \\multicolumn\{4\}\{l\}\{Clustered at firm level\} \\\\\
+\\hline\\hline\
+\\multicolumn\{5\}\{l\}\{*** p$<$0.01, ** p$<$0.05, * p$<$0.10\} \\\\\
+\\hline\\hline\
+\\end\{tabular\}\
+\\label\{tab:semis_results\}\
+\\end\{table\}\
+\
+\
+\
+\
+\\subsection*\{Appendix L: Software Baseline\}\
+\
+\\begin\{table\}[H]\
+\\centering\
+\\caption\{CEO Education and Firm Performance \'97 Software Subsample\}\
+\\small\
+\\begin\{tabular\}\{lcccc\}\
+\\hline\\hline\
+ & \\multicolumn\{1\}\{c\}\{\\textbf\{Parameter\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{Std. Error\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{T-stat\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{P-value\}\} \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel A: Education Factors\}\} \\\\\
+MBA Factor          &  0.0471 & 0.0543 &  0.868 & 0.387 \\\\\
+PhD Factor          & -0.0377 & 0.0388 & -0.972 & 0.333 \\\\\
+MD Factor           &  0.0907 & 0.9332 &  0.097 & 0.923 \\\\\
+Master's Factor     & -0.0241 & 0.0516 & -0.467 & 0.641 \\\\\
+UG Factor           &  0.0225 & 0.0263 &  0.855 & 0.394 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel B: Firm Controls\}\} \\\\\
+Firm Size           & -0.0625 & 0.0541 & -1.155 & 0.250 \\\\\
+Equity Capital      &  0.1796 & 0.1250 &  1.436 & 0.153 \\\\\
+Charter Value       &  0.0385 & 0.0186 &  2.068 & 0.040** \\\\\
+Retained Earnings   &  0.2506 & 0.0840 &  2.983 & 0.003*** \\\\\
+R\\&D Intensity      & -1.0642 & 0.8693 & -1.224 & 0.223 \\\\\
+Volatility          &  2.0745 & 1.6384 &  1.266 & 0.207 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel C: CEO Controls\}\} \\\\\
+GDP Growth          &  0.1648 & 0.2044 &  0.806 & 0.421 \\\\\
+CEO Age             &  0.0006 & 0.0016 &  0.350 & 0.727 \\\\\
+CEO Gender          &  0.0286 & 0.0669 &  0.428 & 0.669 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Model Statistics\}\} \\\\\
+Observations        & \\multicolumn\{4\}\{l\}\{214\} \\\\\
+Entities            & \\multicolumn\{4\}\{l\}\{39\} \\\\\
+Time Periods        & \\multicolumn\{4\}\{l\}\{11\} \\\\\
+R-squared           & \\multicolumn\{4\}\{l\}\{0.388\} \\\\\
+F-statistic         & \\multicolumn\{4\}\{l\}\{7.404 (p = 0.000)\} \\\\\
+Fixed Effects       & \\multicolumn\{4\}\{l\}\{Firm, Year\} \\\\\
+Standard Errors     & \\multicolumn\{4\}\{l\}\{Clustered at firm level\} \\\\\
+\\hline\\hline\
+\\multicolumn\{5\}\{l\}\{*** p$<$0.01, ** p$<$0.05, * p$<$0.10\} \\\\\
+\\hline\\hline\
+\\end\{tabular\}\
+\\label\{tab:software_results\}\
+\\end\{table\}\
+\
+\\subsection*\{Appendix M: Overall Compensation\}\
+\\begin\{table\}[H]\
+\\centering\
+\\caption\{CEO Education and Firm Performance with Compensation Controls \'97 Full Sample\}\
+\\small\
+\\begin\{tabular\}\{lcccc\}\
+\\hline\\hline\
+ & \\multicolumn\{1\}\{c\}\{\\textbf\{Parameter\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{Std. Error\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{T-stat\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{P-value\}\} \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel A: Education Factors\}\} \\\\\
+MBA Factor          &  0.0179 & 0.0112 &  1.604 & 0.109 \\\\\
+PhD Factor          & -0.0040 & 0.0095 & -0.421 & 0.674 \\\\\
+MD Factor           & -0.0092 & 0.0077 & -1.204 & 0.229 \\\\\
+Master's Factor     & -0.0066 & 0.0075 & -0.876 & 0.382 \\\\\
+UG Factor           & -0.0132 & 0.0187 & -0.705 & 0.481 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel B: Compensation Controls\}\} \\\\\
+Pct. Equity         & -0.0274 & 0.0207 & -1.324 & 0.186 \\\\\
+Log TDC1            &  0.0057 & 0.0041 &  1.389 & 0.166 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel C: Firm Controls\}\} \\\\\
+Firm Size           & -0.0462 & 0.0352 & -1.312 & 0.190 \\\\\
+Equity Capital      &  0.2492 & 0.0818 &  3.045 & 0.003*** \\\\\
+Charter Value       &  0.0538 & 0.0157 &  3.427 & 0.001*** \\\\\
+Retained Earnings   &  0.0756 & 0.0411 &  1.838 & 0.067* \\\\\
+R\\&D Intensity      & -0.5269 & 0.2499 & -2.108 & 0.036** \\\\\
+Volatility          &  0.9837 & 0.8893 &  1.106 & 0.269 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel D: CEO Controls\}\} \\\\\
+CEO Age             &  0.0008 & 0.0007 &  1.005 & 0.315 \\\\\
+CEO Gender          & -0.0147 & 0.0200 & -0.732 & 0.465 \\\\\
+GDP Growth          &  0.0657 & 0.1516 &  0.433 & 0.665 \\\\\
+\\hline\
+Observations        & \\multicolumn\{4\}\{l\}\{601\} \\\\\
+Entities            & \\multicolumn\{4\}\{l\}\{94\} \\\\\
+Time Periods        & \\multicolumn\{4\}\{l\}\{11\} \\\\\
+R-squared           & \\multicolumn\{4\}\{l\}\{0.283\} \\\\\
+F-statistic         & \\multicolumn\{4\}\{l\}\{12.688 (p = 0.000)\} \\\\\
+Fixed Effects       & \\multicolumn\{4\}\{l\}\{Firm, Year\} \\\\\
+Standard Errors     & \\multicolumn\{4\}\{l\}\{Clustered at firm level\} \\\\\
+\\hline\\hline\
+\\multicolumn\{5\}\{l\}\{*** p$<$0.01, ** p$<$0.05, * p$<$0.10\} \\\\\
+\\hline\\hline\
+\\end\{tabular\}\
+\\label\{tab:comp_baseline_full\}\
+\\end\{table\}\
+\
+\
+\\subsection*\{Appendix N: Biotech Compensation Reg\}\
+\\begin\{table\}[H]\
+\\centering\
+\\caption\{CEO Education and Firm Performance with Compensation Controls \'97 Biotech Subsample\}\
+\\small\
+\\begin\{tabular\}\{lcccc\}\
+\\hline\\hline\
+ & \\multicolumn\{1\}\{c\}\{\\textbf\{Parameter\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{Std. Error\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{T-stat\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{P-value\}\} \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel A: Education Factors\}\} \\\\\
+MBA Factor          &  0.0165 & 0.0113 &  1.462 & 0.146 \\\\\
+PhD Factor          &  0.0213 & 0.0270 &  0.787 & 0.433 \\\\\
+MD Factor           & -0.0196 & 0.0062 & -3.133 & 0.002*** \\\\\
+Master's Factor     & -0.0484 & 0.0480 & -1.009 & 0.315 \\\\\
+UG Factor           & -0.0101 & 0.0361 & -0.280 & 0.780 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel B: Compensation Controls\}\} \\\\\
+Pct. Equity         & -0.0089 & 0.0346 & -0.257 & 0.798 \\\\\
+Log TDC1            & -0.0025 & 0.0130 & -0.189 & 0.850 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel C: Firm Controls\}\} \\\\\
+Firm Size           & -0.1040 & 0.0328 & -3.172 & 0.002*** \\\\\
+Equity Capital      &  0.2271 & 0.1313 &  1.731 & 0.086* \\\\\
+Charter Value       &  0.0357 & 0.0181 &  1.973 & 0.051* \\\\\
+Retained Earnings   &  0.0993 & 0.0510 &  1.947 & 0.054* \\\\\
+R\\&D Intensity      & -0.8321 & 0.1300 & -6.403 & 0.000*** \\\\\
+Volatility          &  0.3293 & 1.6121 &  0.204 & 0.839 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel D: CEO Controls\}\} \\\\\
+CEO Age             &  0.0007 & 0.0019 &  0.376 & 0.708 \\\\\
+CEO Gender          & -0.0500 & 0.0305 & -1.640 & 0.104 \\\\\
+GDP Growth          &  0.3528 & 0.1312 &  2.689 & 0.008*** \\\\\
+\\hline\
+Observations        & \\multicolumn\{4\}\{l\}\{186\} \\\\\
+Entities            & \\multicolumn\{4\}\{l\}\{37\} \\\\\
+Time Periods        & \\multicolumn\{4\}\{l\}\{11\} \\\\\
+R-squared           & \\multicolumn\{4\}\{l\}\{0.508\} \\\\\
+F-statistic         & \\multicolumn\{4\}\{l\}\{8.532 (p = 0.000)\} \\\\\
+Fixed Effects       & \\multicolumn\{4\}\{l\}\{Firm, Year\} \\\\\
+Standard Errors     & \\multicolumn\{4\}\{l\}\{Clustered at firm level\} \\\\\
+\\hline\\hline\
+\\multicolumn\{5\}\{l\}\{*** p$<$0.01, ** p$<$0.05, * p$<$0.10\} \\\\\
+\\hline\\hline\
+\\end\{tabular\}\
+\\label\{tab:comp_baseline_biotech\}\
+\\end\{table\}\
+\
+\
+\
+\\subsection*\{Appendix O: Semi Compensation Reg\}\
+\
+\\begin\{table\}[H]\
+\\centering\
+\\caption\{CEO Education and Firm Performance with Compensation Controls \'97 Semiconductors/Hardware Subsample\}\
+\\small\
+\\begin\{tabular\}\{lcccc\}\
+\\hline\\hline\
+ & \\multicolumn\{1\}\{c\}\{\\textbf\{Parameter\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{Std. Error\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{T-stat\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{P-value\}\} \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel A: Education Factors\}\} \\\\\
+MBA Factor          & -0.1011 & 0.0516 & -1.958 & 0.052* \\\\\
+PhD Factor          &  0.1317 & 0.0553 &  2.381 & 0.018** \\\\\
+MD Factor           &  1.6437 & 0.6917 &  2.376 & 0.018** \\\\\
+Master's Factor     &  0.0005 & 0.0170 &  0.028 & 0.978 \\\\\
+UG Factor           & -0.0219 & 0.0243 & -0.901 & 0.369 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel B: Compensation Controls\}\} \\\\\
+Pct. Equity         & -0.1238 & 0.0512 & -2.416 & 0.017** \\\\\
+Log TDC1            &  0.0457 & 0.0179 &  2.556 & 0.011** \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel C: Firm Controls\}\} \\\\\
+Firm Size           &  0.0083 & 0.0355 &  0.235 & 0.815 \\\\\
+Equity Capital      &  0.3348 & 0.1264 &  2.650 & 0.009*** \\\\\
+Charter Value       &  0.0465 & 0.0207 &  2.249 & 0.026** \\\\\
+Retained Earnings   &  0.0214 & 0.0608 &  0.351 & 0.726 \\\\\
+R\\&D Intensity      &  0.4621 & 0.5448 &  0.848 & 0.397 \\\\\
+Volatility          &  1.6737 & 1.7890 &  0.936 & 0.351 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel D: CEO Controls\}\} \\\\\
+CEO Age             &  0.0005 & 0.0015 &  0.341 & 0.733 \\\\\
+CEO Gender          & -0.0120 & 0.0224 & -0.536 & 0.593 \\\\\
+GDP Growth          & -0.1708 & 0.1815 & -0.941 & 0.348 \\\\\
+\\hline\
+Observations        & \\multicolumn\{4\}\{l\}\{274\} \\\\\
+Entities            & \\multicolumn\{4\}\{l\}\{38\} \\\\\
+Time Periods        & \\multicolumn\{4\}\{l\}\{11\} \\\\\
+R-squared           & \\multicolumn\{4\}\{l\}\{0.275\} \\\\\
+F-statistic         & \\multicolumn\{4\}\{l\}\{5.340 (p = 0.000)\} \\\\\
+Fixed Effects       & \\multicolumn\{4\}\{l\}\{Firm, Year\} \\\\\
+Standard Errors     & \\multicolumn\{4\}\{l\}\{Clustered at firm level\} \\\\\
+\\hline\\hline\
+\\multicolumn\{5\}\{l\}\{*** p$<$0.01, ** p$<$0.05, * p$<$0.10\} \\\\\
+\\hline\\hline\
+\\end\{tabular\}\
+\\label\{tab:comp_baseline_semis\}\
+\\end\{table\}\
+\
+\\subsection*\{Appendix P\}\
+\\begin\{table\}[H]\
+\\centering\
+\\caption\{CEO Education and Firm Performance with Compensation Controls \'97 Software Subsample\}\
+\\small\
+\\begin\{tabular\}\{lcccc\}\
+\\hline\\hline\
+ & \\multicolumn\{1\}\{c\}\{\\textbf\{Parameter\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{Std. Error\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{T-stat\}\} & \\multicolumn\{1\}\{c\}\{\\textbf\{P-value\}\} \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel A: Education Factors\}\} \\\\\
+MBA Factor          &  0.1985 & 0.0616 &  3.222 & 0.002*** \\\\\
+PhD Factor          & -0.3007 & 0.1045 & -2.878 & 0.005*** \\\\\
+MD Factor           & -3.3431 & 1.2299 & -2.718 & 0.008*** \\\\\
+Master's Factor     & -0.0373 & 0.0095 & -3.932 & 0.000*** \\\\\
+UG Factor           &  0.0253 & 0.0445 &  0.569 & 0.571 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel B: Compensation Controls\}\} \\\\\
+Pct. Equity         &  0.0326 & 0.0337 &  0.970 & 0.335 \\\\\
+Log TDC1            & -0.0022 & 0.0027 & -0.819 & 0.415 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel C: Firm Controls\}\} \\\\\
+Firm Size           & -0.0169 & 0.0668 & -0.253 & 0.801 \\\\\
+Equity Capital      &  0.1613 & 0.1413 &  1.141 & 0.257 \\\\\
+Charter Value       &  0.0477 & 0.0157 &  3.034 & 0.003*** \\\\\
+Retained Earnings   &  0.2364 & 0.1161 &  2.037 & 0.044** \\\\\
+R\\&D Intensity      & -1.2521 & 1.2899 & -0.971 & 0.334 \\\\\
+Volatility          &  2.9632 & 2.2564 &  1.313 & 0.192 \\\\\
+\\hline\
+\\multicolumn\{5\}\{l\}\{\\textit\{Panel D: CEO Controls\}\} \\\\\
+CEO Age             & -0.0031 & 0.0019 & -1.630 & 0.106 \\\\\
+CEO Gender          &  0.1204 & 0.0823 &  1.463 & 0.147 \\\\\
+GDP Growth          & -0.1985 & 0.2151 & -0.923 & 0.358 \\\\\
+\\hline\
+Observations        & \\multicolumn\{4\}\{l\}\{141\} \\\\\
+Entities            & \\multicolumn\{4\}\{l\}\{19\} \\\\\
+Time Periods        & \\multicolumn\{4\}\{l\}\{11\} \\\\\
+R-squared           & \\multicolumn\{4\}\{l\}\{0.506\} \\\\\
+F-statistic         & \\multicolumn\{4\}\{l\}\{6.621 (p = 0.000)\} \\\\\
+Fixed Effects       & \\multicolumn\{4\}\{l\}\{Firm, Year\} \\\\\
+Standard Errors     & \\multicolumn\{4\}\{l\}\{Clustered at firm level\} \\\\\
+\\hline\\hline\
+\\multicolumn\{5\}\{l\}\{*** p$<$0.01, ** p$<$0.05, * p$<$0.10\} \\\\\
+\\multicolumn\{5\}\{l\}\{\\textit\{Note: Results should be interpreted with caution given small sample (19 firms).\}\} \\\\\
+\\hline\\hline\
+\\end\{tabular\}\
+\\label\{tab:comp_software\}\
+\\end\{table\}\
+\
+\
+\\subsection*\{Appendix Q\}\
+[TO BE UPDATED, NUMBER OF REGRESSION TABLES DETAILING INTERACTION OF EDUCATION FACTORS WITH APPROXIMATED DELTA AND EQUITY PCT COMPENSATION FIGURES]\
+\
+\\newpage\
+\\begin\{thebibliography\}\{99\}\
+\
+\\bibitem\{Ang2009\}\
+Ang, A., Hodrick, R. J., Xing, Y., \\& Zhang, X. (2009). High idiosyncratic volatility and low returns: International and further U.S. evidence. \\textit\{Journal of Financial Economics\}, 91(1), 1\'9623.\
+\
+\\bibitem\{Barber1996\}\
+Barber, Brad M., \\& Lyon, John D. (1996). Detecting abnormal operating performance: the empirical power and specification of test statistics. \\textit\{Journal of Financial Economics\}, 41, 359-399.\
+\
+\\bibitem\{Becker1964\}\
+Becker, G. S. (1964). \\textit\{Human capital: A theoretical and empirical analysis, with special reference to education\}. National Bureau of Economic Research.\
+\
+\\bibitem\{Bertrand2003\}\
+Bertrand, M., \\& Schoar, A. (2003). Managing with style: The effect of managers on firm policies. \\textit\{The Quarterly Journal of Economics\}, 118(4), 1169\'961208.\
+\
+\\bibitem\{BoardEx\}\
+BoardEx. (2026). \\textit\{BoardEx individual profiles\} [Data set]. Altrata.\
+\
+\\bibitem\{Chen2004\}\
+Chen, H., \\& Singal, V. (2004). All things considered, taxes drive the January effect. \\textit\{The Journal of Financial Research\}, 27(3), 351\'96372.\
+\
+\\bibitem\{Chevalier2002\}\
+Chevalier, Judith, Ellison, Glenn (2002). Are some mutual fund managers better than others? Cross-sectional patterns in behavior and performance. \\textit\{The Journal of Finance\}, 54(3), 875-899.\
+\
+\\bibitem\{Datta1998\}\
+Datta, D. K., \\& Rajagopalan, N. (1998). Industry structure and CEO characteristics: An empirical study of succession events. \\textit\{Strategic Management Journal\}, 19(9), 833\'96852.\
+\
+\\bibitem\{Ellis2026\}\
+Ellis, L. (2026, January 5). \\textit\{Elite colleges are back at the top of the list for company recruiters\}. The Wall Street Journal.\
+\
+\\bibitem\{Froot1999\}\
+Froot, K. A. (1999). How are stock prices affected by the location of trade? Journal of Financial Economics, 53(2), 189-216.\
+\
+\\bibitem\{Hambrick1984\}\
+Hambrick, D. C., \\& Mason, P. A. (1984). Upper echelons: The organization as a reflection of its top managers. \\textit\{Academy of Management Review\}, 9(2), 193\'96206.\
+\
+\\bibitem\{Karlins1967\}\
+Karlins, M., Coffman, T., Lamm, H., \\& Schroder, H. (1967). The effect of conceptual complexity on information search in a complex problem-solving task. \\textit\{Psychonomic Science\}, 7(4), 137\'96138.\
+\
+\\bibitem\{king2016\}\
+King, T., Srivastav, A., \\& Williams, J. (2016). What\'92s in an education? Implications of CEO education for bank performance. \\textit\{Journal of Corporate Finance\}, 37, 287\'96308.\
+\
+\\bibitem\{OSHA\}\
+Occupational Safety and Health Administration. (2026). \\textit\{SIC system search\}. U.S. Department of Labor.\
+\
+\\bibitem\{Pew2014\} \
+Pew Research Center. (2014, February 11). \
+\\textit\{Chapter 2: Public views on the value of education\}.\
+\
+\\bibitem\{SP500\}\
+S\\&P Global Market Intelligence. (2026). Compustat Financials [Data set]. Wharton Research Data Services.\
+\
+\\bibitem\{USNews\}\
+U.S. News \\& World Report. (2026). 2026 best national universities rankings\
+\
+\\bibitem\{Wharton\}\
+Wharton Research Data Services. (2026). Wharton Research Data Services (WRDS) [Data set]. University of Pennsylvania.\
+\
+\\end\{thebibliography\}\
+\
+\
+\\end\{document\}\
+}
